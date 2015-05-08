@@ -7,7 +7,8 @@ theme: readthedocs
 pages:
 # Introduction: 
 - ['index.md', 'About', 'Appleseed Framework']
-- ['Portal/index.md','About','Appleseed Portal']
+- ['Portal/intro/index.md','About','About Appleseed Portal']
+- ['Portal/index.md','Appleseed Portal','Appleseed Portal ']
 - ['Portal/release-notes.md','Appleseed Portal','Appleseed Portal Release Notes']
 - ['Portal/intro/understanding-appleseed.md','Appleseed Portal','Understanding Appleseed Portal ']
 # Installation:
