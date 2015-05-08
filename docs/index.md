@@ -9,12 +9,12 @@ For site users that want to know how to find, add and manage content for general
 Documentation for for Users, Builders, Designers, Developers, and Administrators of Appleseed Portal and applications that are built on the Appleseed Portal. 
 
 
- ## [Appleseed.Base]
+ ## Appleseed.Base
 
 Documentation for for Users, Builders, Designers, Developers, and Administrators of Appleseed Base and applications that are built on the Appleseed Base. 
 
 
-  ## [Appleseed.Search]
+  ## Appleseed.Search
 
 Documentation for for Users, Builders, Designers, Developers, and Administrators of Appleseed Search and applications that are built on the Appleseed Search. 
 
