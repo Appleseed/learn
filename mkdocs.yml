@@ -1,0 +1,34 @@
+site_name: Learn Appleseed 
+site_url: http://appleseedapp.net/
+site_description: Open Source .NET Enterprise Software.
+site_author: Team @ Anant Corporation (www.anant.us)
+repo_url: https://github.com/Appleseed/learn
+theme: readthedocs
+pages:
+# Introduction: 
+- ['index.md', 'About', 'Appleseed']
+- ['release-notes.md','About','Release Notes']
+- ['intro/understanding-appleseed.md','About','Understanding Appleseed']
+# Installation:
+- ['install/index.md', 'Installation','Overview']
+- ['install/windows.md', 'Installation','Windows']
+- ['install/amazon.md', 'Installation','Amazon']
+- ['install/azure.md', 'Installation','Azure']
+# User:
+- ['user/index.md', 'User Guide','Overview']
+- ['user/getting-started.md', 'User Guide', 'Getting Started']
+# Builder:
+- ['builder/index.md', 'Builder Guide']
+- ['user/getting-started.md', 'Builder Guide', 'Getting Started']
+# Administrator:
+- ['admin/index.md', 'Administrator Guide']
+- ['user/getting-started.md', 'Administrator Guide', 'Getting Started']
+# Designer:
+- ['designer/index.md', 'Designer Guide']
+- ['user/getting-started.md', 'Designer Guide', 'Getting Started']
+# Developer:
+- ['developer/index.md', 'Developer Guide']
+- ['user/getting-started.md', 'Developer Guide', 'Getting Started']
+
+
+copyright: Copyright &copy; 2015, <a href="http://www.anant.us">Anant Corporation</a>.
