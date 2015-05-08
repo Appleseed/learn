@@ -1,4 +1,4 @@
-# Learn the Appleseed Portal
+# Learn Appleseed Portal
 
 This documentation site is for Users, Builders, Designers, Developers, and Administrators of Appleseed Portal and applications that are built on the Appleseed Portal.  
 
