@@ -25,11 +25,11 @@ pages:
 - ['Portal/admin/index.md', 'Administrator Guide']
 - ['Portal/user/getting-started.md', 'Administrator Guide', 'Getting Started']
 # Designer:
-- ['portal/designer/index.md', 'Designer Guide']
-- ['user/getting-started.md', 'Designer Guide', 'Getting Started']
+- ['Portal/designer/index.md', 'Designer Guide']
+- ['Portal/user/getting-started.md', 'Designer Guide', 'Getting Started']
 # Developer:
-- ['portal/developer/index.md', 'Developer Guide']
-- ['portal/user/getting-started.md', 'Developer Guide', 'Getting Started']
+- ['Portal/developer/index.md', 'Developer Guide']
+- ['Portal/user/getting-started.md', 'Developer Guide', 'Getting Started']
 
 
 copyright: Copyright &copy; 2015, <a href="http://www.anant.us">Anant Corporation</a>.
