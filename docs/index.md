@@ -1,4 +1,4 @@
-# Learn.AppleseedApp.com
+# Learn the Appleseed Framework (http://appleseedapp.net)
 
 This documentation site is for Users, Builders, Designers, Developers, and Administrators of Appleseed Framework and applications that are built on the Appleseed Framework.  
 
