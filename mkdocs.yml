@@ -7,23 +7,23 @@ theme: readthedocs
 pages:
 # Introduction: 
 - ['index.md', 'About', 'Appleseed Framework']
-- ['portal/index.md','About','Appleseed Portal']
-- ['portal/release-notes.md','About','Appleseed Portal Release Notes']
-- ['portal/intro/understanding-appleseed.md','About','Understanding Appleseed Portal ']
+- ['Portal/index.md','About','Appleseed Portal']
+- ['Portal/release-notes.md','About','Appleseed Portal Release Notes']
+- ['Portal/intro/understanding-appleseed.md','About','Understanding Appleseed Portal ']
 # Installation:
-- ['portal/install/index.md', 'Installation','Overview']
-- ['portal/install/windows.md', 'Installation','Windows']
-- ['portal/install/amazon.md', 'Installation','Amazon']
-- ['portal/install/azure.md', 'Installation','Azure']
+- ['Portal/install/index.md', 'Installation','Overview']
+- ['Portal/install/windows.md', 'Installation','Windows']
+- ['Portal/install/amazon.md', 'Installation','Amazon']
+- ['Portal/install/azure.md', 'Installation','Azure']
 # User:
-- ['portal/user/index.md', 'User Guide','Overview']
-- ['portal/user/getting-started.md', 'User Guide', 'Getting Started']
+- ['Portal/user/index.md', 'User Guide','Overview']
+- ['Portal/user/getting-started.md', 'User Guide', 'Getting Started']
 # Builder:
-- ['portal/builder/index.md', 'Builder Guide']
-- ['portal/user/getting-started.md', 'Builder Guide', 'Getting Started']
+- ['Portal/builder/index.md', 'Builder Guide']
+- ['Portal/user/getting-started.md', 'Builder Guide', 'Getting Started']
 # Administrator:
-- ['portal/admin/index.md', 'Administrator Guide']
-- ['portal/user/getting-started.md', 'Administrator Guide', 'Getting Started']
+- ['Portal/admin/index.md', 'Administrator Guide']
+- ['Portal/user/getting-started.md', 'Administrator Guide', 'Getting Started']
 # Designer:
 - ['portal/designer/index.md', 'Designer Guide']
 - ['user/getting-started.md', 'Designer Guide', 'Getting Started']
