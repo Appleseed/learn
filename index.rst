@@ -2,6 +2,8 @@
 .. toctree::
    :maxdepth: 2
    
+   docs/Portal/index.rst
+   
 Learn the Appleseed Framework (http://appleseedapp.net)
 =======================================================
 
