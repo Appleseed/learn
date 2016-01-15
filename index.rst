@@ -19,4 +19,4 @@ the Appleseed Portal.
 
  
 
-.. _Appleseed.Portal: Portal/index.md
+.. _Appleseed.Portal: docs/Portal/index.rst
