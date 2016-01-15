@@ -1,3 +1,4 @@
+Home
 .. toctree::
    :maxdepth: 2
    
