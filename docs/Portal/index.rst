@@ -1,3 +1,6 @@
+.. include:: common.txt
+
+
 Learn Appleseed Portal
 ======================
 
