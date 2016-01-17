@@ -11,6 +11,9 @@ Admin - Web Interface
 User / Role Manager
 ~~~~~~~~~~~~~~~~~~~
 
+Secure content with Roles/Users
+ 
+
 Page Manager
 ~~~~~~~~~~~~
 
