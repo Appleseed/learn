@@ -1,3 +1,5 @@
+.. include:: common.txt
+
 User Guide
 ==========
 
