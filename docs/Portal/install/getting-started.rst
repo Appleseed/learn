@@ -1,6 +1,9 @@
 Getting Started with Appleseed
 ==============================
 
+Understanding Appleseed
+-----------------------
+
 Sign In
 -------
 
