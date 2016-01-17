@@ -41,7 +41,7 @@ For site designers that want to change the look and feel of the portal,
 pages, and modules using themes, layouts, and local theme overrides.
 
 .. _User Guide: user/
-.. _Builder Guide: user/
+.. _Builder Guide: builder/
 .. _Administrator Guide: admin/
 .. _Developer Guide: developer/
 .. _Designer Guide: designer/
