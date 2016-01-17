@@ -1,11 +1,13 @@
 
 
-Learn Appleseed Portal
+Welcome to the Appleseed Portal Learn Documentation 
 =======================================================
 
-`Appleseed <http://www.github.com/Appleseed/Portal>`_ is a Web Portal and Content Management application.  It allows 
-organizations to deploy multiple sites on the .NET 4.0 Framework using one unified system for 
-custom development and content versioning. 
+`Appleseed <http://www.github.com/Appleseed/Portal>`_ is an open source Web Application and Content Management System
+focused on providing an easy to use, high-performance, and reusable framework. The software gives designers, 
+developers, and entrepreneurs a singular system to build powerful applications to run the modern enterprise on Microsoft.NET
+and Windows platforms.
+
 
 This documentation is for Users, Builders, Designers, Developers, and Administrators of
 Appleseed Portal. The software is free of charge and available open source. `ANANT Corporation <http://www.anant.us>`_ ,the Project Owner, also offers portal cloud services and subscriptions.
@@ -13,7 +15,7 @@ Appleseed Portal. The software is free of charge and available open source. `ANA
 
 
  .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    docs/Portal/index.rst
 
