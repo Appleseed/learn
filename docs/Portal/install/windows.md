@@ -1,5 +1,9 @@
-# Installing Appleseed on Windows
 
-## Web Platform Installer 
+Installing Appleseed on Windows
+===============================
 
-## Manual Installation 
+Web Platform Installer
+----------------------
+
+Manual Installation
+-------------------
