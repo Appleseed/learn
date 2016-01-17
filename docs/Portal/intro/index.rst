@@ -1,6 +1,6 @@
 Introduction
 ============
 
-Point to Getting Started
+Discuss History of the project
 
-Point to Understanding Appleseed
+Discuss Understanding Appleseed
