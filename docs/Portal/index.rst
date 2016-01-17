@@ -6,9 +6,14 @@
 Learn Appleseed Portal
 ======================
 
-This documentation site is for Users, Builders, Designers, Developers,
-and Administrators of Appleseed Portal and applications that are built
+This documentation is for Users, Builders, Designers, Developers,
+and Administrators of applications that are built
 on the Appleseed Portal.
+
+|stub-icon| `Intro`_
+-------------
+
+A brief introuction to the Appleseed Portal Project.
 
 |stub-icon| `User Guide`_
 -------------
@@ -25,8 +30,8 @@ as a power user.
 |stub-icon| `Administrator Guide`_
 ----------------------
 
-For site administrators that want to know how to install/update portals,
-import/export content, manage multiple sites.
+For site administrators that want to know how to administer portals,
+backup content, and manage multiple sites.
 
 |stub-icon| `Developer Guide`_
 ------------------
@@ -45,3 +50,4 @@ pages, and modules using themes, layouts, and local theme overrides.
 .. _Administrator Guide: admin/
 .. _Developer Guide: developer/
 .. _Designer Guide: designer/
+.. _Intro : intro/
