@@ -1,15 +1,24 @@
-# Theme / Layout Designer Guide
 
-## Overview 
+Theme / Layout Designer Guide
+=============================
 
-## Making a Layout
+Overview
+--------
 
-## Making a Theme
+Making a Layout
+---------------
 
-## Switching Layouts 
+Making a Theme
+--------------
 
-## Switching Themes
+Switching Layouts
+-----------------
 
-## Global Themes / Layouts
+Switching Themes
+----------------
 
-## Page Themes / Layouts
+Global Themes / Layouts
+-----------------------
+
+Page Themes / Layouts
+---------------------
