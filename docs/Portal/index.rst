@@ -14,7 +14,7 @@ and Administrators of applications that are built on Appleseed Portal.
 
 A brief introuction to the Appleseed Portal Project.
 
-|stub-icon| `Install`_
+|stub-icon| `Installation`_
 -------------
 
 For Getting Started with Appleseed and installation into different environments.
@@ -55,4 +55,4 @@ pages, and modules using themes, layouts, and local theme overrides.
 .. _Developer Guide: developer/
 .. _Designer Guide: designer/
 .. _Introduction : intro/
-.. _Install : install/
+.. _Installation : install/
