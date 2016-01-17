@@ -1,5 +1,5 @@
 
-.. |stub-icon| unicode:: U+1F527
+.. include:: common.txt
 
 Welcome to the Appleseed Portal Documentation 
 =======================================================
