@@ -1,6 +1,6 @@
 
 
-Welcome to the Appleseed Portal Learn Documentation 
+Welcome to the Appleseed Portal Documentation 
 =======================================================
 
 `Appleseed <http://www.github.com/Appleseed/Portal>`_ is an open source Web Application and Content Management System
