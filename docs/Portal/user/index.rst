@@ -19,6 +19,8 @@ Data in modules.
 Prerequisites
 -------------
 
+Registration
+------------
 
 Sign In
 -------
