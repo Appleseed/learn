@@ -7,8 +7,7 @@ Learn Appleseed Portal
 ======================
 
 This documentation is for Users, Builders, Designers, Developers,
-and Administrators of applications that are built
-on the Appleseed Portal.
+and Administrators of applications that are built on Appleseed Portal.
 
 |stub-icon| `Intro`_
 -------------
