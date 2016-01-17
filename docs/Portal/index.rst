@@ -9,7 +9,7 @@ Learn Appleseed Portal
 This documentation is for Users, Builders, Designers, Developers,
 and Administrators of applications that are built on Appleseed Portal.
 
-|stub-icon| `Intro`_
+|stub-icon| `Introduction`_
 -------------
 
 A brief introuction to the Appleseed Portal Project.
@@ -54,5 +54,5 @@ pages, and modules using themes, layouts, and local theme overrides.
 .. _Administrator Guide: admin/
 .. _Developer Guide: developer/
 .. _Designer Guide: designer/
-.. _Intro : intro/
+.. _Introduction : intro/
 .. _Install : install/
