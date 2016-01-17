@@ -5,7 +5,7 @@ Welcome to the Appleseed Portal Documentation
 =======================================================
 
 .. note ::
-  This documentation is a work in progress. Topics marked with a |stub-icon| are placeholders that have not been written yet. You can track the status of these topics through our public documentation `issue tracker <https://github.com/appleseed/learn>`_.
+  This documentation is a work in progress. Topics marked with a |stub-icon| are placeholders that are currently being written. You can track the status of these topics through our public documentation `issue tracker <https://github.com/appleseed/learn/issues>`_.
 
 `Appleseed <http://www.github.com/Appleseed/Portal>`_ is an open source Web Application and Content Management System
 focused on providing an easy to use, high-performance, and reusable framework. The software gives designers, 
