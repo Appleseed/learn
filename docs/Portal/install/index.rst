@@ -1,20 +1,18 @@
 
-Installation
-============
+
+
 
 Quick Install
--------------
+============
 
 -  Release
-  -  Grab the latest release : https://github.com/Appleseed/portal/releases
-     
+  -  Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_  
 -  Database
     -  Create an Empty SQL Server Database in a SQL Server Instance
      -  Give a user access to your SQL Server Databse [ Network Service is
         recommended ]
      -  Give this user db_owner in the user mapping section to your
         Database
-
 -  IIS Hosting
   -  Unzip the archive to a non-windows controled folder such as
      C:\\Appleseed [ ie : Not the Windows folder or folders
@@ -26,7 +24,6 @@ Quick Install
      -  Point the IIS site folder to C:\\Appleseed  or where
         you unzipped your archive
      -  Browse your Site which will cause a redirect to the Web Installer
-
 -  Web Installer
   -  Follow the Instructions of the Web Installer
   
@@ -43,7 +40,6 @@ Quick Install
   
      -  \\rb_logs – Needs write to provide error / info logs
      -  \\Portals – Needs write to allow writing site files
-
 -  Post Installation
   -  On successful installation you should see a bootstrap theme and a
      login
