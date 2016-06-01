@@ -54,10 +54,10 @@ Quick Install
               .. image:: ../images/Directories-Access.jpg
 |
        * The Web Installer will do an environment check to ensure the proper permissions
-       * Web.config – Needs write if you want the web installer to set your web.config up for you [ recommended ]
+       * Web.config \– Needs write if you want the web installer to set your web.config up for you [ recommended ]
        * This should be removed after install
-       * \\rb_logs – Needs write to provide error / info logs
-       * \\Portals – Needs write to allow writing site files
+       * \\rb_logs \– Needs write to provide error / info logs
+       * \\Portals \– Needs write to allow writing site files
 
 * Post Installation
 
