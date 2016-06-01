@@ -14,11 +14,11 @@ Quick Install
   * Create an Empty SQL Server Database in a SQL Server Instance
 
     .. image:: ../images/Database-Setup.jpg
-
+|
   * Give a user access to your SQL Server Database [ Network Service is recommended ]
 
     .. image:: ../images/User-Access1.jpg
-
+|
   * Give this user db_owner in the user mapping section to your Database
 
    .. image:: ../images/User-Access2.jpg
@@ -28,19 +28,19 @@ Quick Install
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
     .. image:: ../images/Unzip.jpg
-
+|
   * Create a Site in IIS with a .NET 4.0 Application Pool
 
     .. image:: ../images/IIS1.jpg
-
+|
   * Change the Identy on the Application Pool to Network Service [ The site will run under this identity ]
 
     .. image:: ../images/IIS2.jpg
-
+|
   * Point the IIS site folder to C:\\Appleseed  or where you unzipped your archive
 
     .. image:: ../images/IIS3.jpg
-
+|
   * Browse your Site which will cause a redirect to the Web Installer
 
     .. image:: ../images/Web-Installer.jpg
@@ -52,7 +52,7 @@ Quick Install
   * Give write access to the Identity [ ie NetworkService ] of your Application Pool to the below Files and Directories
 
               .. image:: ../images/Directories-Access.jpg
-
+|
        * The Web Installer will do an environment check to ensure the proper permissions
        * Web.config – Needs write if you want the web installer to set your web.config up for you [ recommended ]
        * This should be removed after install
