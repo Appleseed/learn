@@ -14,7 +14,7 @@ Quick Install
   * Create an Empty SQL Server Database in a SQL Server Instance
 
     .. image:: ../images/Database-Setup.jpg
-|br|\
+|
   * Give a user access to your SQL Server Database [ Network Service is recommended ]
 
     .. image:: ../images/User-Access1.jpg
