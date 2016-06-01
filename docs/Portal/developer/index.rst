@@ -18,11 +18,11 @@ Development
    .. image:: ../images/New_project_VS.jpg
 
 
-*  Copy the Appleseed Portal DLL’s from a standard installation **\bin** folder into your project application’s **\bin** folder, and then make a reference in your project
+*  Copy the Appleseed Portal DLL’s from a standard installation **\\bin** folder into your project application’s **\\bin** folder, and then make a reference in your project
 
    .. image:: ../images/Reference_Manager_DLL.jpg
 
-* Create a **\Controls** directory to store modules.
+* Create a **\\Controls** directory to store modules.
 
    .. image:: ../images/Controls_Directory.jpg
 
@@ -38,14 +38,14 @@ Development
 
   Compile it (build > build solution).
 
-* Deploy your ASCX User controls to your Appleseed Portal **DesktopModules\CustomModules\<Module>** directory (create CustomModules folder if doesn't exist yet).
-Deploy your main and dependent assemblies to your Appleseed Portal **\bin** directory (.cs files are not required).
+* Deploy your ASCX User controls to your Appleseed Portal **DesktopModules\\CustomModules\\<Module>** directory (create CustomModules folder if doesn't exist yet).
+Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** directory (.cs files are not required).
 
-* Run the Install SQL Script on your Appleseed Portal installation Database. The script is located here in a standard Appleseed Portal install **root\DesktopModules\CommunityModules\OneFileModule\CSharp Examples\Simple\DBPatch.sql**
+* Run the Install SQL Script on your Appleseed Portal installation Database. The script is located here in a standard Appleseed Portal install **root\\DesktopModules\\CommunityModules\\OneFileModule\\CSharp Examples\\Simple\\DBPatch.sql**
     * Simply change the following script values
         @FriendlyName - The name of your module within appleseed
 
-        @DesktopSrc - The location of your .ascx main view i.e : DesktopModules\CustomModules\<Module>
+        @DesktopSrc - The location of your .ascx main view i.e : DesktopModules\\CustomModules\\<Module>
 
    .. image:: ../images/SQL_Module_setup.jpg
 
