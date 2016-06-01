@@ -17,33 +17,33 @@ Quick Install
 
   * Give a user access to your SQL Server Database [ Network Service is recommended ]
 
-    .. image:: docs/Portal/images/User-Access1.jpg
+    .. image:: ../images/User-Access1.jpg
 
   * Give this user db_owner in the user mapping section to your Database
 
-   .. image:: docs/Portal/images/User-Access2.jpg
+   .. image:: ../images/User-Access2.jpg
 
 * IIS Hosting
 
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
-    .. image:: docs/Portal/images/Unzip.jpg
+    .. image:: ../images/Unzip.jpg
 
   * Create a Site in IIS with a .NET 4.0 Application Pool
 
-    .. image:: docs/Portal/images/IIS1.jpg
+    .. image:: ../images/IIS1.jpg
 
   * Change the Identy on the Application Pool to Network Service [ The site will run under this identity ]
 
-    .. image:: docs/Portal/images/IIS2.jpg
+    .. image:: ../images/IIS2.jpg
 
   * Point the IIS site folder to C:\\Appleseed  or where you unzipped your archive
 
-    .. image:: docs/Portal/images/IIS3.jpg
+    .. image:: ../images/IIS3.jpg
 
   * Browse your Site which will cause a redirect to the Web Installer
 
-    .. image:: docs/Portal/images/Web-Installer.jpg
+    .. image:: ../images/Web-Installer.jpg
 
 
 * Web Installer
@@ -51,7 +51,7 @@ Quick Install
   * Follow the Instructions of the Web Installer
   * Give write access to the Identity [ ie NetworkService ] of your Application Pool to the below Files and Directories
 
-              .. image:: docs/Portal/images/Directories-Access.jpg
+              .. image:: ../images/Directories-Access.jpg
 
        * The Web Installer will do an environment check to ensure the proper permissions
        * Web.config – Needs write if you want the web installer to set your web.config up for you [ recommended ]
@@ -63,7 +63,7 @@ Quick Install
 
   * On successful installation you should see a bootstrap theme and a login
 
-    .. image:: docs/Portal/images/Portal.jpg
+    .. image:: ../images/Portal.jpg
 
   * Use the default login admin@appleseedportal.net \| admin
   * Use Edit Profile to change your password
