@@ -5,15 +5,63 @@ Module Developer Guide
 Overview
 --------
 
-Using the Component Module
---------------------------
+Appleseed can run C# modules. Here how to develop a simple module and deploy it into appleseed.
 
-Creating a One File Module
---------------------------
 
-Creating a Single Instance Module
----------------------------------
+Development
+-----------
 
-Creating a Multiple Instance Module
------------------------------------
+* Open **Visual Studio 2015**
 
+  If you don't have it, you can download it `here <https://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx>`_.
+
+   .. image:: ../images/New_project_VS.jpg
+
+
+*  Copy the Appleseed Portal DLL’s from a standard installation **\bin** folder into your project application’s **\bin** folder, and then make a reference in your project
+
+   .. image:: ../images/Reference_Manager_DLL.jpg
+
+* Create a **\Controls** directory to store modules.
+
+   .. image:: ../images/Controls_Directory.jpg
+
+* Create a **Web Form User Control** under above directory. Make sure your user control is in Appleseed module mode by inheriting from PortalModule Control instead of System.Web.UI.UserControl.
+
+
+   ascx file.
+
+   .. image:: ../images/Ascx.jpg
+
+
+   ascx.cs file.
+
+   .. image:: ../images/Ascx.cs.jpg
+
+
+  Compile it (build > build solution).
+
+* Deploy your ASCX User controls to your Appleseed Portal **DesktopModules\CustomModules\<Module>** directory (create CustomModules folder if doesn't exist yet).
+Deploy your main and dependent assemblies to your Appleseed Portal **\bin** directory (.cs files are not required).
+
+* Run the Install SQL Script on your Appleseed Portal installation Database. The script is located here in a standard Appleseed Portal install
+root\DesktopModules\CommunityModules\OneFileModule\CSharp Examples\Simple\DBPatch.sql
+    * Simply change the following script values
+        @FriendlyName - The name of your module within appleseed
+        @DesktopSrc - The location of your .ascx main view i.e : DesktopModules\CustomModules\<Module>
+
+   .. image:: ../images/SQL_Module_setup.jpg
+
+
+* Add your module to a test page
+
+  Use edit this page to add your module to a test page and make sure it does not crash the page.
+
+  .. image:: ../images/Module_to_appleseed.jpg
+
+
+  \*Usual Scenarios for your module to Fail to load. **All dependent dlls are not added to your bin directory**.
+  The location of your ascx file in your install script was incorrect. Web.config changes are not transferred from your project web.config to your appleseed portal web.config
+
+
+  .. image:: ../images/Module_to_appleseed_final.jpg
