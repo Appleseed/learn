@@ -7,7 +7,7 @@ Quick Install
 
 * Release
 
-   * Grab the latest eric release : `<https://github.com/Appleseed/portal/releases>`_ 
+   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_ 
    
 * Database
 
