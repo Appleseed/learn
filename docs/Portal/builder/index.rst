@@ -33,7 +33,10 @@ Modules - The Basic Building Block
 Adding Modules
 --------------
 
-Editing Modules
+Module Settings
+---------------
+
+Module Security
 ---------------
 
 
