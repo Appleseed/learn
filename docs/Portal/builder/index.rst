@@ -12,17 +12,16 @@ Files - Managing Files from the File System
 Pages - The Module Container
 ============================
 
+Page Manager
+------------
+
 Adding Pages
 ------------
 
-Page Editor
------------
-
-Editing Pages
+Editing Pages - Edit this Page
 -------------
 
-Page Manager
-------------
+
 
 Copying Pages
 -------------
