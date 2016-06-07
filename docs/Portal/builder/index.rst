@@ -103,7 +103,6 @@ Module Settings
 Module Security
 ---------------
 
-
 * Click on gear icon, located at top right of the page
 
     .. image:: ../images/Builder-Module-Settings1.jpg
