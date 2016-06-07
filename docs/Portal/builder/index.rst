@@ -30,7 +30,7 @@ Page Manager
 
 * Now new window will look like this below
 
-    .. image:: ../images/Builder-Page-Manager1.jpg
+    .. image:: ../images/Builder-Page-Manager2.jpg
 
 Adding Pages
 ------------
