@@ -6,10 +6,8 @@ Site / Page Builder Guide
 Portal - The Main Site
 ======================
 
-Files - Static Content / Files from the File System
+Files - Managing Files from the File System
 ---------------------------------------------------
-
-
 
 Pages - The Module Container
 ============================
