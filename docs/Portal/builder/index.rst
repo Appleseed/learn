@@ -18,15 +18,13 @@ Page Manager
 Adding Pages
 ------------
 
-Editing Pages - Edit this Page
--------------
-
-
-
 Copying Pages
 -------------
 
 Cloning Pages
+-------------
+
+Editing Pages - Edit this Page
 -------------
 
 Modules - The Basic Building Block
