@@ -9,11 +9,12 @@ Portal - The Main Site
 Files - Managing Files from the File System
 ---------------------------------------------------
 
-* Go to **Site Manager**>**File Manager**
+* Go to **Site Manager > File Manager**
 
   .. image:: ../images/Builder-Files-Managing-File1.jpg
 
 * You can do browsing the files like in windows explorer
+
   .. image:: ../images/Builder-Files-Managing-File2.jpg
 
 
@@ -23,7 +24,7 @@ Pages - The Module Container
 Page Manager
 ------------
 
-* Go to **Site Manager**>**File Manager**
+* Go to **Site Manager > File Manager**
 
   .. image:: ../images/Builder-Page-Manager1.jpg
 
@@ -40,7 +41,7 @@ Adding Pages
 
 * Refresh the page (if don't see the new page created). You can also rename it, right-click and choose **rename** from drop down menu. To view the page, choose **View** from right click dropdown menu
 
-    .. image:: ../images/Builder-Adding-Pages1.jpg
+    .. image:: ../images/Builder-Adding-Pages2.jpg
 
 
 Editing Pages - Edit this Page
@@ -93,11 +94,11 @@ Module Settings
 
 * Click on gear icon, located at top right of the page
 
-    .. image:: ../images/Builder-Module-Settings.jpg
+    .. image:: ../images/Builder-Module-Settings1.jpg
 
 * The popup window shows up as below.
 
-    .. image:: ../images/Builder-Module-Settings.jpg
+    .. image:: ../images/Builder-Module-Settings2.jpg
 
 Module Security
 ---------------
@@ -105,7 +106,7 @@ Module Security
 
 * Click on gear icon, located at top right of the page
 
-    .. image:: ../images/Builder-Module-Settings.jpg
+    .. image:: ../images/Builder-Module-Settings1.jpg
 
 * Click **Security & Workflow**
 
