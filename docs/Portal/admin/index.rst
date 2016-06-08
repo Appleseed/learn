@@ -2,33 +2,60 @@
 Site Administration Guide
 =========================
 
-Portal Site Management is currently done through the admin menu located at the very top after a user with the admin role logs in to the portal.
+Appleseed Framework based applications, such as Portal, Base, and Search
+can all be administered through
 
 Admin - Web Interface
 ---------------------
 
-User Manager
+User / Role Manager
 ~~~~~~~~~~~~~~~~~~~
 
-Manage Users in your site
+Secure content with Roles/Users
 
-Role Manager
-~~~~~~~~~~~~~~~~~~~
+* Click **Site Manager > User Manager**
 
-Secure content with Roles & Permissions
- 
+    .. image:: ../images/Admin-User-Manager1.jpg
 
-Site Settings
+* Now you can setup user preferences.
+
+  .. image:: ../images/Admin-User-Manager2.jpg
+
+
+Page Manager
+~~~~~~~~~~~~
+
+* Click **Site Manager > Page Manager**
+
+    .. image:: ../images/Builder-Page-Manager1.jpg
+
+* You can authorize user(s) to have an access to the page and you can also update necessary info related to the page.
+
+    .. image:: ../images/Builder-Page-Manager1.jpg
+
+Settings
 ~~~~~~~~
+
+* Click **Site Manager > Site Settings**
+
+    .. image:: ../images/Admin-setting1.jpg
+
+* You can add "make-up" on the site/portal here just like in HTML page. The update you make will affect to the whole site/portal.
+
+    .. image:: ../images/Admin-setting2.jpg
+
 
 Recycling Bin
 ~~~~~~~~~~~~~
 
-Monitoring Logs
-~~~~~~~~~~~~~
 
-Error Logs 
-~~~~~~~~~~~~~
+* Click **Site Manager > Recycle Bin**
+
+    .. image:: ../images/Admin-Recycle-Bin1.jpg
+
+Information of all modules deleted will be listed here and you will be able to put them back to the original page.
+
+This page
 
 Admin - Web Services (in development)
 -------------------------------------
