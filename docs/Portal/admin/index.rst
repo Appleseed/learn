@@ -24,6 +24,12 @@ Site Settings
 Recycling Bin
 ~~~~~~~~~~~~~
 
+Monitoring Logs
+~~~~~~~~~~~~~
+
+Error Logs 
+~~~~~~~~~~~~~
+
 Admin - Web Services (in development)
 -------------------------------------
 
