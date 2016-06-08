@@ -8,10 +8,10 @@ can all be administered through
 Admin - Web Interface
 ---------------------
 
-User / Role Manager
+User Manager
 ~~~~~~~~~~~~~~~~~~~
 
-Secure content with Roles/Users
+Manage user membership for your site
 
 * Click **Site Manager > User Manager**
 
@@ -21,17 +21,16 @@ Secure content with Roles/Users
 
   .. image:: ../images/Admin-User-Manager2.jpg
 
+Role Manager
+~~~~~~~~~~~~~~~~~~~
 
-Page Manager
-~~~~~~~~~~~~
+Secure content with Roles 
 
-* Click **Site Manager > Page Manager**
+Role Permissions
+~~~~~~~~~~~~~~~~~~~
 
-    .. image:: ../images/Builder-Page-Manager1.jpg
+Manage role functions with permissions
 
-* You can authorize user(s) to have an access to the page and you can also update necessary info related to the page.
-
-    .. image:: ../images/Builder-Page-Manager1.jpg
 
 Settings
 ~~~~~~~~
@@ -48,6 +47,7 @@ Settings
 Recycling Bin
 ~~~~~~~~~~~~~
 
+Recover lost modules and content
 
 * Click **Site Manager > Recycle Bin**
 
@@ -55,7 +55,11 @@ Recycling Bin
 
 Information of all modules deleted will be listed here and you will be able to put them back to the original page.
 
-This page
+Monitoring Logs
+~~~~~~~~~~~~~
+
+Error Logs 
+~~~~~~~~~~~~~
 
 Admin - Web Services (in development)
 -------------------------------------
