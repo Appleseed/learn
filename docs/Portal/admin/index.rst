@@ -2,22 +2,23 @@
 Site Administration Guide
 =========================
 
-Appleseed Framework based applications, such as Portal, Base, and Search
-can all be administered through
+Portal Site Management is currently done through the admin menu located at the very top after a user with the admin role logs in to the portal.
 
 Admin - Web Interface
 ---------------------
 
-User / Role Manager
+User Manager
 ~~~~~~~~~~~~~~~~~~~
 
-Secure content with Roles/Users
+Manage Users in your site
+
+Role Manager
+~~~~~~~~~~~~~~~~~~~
+
+Secure content with Roles & Permissions
  
 
-Page Manager
-~~~~~~~~~~~~
-
-Settings
+Site Settings
 ~~~~~~~~
 
 Recycling Bin
