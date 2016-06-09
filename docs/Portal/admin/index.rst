@@ -66,11 +66,31 @@ Settings
 
 * Click **Site Manager > Site Settings**
 
-    .. image:: ../images/Admin-setting1.jpg
+  .. image:: ../images/Admin-setting1.jpg
 
-* You can add "make-up" on the site/portal here just like in HTML page. The update you make will affect to the whole site/portal.
 
-    .. image:: ../images/Admin-setting2.jpg
+* Theme and layout settings
+
+  .. image:: ../images/Admin-setting2.jpg
+
+
+* Users and Security Setting
+
+  .. image:: ../images/Admin-setting3.jpg
+
+* Culture settings
+
+  .. image:: ../images/Admin-setting4.jpg
+
+* Meta settings
+
+  .. image:: ../images/Admin-setting5.jpg
+
+
+* Miscellaneous settings
+
+  .. image:: ../images/Admin-setting6.jpg
+
 
 
 Recycling Bin
