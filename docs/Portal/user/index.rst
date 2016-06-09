@@ -1,5 +1,3 @@
-.. include:: common.txt
-
 User Guide
 ==========
 
@@ -29,3 +27,4 @@ Sign In
 Additional Information
 ----------------------
 
+.. include:: common.txt
