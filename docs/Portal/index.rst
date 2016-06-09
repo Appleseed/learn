@@ -14,7 +14,7 @@ and Administrators of applications that are built on Appleseed Portal.
 
 A brief introuction to the Appleseed Portal Project.
 
-|stub-icon| `Installation`_
+`Installation`_
 -------------
 
 For Getting Started with Appleseed and installation into different environments.
@@ -25,19 +25,19 @@ For Getting Started with Appleseed and installation into different environments.
 For site users that want to know how to find, add and manage content for
 general use.
 
-|stub-icon| `Builder Guide`_
+`Builder Guide`_
 ----------------
 
 For site builders that want to know how to add and manage pages, modules
 as a power user.
 
-|stub-icon| `Administrator Guide`_
+`Administrator Guide`_
 ----------------------
 
 For site administrators that want to know how to administer portals,
 backup content, and manage multiple sites.
 
-|stub-icon| `Developer Guide`_
+`Developer Guide`_
 ------------------
 
 For site developers that want to extend the basic functionality of the
