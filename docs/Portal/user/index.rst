@@ -23,7 +23,7 @@ Appleseed requires users to sign-up or register in order to secure information i
 Registration
 ------------
 
-Registration is required to user who visits the portal for the first time. The user is required to enter correct information.
+Registration is required to users who visit the portal for the first time. The user is required to enter correct information.
 
   .. image:: ../images/User-Register.jpg
 
@@ -31,7 +31,7 @@ Registration is required to user who visits the portal for the first time. The u
 Sign In
 -------
 
-Once you register to portal, now you have an access it. Yet you may be limited to full control depending what role is assigned to your account.
+Once you register to portal, now you have an access to it. Yet you may be limited to full control depending what role is assigned to your account.
 The default account and password for admin is admin@appleseedportal.net | admin. Changing username and password is highly recommended after the installation.
 
   .. image:: ../images/User-login.jpg
