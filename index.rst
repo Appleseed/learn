@@ -16,10 +16,18 @@ Appleseed Portal. The software is free of charge and available `open source <htt
 
 
 
- .. toctree::
-   :maxdepth: 3
+.. toctree::
+    :titlesonly:
    
-   docs/Portal/index.rst
+  docs/Portal/
+  docs/Portal/intro/
+  docs/Portal/install/
+  docs/Portal/user/
+  docs/Portal/builder/
+  docs/Portal/admin/
+  docs/Portal/developer/
+  docs/Portal/designer/
+
 
  
  
