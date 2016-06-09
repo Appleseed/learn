@@ -34,20 +34,27 @@ To get to the page...
 
 * Edit Role
 
-  Click .. image:: ../images/Pen-N-Paper.png **Pencil and Paper** icon, it will direct you to edit page where you will find  **Apply changes** and **Change Role Members** buttons.
+  Click
+  .. image:: ../images/Pen-N-Paper.png
+  **Pencil and Paper** icon, it will direct you to edit page where you will find  **Apply changes** and **Change Role Members** buttons.
+
   You can rename the Role then click **Apply changes** button or change role members by selecting the available Role Membership in dropdown menu after you click **Change Role Members** button then click **Save Role Changes** after you make an update.
 
     .. image:: ../images/Admin-Role-Manager2.jpg
 
 * Assign Access/Security Permission
 
-  Click .. image:: ../images/padlock.png **Padlock** icon, it will direct you to Access Permission Viewer page where you can assign permission to The Role.
+  Click
+  .. image:: ../images/padlock.png
+  **Padlock** icon, it will direct you to Access Permission Viewer page where you can assign permission to The Role.
 
     .. image:: ../images/Admin-Role-Permission1.jpg
 
 * Delete Role
 
-  To delete role is simply just click .. image:: ../images/forbidden.png **Forbidden** icon and confirm the deletion on popup window.
+  To delete role is simply just click
+  .. image:: ../images/forbidden.png
+  **Forbidden** icon and confirm the deletion on popup window.
 
 Role Permissions
 ~~~~~~~~~~~~~~~~~~~
