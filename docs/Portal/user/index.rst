@@ -17,8 +17,16 @@ Data in modules.
 Prerequisites
 -------------
 
+Just like other internet portal/website ie : facebook, linkedin, company website that require user's credential to access confidential information.
+Appleseed requires users to sign-up or register in order to secure information in the portal from being served to wrong party or person.
+
 Registration
 ------------
+
+Registration is required to user who visits the portal for the first time.
+
+
+
 
 Sign In
 -------
