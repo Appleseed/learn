@@ -51,9 +51,6 @@ Editing Pages - Edit this Page
 
     .. image:: ../images/Builder-Edit-Page1.jpg
 
-* Add a module you created (as the sample shows in `Developer Guide`_ )
-
-    .. image:: ../images/Builder-Edit-Page2.jpg
 
 Copying Pages
 -------------
