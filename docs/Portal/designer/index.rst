@@ -46,6 +46,8 @@ Setting/Switching Global Themes / Layouts
 -----------------------
 Global Layouts and Themes for the whole site can be set or switched on the Site Settings page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting**” tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available.
 
+.. image:: ../images/site-settings-screenshot.jpg
+
 Page Themes / Layouts
 ---------------------
 Individual pages can also be set to a layout or theme different from those of the Site default. 
