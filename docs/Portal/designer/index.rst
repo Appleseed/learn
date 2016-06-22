@@ -25,7 +25,7 @@ An alternate or child layout can be set up with just one file:
 
 - PanesMaster.ascx 
 
-- The C# code at the top of this file should ppoint back to the parent theme.
+The C# code at the top of this file should ppoint back to the parent theme.
 
 Making a Theme
 --------------
@@ -39,19 +39,15 @@ The files for editing or creating a theme are located in the /Design/Themes fold
 /css - CSS files specific to the theme should be in this folder
 
 Responsive design should be handle by the latest boostrap,css file. 
-
 Menu Design should be handles by the main theme CSS. 
 
-Switching Layouts
------------------
 
-Switching Themes
-----------------
-
-Global Themes / Layouts
+Setting/Switching Global Themes / Layouts
 -----------------------
+Global Layouts and Themes for the whole site can be set or switched on the Site Settings page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting**” tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available.
 
 Page Themes / Layouts
 ---------------------
-
+Individual pages can also be set to a layout or theme different from those of the Site default. 
+For example one or more pages may wish to have a different panes layout from that of the Home page. Setting up such a child layout has been described above. The layout or theme for a page can be changed by clicking on the **Edit This Page** button in the top Admin Menu, then selecting the **Page Settings** tab. Similar to above, under the **Theme and layout setting**” tab, there are fields for **Custom Layout** and ** Custom Theme** with dropdown menu arrows on the right, so you can choose from those available. 
 
