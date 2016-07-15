@@ -10,7 +10,8 @@ Quick Install
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
 
 * Database
-  * Download Microsoft SQL Server Express if you do not already have it : '<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>'_
+
+  * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
 
   * Create an Empty SQL Server Database in a SQL Server Instance
 
