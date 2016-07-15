@@ -10,11 +10,22 @@ Quick Install
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
 
 * Database
+  * Download Microsoft SQL Server Express if you do not already have it : '<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>'_
 
   * Create an Empty SQL Server Database in a SQL Server Instance
 
     .. image:: ../images/Database-Setup.jpg
+   *Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
+   *Enter a name in the Database Name: field
 
+  * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
+   *Right Click on the Logins folder in the main Security folder
+   * Select "New Login.."
+   * Click on the Search button next to the Login Name field.
+   Click on the "Advanced..." button.
+   * In this next window, click on the "Find Now" button on the middle right side.
+   * Find "NETWORK SERVICE" in the list, highlight it and click on "OK".
+   * Click "OK" in the next window. 
 
   * Give a user access to your SQL Server Database [ Network Service is recommended ]
 
