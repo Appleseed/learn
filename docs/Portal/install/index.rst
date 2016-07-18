@@ -6,10 +6,10 @@ Quick Install
 -------------
 * Requirements
 
- *  .NET Framewokr 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
- *  Windows 7 / 8 / 10+ Physical or Cloud Instance
- *  SQL Server (Express) 2005/2008/2012/2014 
- *  Visual Studio 2015 All Editions for development
+ *  .NET Framework 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
+ *  Windows 7 | 8 | 10+ Physical or Cloud Instance
+ *  SQL Server All Editions (Express tested) 2005 - 2016 
+ *  Visual Studio 2015 All Editions (Community Tested) for development
 
 * Release
 
