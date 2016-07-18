@@ -56,7 +56,7 @@ Quick Install
 
     .. image:: ../images/Unzip.jpg
 
-* Change permissions on the Appleseed directories
+ * Change permissions on the Appleseed directories
   * Right click on the Website Folder (e.g. / Appleseed Website).
   * Click on the *Properties* button at the bottom.
   * Click on the "Security* tab at the top (third from the left).
@@ -77,7 +77,7 @@ Quick Install
 
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
-   * In the Connections section, click the grey triangle next to the Computer's name to access the Sites folder.
+  * In the Connections section, click the grey triangle next to the Computer's name to access the Sites folder.
 
     .. image:: ../images/IIS-Manager.png
 
