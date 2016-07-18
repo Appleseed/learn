@@ -57,22 +57,22 @@ Quick Install
     .. image:: ../images/Unzip.jpg
 
 * Change permissions on the Appleseed directories
-   * Right click on the Website Folder (e.g. / Appleseed Website).
-   * Click on the *Properties* button at the bottom.
-   * Click on the "Security* tab at the top (third from the left).
-   * Click on the "Edit" button, then the "add" button, then the "Advanced..." button.
+  * Right click on the Website Folder (e.g. / Appleseed Website).
+  * Click on the *Properties* button at the bottom.
+  * Click on the "Security* tab at the top (third from the left).
+  * Click on the "Edit" button, then the "add" button, then the "Advanced..." button.
 
     .. image:: ../images/Permissions-Directories.png
 
-   * In the next window click on the find now button in the middle.
-   * Find "NETWORK SERVICE" in the list, highlight it, and click "OK".
-   * Click "OK" in the next window
-   * In the next window, highlight "NETWORK SERVICE", click on the Full Control checkbox in the Permissions box, then click "Apply".
-   * Click on the "Edit", "Add", "Advanced..." and "Find Now" buttons again.
-   * Find "IUSR" in the list, highlight it, and Click on "OK".
-   * Click "Ok" in the next window.
-   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
-   * Click "OK" in the remaining windows.
+  * In the next window click on the find now button in the middle.
+  * Find "NETWORK SERVICE" in the list, highlight it, and click "OK".
+  * Click "OK" in the next window
+  * In the next window, highlight "NETWORK SERVICE", click on the Full Control checkbox in the Permissions box, then click "Apply".
+  * Click on the "Edit", "Add", "Advanced..." and "Find Now" buttons again.
+  * Find "IUSR" in the list, highlight it, and Click on "OK".
+  * Click "Ok" in the next window.
+  * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
+  * Click "OK" in the remaining windows.
 
 
 * IIS Hosting
