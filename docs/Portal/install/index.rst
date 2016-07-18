@@ -57,6 +57,7 @@ Quick Install
     .. image:: ../images/Unzip.jpg
 
 * Change permissions on the Appleseed directories
+
   * Right click on the Website Folder (e.g. / Appleseed Website).
   * Click on the *Properties* button at the bottom.
   * Click on the "Security* tab at the top (third from the left).
