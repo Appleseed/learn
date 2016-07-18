@@ -47,15 +47,18 @@ Quick Install
   * Give this user db_owner in the user mapping section to your Database
 
    .. image:: ../images/User-Access2.jpg
-
-* IIS Hosting
-
+* Set up the Appleseed Site
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
     .. image:: ../images/Unzip.jpg
 
+* Change permissions on Appleseed Site
+   * Right click on the Website Folder (e.g. / Appleseed Website).
+   * Click on the *Properties* button at the bottom.
 
-  * Create a Site in IIS with a .NET 4.0 Application Pool
+* IIS Hosting
+
+  * Create a Site in IIS with a .NET 4.0 Application Pool.
 
     .. image:: ../images/IIS1.jpg
 
