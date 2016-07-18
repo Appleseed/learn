@@ -27,7 +27,7 @@ Quick Install
   * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
   * Enter a name in the Database Name: field.
 
-  * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
+ * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
 
     .. image:: ../images/Login-User.png
 
