@@ -50,7 +50,8 @@ Quick Install
 * Set up the Appleseed Site
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
-    .. image:: ../images/Unzip.jpg
+  .. image:: ../images/Unzip.jpg
+
 * Change permissions on the Appleseed directories
    * Right click on the Website Folder (e.g. / Appleseed Website).
    * Click on the *Properties* button at the bottom.
