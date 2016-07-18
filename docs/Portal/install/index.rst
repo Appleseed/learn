@@ -14,12 +14,15 @@ Quick Install
 * Release
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
+  * Scroll to the bottom and download the zip file.
 
 * Database
 
   * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
   * Launch SQL Server Management Studio and connect to the server.
-  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers    .. image:: ../images/Server-Error.png
+  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers   
+
+    .. image:: ../images/Server-Error.png
 
   * Create an Empty SQL Server Database in a SQL Server Instance
 
@@ -50,7 +53,7 @@ Quick Install
 * Set up the Appleseed Site
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
-  .. image:: ../images/Unzip.jpg
+    .. image:: ../images/Unzip.jpg
 
 * Change permissions on the Appleseed directories
    * Right click on the Website Folder (e.g. / Appleseed Website).
