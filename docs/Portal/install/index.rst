@@ -19,10 +19,7 @@ Quick Install
 
   * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
   * Launch SQL Server Management Studio and connect to the server.
-  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers
-  
-  
-    .. image:: ../images/Server-Error.png
+  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers    .. image:: ../images/Server-Error.png
 
   * Create an Empty SQL Server Database in a SQL Server Instance
 
@@ -31,6 +28,9 @@ Quick Install
   * Enter a name in the Database Name: field.
 
   * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
+
+    .. image:: ../images/Login-User.png
+
    * Right Click on the Logins folder in the main Security folder
    * Select "New Login.."
    * Click on the Search button next to the Login Name field.
@@ -52,9 +52,12 @@ Quick Install
 
     .. image:: ../images/Unzip.jpg
 
-* Change permissions on Appleseed Site
+* Change permissions on the Appleseed directories
    * Right click on the Website Folder (e.g. / Appleseed Website).
    * Click on the *Properties* button at the bottom.
+   * Click on the "Security* tab at the top (third from the left)
+   * Click on the "Edit" button, then the "add" button, then the "Advanced..." button
+
 
 * IIS Hosting
 
