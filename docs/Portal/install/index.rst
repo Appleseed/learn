@@ -4,6 +4,12 @@ Appleseed Portal Installation
 
 Quick Install
 -------------
+* Requirements
+
+ *  .NET Framewokr 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
+ *  Windows 7 / 8 / 10+ Physical or Cloud Instance
+ *  SQL Server (Express) 2005/2008/2012/2014 
+ *  Visual Studio 2015 All Editions for development
 
 * Release
 
