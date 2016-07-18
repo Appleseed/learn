@@ -14,7 +14,7 @@ Quick Install
 * Release
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
-  * Scroll to the bottom and download the zip file.
+   * Scroll to the bottom and download the zip file.
 
 * Database
 
@@ -25,10 +25,11 @@ Quick Install
     .. image:: ../images/Server-Error.png
 
   * Create an Empty SQL Server Database in a SQL Server Instance
+   * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
+   * Enter a name in the Database Name: field.
 
     .. image:: ../images/Database-Setup.jpg
-  * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
-  * Enter a name in the Database Name: field.
+
 
  * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
 
