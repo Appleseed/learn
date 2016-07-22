@@ -98,6 +98,17 @@ Quick Install
 
     .. image:: ../images/IIS3.jpg
 
+  If you have never used your computer for Web Hosting before, you may get the following error.
+
+    .. image:: ../images/Web-Hosting-Error.png
+  To fix this, type "Windows Features" in the Control Panel
+   Expand the "Internet Information Services" folder.
+   Expand the "World Wide Web Services" folder.
+   Expand the "Application Development Features" folder.
+    In this folder make sure to check the following boxes.
+
+    .. image:: ../images/Windows-Features-Instructions.png
+
 
   * Browse your Site which will cause a redirect to the Web Installer
 
