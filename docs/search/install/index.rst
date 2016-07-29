@@ -164,6 +164,12 @@ If you have not already installed Appleseed Portal, refer to the instructions he
          * Click the Add New Page button. 
          * Navigate to the new page. 
 
+     * On this page, 
+       * Click the Edit this Page link in the Admin Bar.
+       * Click the Page Modules tab. 
+       * Set up an HTML Module or Modules for the Angular search section or sections.to be used on this page.
+
+
 
 
 
