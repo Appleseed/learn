@@ -32,5 +32,14 @@ If you have not already installed Appleseed Portal, refer to the instructions he
               
           });
 
+       .. image:: ../images/Script-Update.PNG
+
+     * Verify that the script is working.
+     
+       * Navigate to the Appleseed portal page.
+       * Right click and click inspect elements. 
+       * Check if the code has been added to the <html> element
+
+       
 
 
