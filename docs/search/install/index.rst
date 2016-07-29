@@ -176,12 +176,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
        * Click on Edit icon for the Module created
        * Switch to Source if the editor is in visual mode, and paste in the contents of the search-module.html file in the /Portals/_Appleseed/Search.Web.User.Ng/app/ folder. 
 
-     * Update the “$rootScope.appleseedsSearchSolrProxy” parameter in the /Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/app/documents.js file as necessary to refer to the appropriate API URL. 
-   
-       * If a service has been set up on the client’s site, this parameter will most likely be “http://api.domain-name.com/solr/”. 
-       * The section to be changed starts with http:...etc to point to the correct API $rootScope.appleseedsSearchSolrProxy = "http://api.beefsafetyresource.com/solr/";
-
-Update styling as necessary in the as-search.css file added to the \Design\Themes\[Theme used]\css folder above.
+Update styling as necessary in the as-search.css file added to the \Design\Themes\[Theme used]\css folder.
 
 
 
