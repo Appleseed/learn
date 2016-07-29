@@ -153,7 +153,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
         </script>
 
-     Setting up Search on the Appleseed Site.
+     * Setting up Search on the Appleseed Site.
    
        * Login as admin. 
        * Click on the Site Manager(or Administration) tab on the left side of the	Admin Bar at the top. 
@@ -165,6 +165,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
          * Navigate to the new page. 
 
      * On this page, 
+   
        * Click the Edit this Page link in the Admin Bar.
        * Click the Page Modules tab. 
        * Set up an HTML Module or Modules for the Angular search section or sections.to be used on this page.
