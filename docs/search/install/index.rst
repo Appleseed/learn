@@ -145,12 +145,25 @@ If you have not already installed Appleseed Portal, refer to the instructions he
                 }).data('datepicker');
 
                 var checkout = $('#eDate').datepicker({format: 'mm/dd/yyyy'}).on('changeDate', function (ev) {
+ 
                     checkout.hide();
 
                 }).data('datepicker');
             });
 
         </script>
+
+     Setting up Search on the Appleseed Site.
+   
+       * Login as admin. 
+       * Click on the Site Manager(or Administration) tab on the left side of the	Admin Bar at the top. 
+       *	Under Add New Page
+         * Select a Page Parent (or leave as default if this page should be on the Root Level.) 
+         * Select the roles that can see the page under Page Visible To:
+         * Add a Page Title, such as Search.
+         * Click the Add New Page button. 
+         * Navigate to the new page. 
+
 
 
 
