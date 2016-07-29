@@ -158,6 +158,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
        * Login as admin. 
        * Click on the Site Manager(or Administration) tab on the left side of the	Admin Bar at the top. 
        *	Under Add New Page
+   
          * Select a Page Parent (or leave as default if this page should be on the Root Level.) 
          * Select the roles that can see the page under Page Visible To:
          * Add a Page Title, such as Search.
@@ -169,6 +170,19 @@ If you have not already installed Appleseed Portal, refer to the instructions he
        * Click the Edit this Page link in the Admin Bar.
        * Click the Page Modules tab. 
        * Set up an HTML Module or Modules for the Angular search section or sections.to be used on this page.
+
+     * Add the Module code. 
+    
+       * Click on Edit icon for the Module created
+       * Switch to Source if the editor is in visual mode, and paste in the contents of the search-module.html file in the /Portals/_Appleseed/Search.Web.User.Ng/app/ folder. 
+
+     * Update the “$rootScope.appleseedsSearchSolrProxy” parameter in the /Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/app/documents.js file as necessary to refer to the appropriate API URL. 
+   
+       * If a service has been set up on the client’s site, this parameter will most likely be “http://api.domain-name.com/solr/”. 
+       * The section to be changed starts with http:...etc to point to the correct API $rootScope.appleseedsSearchSolrProxy = "http://api.beefsafetyresource.com/solr/";
+
+Update styling as necessary in the as-search.css file added to the \Design\Themes\[Theme used]\css folder above.
+
 
 
 
