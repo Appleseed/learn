@@ -60,6 +60,8 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 @import url(/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/css/datepicker.css);
 @import url(css/as-search.css);
 
+       .. image:: ../images/Import-Rules.PNG
+
 
 
 
