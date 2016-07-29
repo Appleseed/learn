@@ -51,13 +51,20 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
      * Add the @import rules below to the bottom of the @import rules located at the top of the default.css file in the \Design\Themes\[Theme used]\ folder: 
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css);
+@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css
+
 @import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap-responsive.min.css);
+
 @import url(bootstrap.css);
+
 @import url(as-admin-bar.css);
+
 @import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/screen.css);
+
 @import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/facp.css);
+
 @import url(/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/css/datepicker.css);
+
 @import url(css/as-search.css);
 
        .. image:: ../images/Import-Rules.PNG
