@@ -22,7 +22,12 @@ Main Root for Admin Documentation for Appleseed Search
 .. image:: ../images/Third-Step.PNG
 
 * Copy the Appleseed Search Solr Configuration directory
+
    * Copy.the \solr\solr-4.10.4\anant\appleseed-search directory into the.\solr\solr-4.10.4\example directory of the site.
 
 .. image:: ../images/Fourth-Step.PNG
 
+* Start the Solr Service. 
+
+    * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: bin\solr start -f -h 8983 -s appleseed-search\solr -V. 
+    * Make sure you are in the C:\Services\Appleseed.Search\solr\solr-4.10.4 directory when you run it.
