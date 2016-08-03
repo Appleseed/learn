@@ -48,3 +48,49 @@ Main Root for Admin Documentation for Appleseed Search
 
 .. image:: ../images/Seventh-Step.PNG
 
+.. image:: ../images/Eigth-Step.PNG
+
+* Run the Index Service by double-clicking/clicking on it. (C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe)
+
+.. image:: ../images/Nint]-Step.PNG
+
+* Verify the data imported by open a browser and go to http://localhost:8983/solr to access the Solr app panel.
+
+    * Form the Index Selector dropdown in the left sidebar, select the appleseed-public collection, click on the Query tab, make sure *:* is in the “q” window, and click the Execute Query button. Check that “numFound” under “response” give you the number you expect.
+
+.. image:: ../images/Tenth-Step.PNG
+
+* To reindex the data to point to a different set, update the 
+C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.
+exe.config (XML FILE) as necessary.
+
+* In the Solr panel left sidebar, click on the 
+Documents tab, and set the Document Type to XML. Next, click on the Query tab, and enter the query “<delete><query>*:*</query></delete>” in the “q” window, and click Execute Query.
+
+* When the success message is returned execute the query “<commit/>”. Then run a “*:*” query to check that the numfound is 0. 
+
+* Finally, Run the Index Service again by double-clicking/clicking on it. You must run this as an admin or you might get file permission issues.  This file should be ran in Powershell if available than simply double clicked on.
+
+.. image:: ../images/Eleventh-Step.PNG
+
+* Set up windows task scheduler to Run Index
+
+    * Open Server Manager > Configuration > Task Scheduler >  Create Basic Task…
+
+.. image:: ../images/Twelfth-Step.PNG
+
+    * Fill it with neccesary info as follows.
+    
+.. image:: ../images/Thirteenth-Step.PNG
+
+.. image:: ../images/Fourteenth-Step.PNG
+
+.. image:: ../images/Fifteenth-Step.PNG
+
+.. image:: ../images/Sixteenth-Step.PNG
+
+
+
+
+
+
