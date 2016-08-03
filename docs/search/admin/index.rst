@@ -52,7 +52,7 @@ Main Root for Admin Documentation for Appleseed Search
 
 * Run the Index Service by double-clicking/clicking on it. (C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe)
 
-.. image:: ../images/Ninth-Ste].PNG
+.. image:: ../images/Ninth-Ste[.PNG
 
 * Verify the data imported by open a browser and go to http://localhost:8983/solr to access the Solr app panel.
 
