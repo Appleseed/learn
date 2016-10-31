@@ -15,7 +15,7 @@ Quick Install
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
    * Scroll to the bottom and download the zip file.
-   Watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
 
@@ -53,7 +53,7 @@ Quick Install
 
    .. image:: ../images/User-Access2.jpg
 
-   Watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
 
 * Set up the Appleseed Site
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
@@ -77,7 +77,8 @@ Quick Install
   * Click "Ok" in the next window.
   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
   * Click "OK" in the remaining windows.
-    Watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
+
+    Or watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
@@ -113,13 +114,13 @@ Quick Install
 
     .. image:: ../images/Windows-Features-Instructions.png
 
-   Watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
 
   * Browse your Site which will cause a redirect to the Web Installer
 
     .. image:: ../images/Web-Installer.jpg
 
-    Watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
 
 * Web Installer
 
