@@ -81,7 +81,8 @@ Quick Install
   .. image:: ../images/movie.png
      :scale: 10 %
      :target: https://www.youtube.com/watch?v=TRdng9tX91M
-     watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
+
+watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
