@@ -15,6 +15,7 @@ Quick Install
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
    * Scroll to the bottom and download the zip file.
+
    Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
@@ -52,6 +53,7 @@ Quick Install
   * Give this user db_owner in the user mapping section to your Database
 
    .. image:: ../images/User-Access2.jpg
+
 
    Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
 
@@ -116,11 +118,13 @@ Quick Install
 
     .. image:: ../images/Windows-Features-Instructions.png
 
+
    Or watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
 
   * Browse your Site which will cause a redirect to the Web Installer
 
     .. image:: ../images/Web-Installer.jpg
+
 
    Or watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
 
