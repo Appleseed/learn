@@ -78,10 +78,9 @@ Quick Install
   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
   * Click "OK" in the remaining windows.
 
-  .. image:: ../images/movie.png
+  .. image:: ../images/movie.png :: watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
      :scale: 10 %
-     :alt: watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
-     :target: <https://www.youtube.com/watch?v=TRdng9tX91M>
+     :target: https://www.youtube.com/watch?v=TRdng9tX91M
 
 
  * IIS Hosting
