@@ -8,19 +8,20 @@ Quick Install
 
  *  .NET Framework 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
  *  Windows 7 | 8 | 10+ Physical or Cloud Instance
- *  SQL Server All Editions (Express tested) 2005 - 2016 
+ *  SQL Server All Editions (Express tested) 2005 - 2016
  *  Visual Studio 2015 All Editions (Community Tested) for development
 
 * Release
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
    * Scroll to the bottom and download the zip file.
+   Watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
 
   * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
   * Launch SQL Server Management Studio and connect to the server.
-  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers   
+  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers
 
     .. image:: ../images/Server-Error.png
 
@@ -41,7 +42,7 @@ Quick Install
    * Click on the "Advanced..." button.
    * In this next window, click on the "Find Now" button on the middle right side.
    * Find "NETWORK SERVICE" in the list, highlight it and click on "OK".
-   * Click "OK" in the next window. 
+   * Click "OK" in the next window.
 
   * Give a user access to your SQL Server Database [ Network Service is recommended ]
 
@@ -51,6 +52,9 @@ Quick Install
   * Give this user db_owner in the user mapping section to your Database
 
    .. image:: ../images/User-Access2.jpg
+
+   Watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
+
 * Set up the Appleseed Site
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
@@ -73,7 +77,7 @@ Quick Install
   * Click "Ok" in the next window.
   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
   * Click "OK" in the remaining windows.
-
+    Watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
@@ -109,11 +113,13 @@ Quick Install
 
     .. image:: ../images/Windows-Features-Instructions.png
 
+   Watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
 
   * Browse your Site which will cause a redirect to the Web Installer
 
     .. image:: ../images/Web-Installer.jpg
 
+    Watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
 
 * Web Installer
 
