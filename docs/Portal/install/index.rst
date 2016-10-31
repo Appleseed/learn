@@ -79,6 +79,7 @@ Quick Install
   * Click "OK" in the remaining windows.
 
   .. image:: ../images/movie.png
+     :scale: 25 %
   watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
 
