@@ -81,6 +81,7 @@ Quick Install
   .. image:: ../images/movie.png
      :scale: 10 %
      :alt: watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
+     :target: <https://www.youtube.com/watch?v=TRdng9tX91M>
 
 
  * IIS Hosting
