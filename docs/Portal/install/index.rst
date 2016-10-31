@@ -78,9 +78,9 @@ Quick Install
   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
   * Click "OK" in the remaining windows.
 
-  watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
   .. image:: ../images/movie.png
      :scale: 10 %
+     :alt: watch the video
      :target: https://www.youtube.com/watch?v=TRdng9tX91M
 
 
