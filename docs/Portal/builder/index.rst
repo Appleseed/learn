@@ -24,7 +24,7 @@ Pages - The Module Container
 Page Manager
 ------------
 
-* Go to **Site Manager > File Manager**
+* Go to **Site Manager > Page Manager**
 
   .. image:: ../images/Builder-Page-Manager1.jpg
 
