@@ -57,8 +57,11 @@ Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** dir
   .. image:: ../images/Module_to_appleseed.jpg
 
 
-  \*Usual Scenarios for your module to Fail to load. **All dependent dlls are not added to your bin directory**.
-  The location of your ascx file in your install script was incorrect. Web.config changes are not transferred from your project web.config to your appleseed portal web.config
+ * Usual Scenarios for your module to Fail to load. 
+ 
+    - All dependent dlls are not added to your bin directory
+    - The location of your ascx file in your install script was incorrect. 
+    - Web.config changes are not transferred from your project web.config to your appleseed portal web.config
 
 
   .. image:: ../images/Module_to_appleseed_final.jpg
