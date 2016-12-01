@@ -62,6 +62,7 @@ Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** dir
     - All dependent dlls are not added to your bin directory
     - The location of your ascx file in your install script was incorrect. 
     - Web.config changes are not transferred from your project web.config to your appleseed portal web.config
-
+ 
+ * If you have installed your module correctly, you should see your module on the page
 
   .. image:: ../images/Module_to_appleseed_final.jpg
