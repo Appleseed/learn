@@ -5,7 +5,7 @@ Module Developer Guide
 Overview
 --------
 
-Appleseed can run C# modules. Here how to develop a simple module and deploy it into appleseed.
+Appleseed Portal uses .NET modules to extend functionality. Below is how to develop a simple C# module and deploy it into appleseed portal.
 
 
 Development
