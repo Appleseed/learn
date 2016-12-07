@@ -118,31 +118,19 @@ Main Root for Admin Documentation for Appleseed Search
     
 	::
 
-		<?xml version="1.0" encoding="UTF-8"?>
-
-			<configuration>
-
-				<system.webServer>
-
-					<rewrite>
-
-						<rules>
-
-							<rule name="ReverseProxyInboundRule1" stopProcessing="true">
-
-								<match url="^solr/select(.*)" />
-
-								<action type="Rewrite" url="http://localhost:8983/solr/appleseed-public/select{R:1}" />
-
-							</rule>
-
-						</rules>
-
-					</rewrite>
-
-				</system.webServer>
-
-			</configuration>
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<system.webServer>
+	  <rewrite>
+	    <rules>
+   	      <rule name="ReverseProxyInboundRule1" stopProcessing="true">
+		<match url="^solr/select(.*)" />
+		   <action type="Rewrite" url="http://localhost:8983/solr/appleseed-public/select{R:1}" />
+	       </rule>
+             </rules>
+	  </rewrite>
+	</system.webServer>
+</configuration>
 
     * Install latest Angular.js interface (Search.Web.User.Ng/app) on the Indexing Server (http:/api.domain-name.com/app). 
 
