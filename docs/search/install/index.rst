@@ -57,39 +57,39 @@ Main Root for Admin Documentation for Appleseed Search
 
 * Verify the data imported by open a browser and go to http://localhost:8983/solr to access the Solr app panel.
 
-    * From the Index Selector dropdown in the left sidebar, select the appleseed-public collection, click on the Query tab, make sure ``*:*`` is in the “q” window, and click the Execute Query button. Check that “numFound” under “response” gives you the number you expect.
+    * From the Index Selector dropdown in the left sidebar, select the appleseed-public collection, click on the Query tab, make sure *:* is in the “q” window, and click the Execute Query button. Check that “numFound” under “response” gives you the number you expect.
 
 .. image:: ../images/Tenth-Step.PNG
 
-* To **reindex** the data to point to a different set: 
+* To reindex the data to point to a different set: 
 	1. Update the ``C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe.config`` (XML FILE) as necessary.
 	
-		i. Add or update index aliases between the <indexes> tags
+		* Add or update index aliases between the <indexes> tags
 		
-.. image:: ../images/Seventh-Step.PNG	
+		.. image:: ../images/Seventh-Step.PNG	
 	
-		ii. Add or edit sites between the <websiteIndexService> or <rssIndexService> tags when updating website or RSS feed sources, respectively.  You may also wish to edit the aliases used for each site by updating the indexPath attribute.  You may use more than one alias per site to get multiple search endpoints.
+		* Add or edit sites between the <websiteIndexService> or <rssIndexService> tags when updating website or RSS feed sources, respectively.  You may also wish to edit the aliases used for each site by updating the indexPath attribute.  You may use more than one alias per site to get multiple search endpoints.
 		
-.. image:: ../images/Eighth-Step.PNG
+		.. image:: ../images/Eighth-Step.PNG
 
 	2. In the Solr panel left sidebar, click on the Documents tab. 
 	3. Set the Document Type to XML. 
-	4. Enter in the “Document(s)” field “``<delete><query>*:*</query></delete><commit/>``” and click Submit Document.
+	4. Enter in the “Document(s)” field “<delete><query>*:*</query></delete><commit/>” and click Submit Document.
 	
-.. image:: ../images/Ten-Point-Five-Step.PNG
+	.. image:: ../images/Ten-Point-Five-Step.PNG
 	
-		* Alternative to step 4: 
-			* Open a browser and enter into the URL bar: 
-				“``http://localhost:8983/solr/appleseed-public/update?stream.body=<delete><query>*:*</query></delete>``” and hit enter.
-			* Once a success message is returned enter into the URL bar: 
+	* Alternative to step 4: 
+		* Open a browser and enter into the URL bar: 
+				“http://localhost:8983/solr/appleseed-public/update?stream.body=<delete><query>*:*</query></delete>” and hit enter.
+		* Once a success message is returned enter into the URL bar: 
 				“http://localhost:8983/solr/appleseed-public/update?stream.body=<commit/>”.
 
 	
-	5. Click on the Query tab and run a “``*:*``” query to check that the numfound is 0. 
-	6. Run the Index Service again by double-clicking/clicking on it **as an admin** or you might get file permission issues.  This file should be ran in Powershell if available rather than simply double clicked on. (``C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe``).
+	5. Click on the Query tab and run a “*:*” query to check that the numfound is 0. 
+	6. Run the Index Service again by double-clicking/clicking on it **as an admin** or you might get file permission issues.  This file should be ran in Powershell if available rather than simply double clicked on. ``(C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe)``.
 
-		* Alternative to step 6, you may use Luke instead of Solr.
-			After downloading Luke from https://github.com/DmitryKey/luke/releases/tag/luke-4.10.4, Run luke.sh to open the apps. Direct Path directory the location of index files ``C:\Services\Appleseed.Search\Data\Public`` and hit OK.
+	* Alternative to step 6, you may use Luke instead of Solr.
+		After downloading Luke from https://github.com/DmitryKey/luke/releases/tag/luke-4.10.4, Run luke.sh to open the apps. Direct Path directory the location of index files ``C:\Services\Appleseed.Search\Data\Public`` and hit OK.
 	
 .. image:: ../images/Eleventh-Step.PNG
 
