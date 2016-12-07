@@ -10,6 +10,7 @@ Main Root for Admin Documentation for Appleseed Search
 
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
+* Solr4 & Solr5 are supported.  The below example uses Solr4.  Solr6 support is in development.
 * Export the ``Services/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search`` directory of the site.
 
 .. image:: ../images/First-Step.PNG
@@ -18,7 +19,7 @@ Main Root for Admin Documentation for Appleseed Search
 
 .. image:: ../images/Second-Step.PNG
 
-* Export and Extract the solr-4.10.4.zip (or latest 4.x) file from the ``External/Softwar`` folder into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
+* Export and Extract the solr-4.10.4.zip (or latest 4.x) file from the ``External/Software`` folder into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
 
 .. image:: ../images/Third-Step.PNG
 
