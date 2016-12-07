@@ -10,15 +10,15 @@ Main Root for Admin Documentation for Appleseed Search
 
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
-* Export the Services/Appleseed.Search folder from an internal source into the ``C:\Services\Appleseed.Search`` directory of the site.
+* Export the ``Services/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search`` directory of the site.
 
 .. image:: ../images/First-Step.PNG
 
-* Export and Extract the latest IndexService zp file from the Binaries/Appleseed.Serach folder from an internal source into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
+* Export and Extract the latest IndexService.zip file from the ``Binaries/Appleseed.Serach`` folder from an internal source into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
 
 .. image:: ../images/Second-Step.PNG
 
-* Export and Extract the solr-4.10.4.zip (or latest 4.x) file from the "External/Software" folder into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
+* Export and Extract the solr-4.10.4.zip (or latest 4.x) file from the ``External/Softwar`` folder into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
 
 .. image:: ../images/Third-Step.PNG
 
@@ -55,7 +55,7 @@ Main Root for Admin Documentation for Appleseed Search
 
 .. image:: ../images/Ninth-Ste[.PNG
 
-* Verify the data imported by open a browser and go to http://localhost:8983/solr to access the Solr app panel.
+* Verify the data imported by open a browser and go to ``http://localhost:8983/solr`` to access the Solr app panel.
 
     * From the Index Selector dropdown in the left sidebar, select the appleseed-public collection, click on the Query tab, make sure *:* is in the “q” window, and click the Execute Query button. Check that “numFound” under “response” gives you the number you expect.
 
