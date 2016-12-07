@@ -115,31 +115,33 @@ Main Root for Admin Documentation for Appleseed Search
     
     * Install Reverse Proxy and configure if necessary to point to Solr Service.
     
-<?xml version="1.0" encoding="UTF-8"?>
+	::
 
-<configuration>
+		<?xml version="1.0" encoding="UTF-8"?>
 
-    <system.webServer>
+			<configuration>
 
-        <rewrite>
+				<system.webServer>
 
-            <rules>
+					<rewrite>
 
-                <rule name="ReverseProxyInboundRule1" stopProcessing="true">
+						<rules>
 
-                    <match url="^solr/select(.*)" />
+							<rule name="ReverseProxyInboundRule1" stopProcessing="true">
 
-                    <action type="Rewrite" url="http://localhost:8983/solr/appleseed-public/select{R:1}" />
+								<match url="^solr/select(.*)" />
 
-                </rule>
+								<action type="Rewrite" url="http://localhost:8983/solr/appleseed-public/select{R:1}" />
 
-            </rules>
+							</rule>
 
-        </rewrite>
+						</rules>
 
-    </system.webServer>
+					</rewrite>
 
-</configuration>
+				</system.webServer>
+
+			</configuration>
 
     * Install latest Angular.js interface (Search.Web.User.Ng/app) on the Indexing Server (http:/api.domain-name.com/app). 
 
@@ -172,20 +174,22 @@ If you have not already installed Appleseed Portal, refer to the instructions he
      * Navigate to ``...\Appleseed\Design\DesktopLayouts\[Theme used]\DesktopPortalBanner.ascx``
      * Make sure you choose the file in the folder for the theme used not the one directly in the ``.\Appleseed\Design\DesktopLayouts\`` folder
      * add the Following script:
+	 
+		::
      
-       // Add attributes to html element for Angular Search
-       
-         $("html").attr({
-         
-              "xmlns":"http://angularjs.org",
-              
-              "id":"ng-app",
-              
-              "ng-app":"solr-ajax"
-              
-          });
+			// Add attributes to html element for Angular Search
+	   
+			$("html").attr({
 
-       .. image:: ../images/Script-Update.PNG
+			  "xmlns":"http://angularjs.org",
+			  
+			  "id":"ng-app",
+			  
+			  "ng-app":"solr-ajax"
+			  
+			});
+
+		.. image:: ../images/Script-Update.PNG
 
      * Verify that the script is working.
      
@@ -204,109 +208,114 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
      * Add the @import rules below to the bottom of the @import rules located at the top of the default.css file in the ``\Design\Themes\[Theme used]\`` folder: 
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css
+		::	 
+	 
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap-responsive.min.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap-responsive.min.css);
 
-@import url(bootstrap.css);
+			@import url(bootstrap.css);
 
-@import url(as-admin-bar.css);
+			@import url(as-admin-bar.css);
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/screen.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/screen.css);
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/facp.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/facp.css);
 
-@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/css/datepicker.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/css/datepicker.css);
 
-@import url(css/as-search.css);
+			@import url(css/as-search.css);
 
        .. image:: ../images/Import-Rules.PNG
 
      * Copy the Angular and other script references listed below to the location beneath the </footer> element in the SiteMaster.master in the ``\Design\DesktopLayouts\[Theme_used]`` folder 
-   <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/d3js/d3.v3.min.js"></script>
+	 
+		::	 
+	 
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/d3js/d3.v3.min.js"></script>
 
-        <!-- angular scripts -->
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular.min.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-route.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-sanitize.min.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateFacetController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateFacetHistogramController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateRangeFacetController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DatePickerFacetController.js"></script>
-       
-        <!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>-->
-       
-        <!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchFeaturedResultController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FacetSelectionController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FieldFacetController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/SearchBoxController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/SearchHistoryController.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/directives/autocomplete.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/filters/textfilters.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/selection.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/solr.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/utils.js"></script>
-       
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/app/document.js"></script>
-       
-        <!-- /angular scripts -->
+			<!-- angular scripts -->
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular.min.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-route.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-sanitize.min.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateFacetController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateFacetHistogramController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateRangeFacetController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DatePickerFacetController.js"></script>
+		   
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>-->
+		   
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchFeaturedResultController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FacetSelectionController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FieldFacetController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/SearchBoxController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/SearchHistoryController.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/directives/autocomplete.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/filters/textfilters.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/selection.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/solr.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/services/utils.js"></script>
+		   
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/app/document.js"></script>
+		   
+			<!-- /angular scripts -->
 
-        <script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/js/bootstrap-datepicker.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/js/bootstrap-datepicker.js"></script>
 
-        <script>
+			<script>
 
-            $(function() {
-       
-                $(dateValidation).hide();
-       
-                var checkin = $('#sDate').datepicker({format: 'mm/dd/yyyy'}).on('changeDate', function (ev) {
-       
-                    if (ev.date.valueOf() > checkout.date.valueOf()) {
-       
-                        var newDate = new Date(ev.date)
-       
-                        newDate.setDate(newDate.getDate() + 1);
-       
-                        checkout.setValue(newDate);
-       
-                    }
-       
-                    checkin.hide();
+				$(function() {
+		   
+					$(dateValidation).hide();
+		   
+					var checkin = $('#sDate').datepicker({format: 'mm/dd/yyyy'}).on('changeDate', function (ev) {
+		   
+						if (ev.date.valueOf() > checkout.date.valueOf()) {
+		   
+							var newDate = new Date(ev.date)
+		   
+							newDate.setDate(newDate.getDate() + 1);
+		   
+							checkout.setValue(newDate);
+		   
+						}
+		   
+						checkin.hide();
 
-                    $('#eDate')[0].focus();
-       
-                }).data('datepicker');
+						$('#eDate')[0].focus();
+		   
+					}).data('datepicker');
 
-                var checkout = $('#eDate').datepicker({format: 'mm/dd/yyyy'}).on('changeDate', function (ev) {
- 
-                    checkout.hide();
+					var checkout = $('#eDate').datepicker({format: 'mm/dd/yyyy'}).on('changeDate', function (ev) {
+	 
+						checkout.hide();
 
-                }).data('datepicker');
-            });
+					}).data('datepicker');
+				});
 
-        </script>
-
-     * Setting up Search on the Appleseed Site.
+			</script>
+		
+    * Setting up Search on the Appleseed Site.
    
        * Login as admin. 
        * Click on the Site Manager(or Administration) tab on the left side of the	Admin Bar at the top. 
