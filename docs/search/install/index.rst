@@ -6,7 +6,7 @@ Appleseed Search Installation
 Appleseed Search Server for Solr Endpoint Alias 
 -------------
 
-Main Root for Admin Documentation for Appleseed Search
+This section explains how to configure Appleseed Search for a Solr 4 or Solr 5 Endpoint
 
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
