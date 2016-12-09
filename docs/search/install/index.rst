@@ -31,7 +31,7 @@ Main Root for Admin Documentation for Appleseed Search
 
 * Start the Solr Service. 
 
-    * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: ``bin\solr start -f -h 8983 -s example\appleseed-search\solr -V``. 
+    * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: ``bin\solr start -f -p 8983 -s example\appleseed-search\solr -V``. 
     * Make sure you are in the ``C:\Services\Appleseed.Search\solr\solr-4.10.4`` directory when you run it.
 
 .. image:: ../images/Fifth-Step.PNG
