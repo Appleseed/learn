@@ -6,6 +6,7 @@ Prerequisites
 
    * Sign up for a Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
    * Master Design Patterns	http://www.dofactory.com/net/design-patterns
+   * Master reStructured Text http://www.sphinx-doc.org/en/1.4.9/rest.html
 
 Interface
 -------------
