@@ -5,9 +5,9 @@ Appleseed Framework Developer Requirements
 
   * Sign up for a Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
   * Master Design Patterns	http://www.dofactory.com/net/design-patterns
- 
-* Interface
 
+* Interface
+ 
  * Master JavaScript	http://www.w3schools.com/js/default.asp
  * Master JQuery	http://www.w3schools.com/jquery/default.asp
  * Master Angular Interfaces 	https://angular.io/
@@ -35,6 +35,7 @@ Appleseed Framework Developer Requirements
  * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
 
 * Systems
+ 
  * Master Appleseed Framework	learn.appleseedapp.net
  * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
  * Master Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
