@@ -1,6 +1,3 @@
-
-.. include:: common.txt
-
 Welcome to the Appleseed Framework Documentation 
 =======================================================
 
@@ -28,6 +25,6 @@ Appleseed Portal. The software is free of charge and available `open source <htt
   docs/Portal/developer/index.rst
   docs/Portal/designer/index.rst
 
-
+.. include:: common.txt
  
  
