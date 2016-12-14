@@ -19,22 +19,42 @@ This section explains how to configure Appleseed Search for a Solr 4 or Solr 5 E
 
 .. image:: ../images/Second-Step.PNG
 
-* Export and Extract the solr-4.10.4.zip (or latest 4.x) file from the ``External/Software`` folder into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
+* Export and Extract your chosen Solr Verson ( 4 or 5 ) file from the Apache Mirror http://lucene.apache.org/solr/mirrors-solr-latest-redir.html into the ``C:\Services\Appleseed.Search\solr\<solr_install_directory>`` directory created earlier.
 
 .. image:: ../images/Third-Step.PNG
 
 * Copy the Appleseed Search Solr Configuration directory
 
-   * Copy.the ``\solr\solr-4.10.4\anant\appleseed-search`` directory into the ``.\solr\solr-4.10.4\example`` directory of the site.
+   * Copy.the ``\solr\solr-4.10.4\anant\appleseed-search`` directory into the ``.\solr\solr_install_directory\example`` directory of the Solr installation.
 
 .. image:: ../images/Fourth-Step.PNG
 
 * Start the Solr Service. 
 
     * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: ``bin\solr start -f -p 8983 -s example\appleseed-search\solr -V``. 
-    * Make sure you are in the ``C:\Services\Appleseed.Search\solr\solr-4.10.4`` directory when you run it.
+    * Make sure you are in the ``C:\Services\Appleseed.Search\solr\<solr_install_directory>`` directory when you run it.
 
 .. image:: ../images/Fifth-Step.PNG
+
+* (Windows Only) Install Solr as a service on the Server using PowerShell run as Administrator.
+	
+	* Install NSSM using chocolatey 
+	* Command to enter into PowerShell: 
+	* cinst nssm
+	* Install service with NSSM: ``nssm install <Title of Service> (i.e nssm install Solr5)``
+	* In the first panel that come up input the following 3 items:
+	* ``Path : C:\Services\Appleseed.Search\solr\solr_install_directory\bin\solr.cmd``
+	* ``Startup Directory : C:\Services\Appleseed.Search\solr\<solr_install_directory>``
+	* ``Arguments: start -f -p 8983 -s appleseed-search\solr -V``
+	* Click on the Details tab and enter these items:
+	* ``Display Name : Solr ( Version Number )``
+	* ``Description: Appleseed Search - Solr ( Version Number )``
+	* Make sure the Startup Type is set to Automatic.
+	* Click on the Install Service button toward the lower right. 
+	* If you need to edit the info above after the service is installed the command is: ``nssm edit <Title of Service>``
+	* Go to Control Panel => Administrative Tools and click on the Services shortcut.
+	* Scroll down to the name of the service ``(“<Title of Service> (i.e Solr5)”)``, double click on it and Start it. 
+
 
 * Verify Appleseed public and private are on the Solr server.
 
