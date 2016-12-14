@@ -12,4 +12,9 @@ Learn Appleseed Search
 This documentation is for Users, Builders, Designers, Developers,
 and Administrators of applications that are built on Appleseed Search.
 
+`Installation`_
+
+
+.. _Installation : install/
+
 .. include:: /common.txt
