@@ -1,7 +1,7 @@
 
 .. include:: common.txt
 
-Welcome to the Appleseed Portal Documentation 
+Welcome to the Appleseed Framework Documentation 
 =======================================================
 
 .. note ::
