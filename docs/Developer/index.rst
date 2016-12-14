@@ -42,7 +42,8 @@ Database
 Systems
 -------------
  
- * Master Appleseed Framework	learn.appleseedapp.net
+ * Master Appleseed Portal	http://learn.appleseedapp.net/en/latest/docs/Portal/
+ * Master Appleseed Search  http://learn.appleseedapp.net/en/latest/docs/search/
  * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
  * Master Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
  * Master IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
