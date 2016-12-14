@@ -11,3 +11,5 @@ Learn Appleseed Search
 
 This documentation is for Users, Builders, Designers, Developers,
 and Administrators of applications that are built on Appleseed Search.
+
+.. include:: /common.txt
