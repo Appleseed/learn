@@ -1,18 +1,21 @@
 Appleseed Framework Developer Requirements
 =======================================================
 
-* Prerequisites 
+Prerequisites 
+-------------
 
-  * Sign up for a Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
-  * Master Design Patterns	http://www.dofactory.com/net/design-patterns
+   * Sign up for a Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
+   * Master Design Patterns	http://www.dofactory.com/net/design-patterns
 
-* Interface
- 
- * Master JavaScript	http://www.w3schools.com/js/default.asp
- * Master JQuery	http://www.w3schools.com/jquery/default.asp
- * Master Angular Interfaces 	https://angular.io/
+Interface
+-------------
+  
+   * Master JavaScript	http://www.w3schools.com/js/default.asp
+   * Master JQuery	http://www.w3schools.com/jquery/default.asp
+   * Master Angular Interfaces 	https://angular.io/
 
-* Software
+Software
+-------------
  
    * Read over the C# Specification	http://msdn.microsoft.com/en-us/library/ms228593.aspx
    * Master C# Fundamentals	https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
@@ -26,7 +29,8 @@ Appleseed Framework Developer Requirements
    * Master ASP.NET Web API	http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
    * Master ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
 
-* Database
+Database
+-------------
  
  * Master SQL	http://www.w3schools.com/sql/default.asp
  * Master SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
@@ -34,7 +38,8 @@ Appleseed Framework Developer Requirements
  * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
 
-* Systems
+Systems
+-------------
  
  * Master Appleseed Framework	learn.appleseedapp.net
  * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
