@@ -14,14 +14,9 @@ This documentation is for Users, Builders, Designers, Developers, and Administra
 .. toctree::
     :titlesonly:
    
-  docs/Portal/index.rst
-  docs/Portal/intro/index.rst
-  docs/Portal/install/index.rst
-  docs/Portal/user/index.rst
-  docs/Portal/builder/index.rst
-  docs/Portal/admin/index.rst
-  docs/Portal/developer/index.rst
-  docs/Portal/designer/index.rst
+  docs/portal/index.rst
+  docs/search/index.rst
+  docs/developer/index.rst
 
 .. include:: common.txt
  
