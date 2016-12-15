@@ -42,7 +42,7 @@ Database
 Systems
 -------------
  
- * Master Appleseed Portal	http://learn.appleseedapp.net/en/latest/docs/Portal/
+ * Master Appleseed Portal	http://learn.appleseedapp.net/en/latest/docs/portal/
  * Master Appleseed Search  http://learn.appleseedapp.net/en/latest/docs/search/
  * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
  * Master Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
