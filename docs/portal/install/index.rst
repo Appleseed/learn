@@ -15,8 +15,7 @@ Quick Install
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
    * Scroll to the bottom and download the zip file.
-
-   Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
+   * Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
 
