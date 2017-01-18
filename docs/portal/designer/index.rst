@@ -15,8 +15,8 @@ This folder will include **.ascx** (ASP.NET control) and **.master** (ASP.NET ma
 
 A basic layout should have the following files :
 
-- DesktopAdmin.ascx - Sets up the layout of the Admin Bar that appears when an Admin user is logged in. This file should generally remain as it is when pulled from an existing theme as the Appleseed Admin Bar should remain constant.
-- DesktopPortalBanner.ascx - Sets up the layout of the Header section of the site including the logo and top menu. The existing them should have elements and code for the site logo and title, which should remain, so the user can add their own logo and/or title throught the Appleseed Portal interface which will look something like this: 
+- **DesktopAdmin.ascx** - Sets up the layout of the Admin Bar that appears when an Admin user is logged in. This file should generally remain as it is when pulled from an existing theme as the Appleseed Admin Bar should remain constant.
+- **DesktopPortalBanner.ascx** - Sets up the layout of the Header section of the site including the logo and top menu. The existing them should have elements and code for the site logo and title, which should remain, so the user can add their own logo and/or title throught the Appleseed Portal interface which will look something like this: 
     ``<a class="navbar-brand" href="/1">``
       ``<!-- Portal Logo Image Uploaded-->``
         ``<rbfwebui:headerimage id="PortalImage" … />``
@@ -26,18 +26,18 @@ A basic layout should have the following files :
       ``<!-- End Portal Title -->``
     ``</a>``
   There should also be similar code for the Portal Menu which should remain, which will look something like this:
-    ``<!-- Begin Portal Menu →``
+    ``<!-- Begin Portal Menu -->``
       ``<asp:Menu … >``
       ``</asp:Menu>``
     ``<!-- End Portal Menu -->``
   Other elements can be added around these as necessary for the new theme. 
-- DesktopFooter.ascx - Optionally sets up the layout of the Footer section. Fat Footer Layout that may be edited by the admin user should be put in an HTML module in the Bottom Pane of the site.
-- PanesMaster.master - Sets up the layout of the default Panes section of the site. Bootstrap classes should be added the <div> elements as necessary.
-- SiteMaster.master - Sets up the Head section of the HTML document, and the general layout, including the <body> element and the wrapping <form> element, if Web Forms is being used. Javascript files can be registered at the top of the file. Bootstrap classes should be added to the <div> elements as necessary.
+- **DesktopFooter.ascx** - Optionally sets up the layout of the Footer section. Fat Footer Layout that may be edited by the admin user should be put in an HTML module in the Bottom Pane of the site.
+- **PanesMaster.master** - Sets up the layout of the default Panes section of the site. Bootstrap classes should be added the <div> elements as necessary.
+- **SiteMaster.master** - Sets up the Head section of the HTML document, and the general layout, including the <body> element and the wrapping <form> element, if Web Forms is being used. Javascript files can be registered at the top of the file. Bootstrap classes should be added to the <div> elements as necessary.
 
 An alternate or child layout can be set up with just one file:
 
-- PanesMaster.ascx 
+- **PanesMaster.ascx** 
 
 The C# code at the top of this file should point back to the parent theme.
 <%@ Master Language="C#" MasterPageFile="~/Design/DesktopLayouts/*Parent_Theme_Name*/SiteMaster.master" 
@@ -48,10 +48,10 @@ Making a Theme
 --------------
 The files for editing or creating a theme are located in the /Design/Themes/*Theme_Name*/ folder:
 
-- Theme.xml - required, generally no need to change. 
-- default.css - basic CSS required for Appleseed
-- as-admin-bar.css - CSS for the Admin Bar
-- jquery-ui-1.9.2.custom.css - CSS for dialog boxes and other UI elements
+- **Theme.xml** - required, generally no need to change. 
+- **default.css** - basic CSS required for Appleseed
+- **as-admin-bar.css** - CSS for the Admin Bar
+- **jquery-ui-1.9.2.custom.css** - CSS for dialog boxes and other UI elements
 
 CSS files specific to the theme should be in a subfolder like this: /Design/Themes/*Theme_Name*/css. These files can then be referenced by <link> elements in the Sit
 
