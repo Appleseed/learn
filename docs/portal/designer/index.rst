@@ -5,7 +5,7 @@ Theme / Layout Designer Guide
 
 Overview 
 --------
-To setup a Theme/Layout on an Appleseed site requires the follow steps
+To setup a Theme/Layout on an Appleseed site requires the follow steps:
 
 - **Environment Setup**
 - **Making a Layout**
@@ -17,7 +17,7 @@ Environment Setup
 ---------------
 To work on the design of an Appleseed aite you need to have an Appleseed site installed, either set up on your local machine, or set up on the web with a way to push files to it, generally either by FTP or CICD. 
 
-The files for updating the design of an Appleseed site are located in the **/Design** folder of the site, which is one of the folders in the Appleseed folder locate in the root folder of the site. 
+The files for updating the design of an Appleseed site are located in the **/Design** folder of the site, which is in the Appleseed folder located in the root folder of the site. 
 
 Making a Layout
 ---------------
