@@ -3,9 +3,21 @@
 Theme / Layout Designer Guide
 =============================
 
-Overview
+Overview 
 --------
-The files for updating the design of an Appleseed site are located in the /Design folder of the site. 
+To setup a Theme/Layout on an Appleseed site requires the follow steps
+
+- **Environment Setup**
+- **Making a Layout**
+- **Making a Theme**
+- **Deploying the Layout and Theme**
+- **Setting/Switching Global Themes / Layouts**
+
+Environment Setup
+---------------
+To work on the design of an Appleseed aite you need to have an Appleseed site installed, either set up on your local machine, or set up on the web with a way to push files to it, generally either by FTP or CICD. 
+
+The files for updating the design of an Appleseed site are located in the **/Design** folder of the site, which is one of the folders in the Appleseed folder locate in the root folder of the site. 
 
 Making a Layout
 ---------------
@@ -53,21 +65,25 @@ The files for editing or creating a theme are located in the /Design/Themes/*The
 - **as-admin-bar.css** - CSS for the Admin Bar
 - **jquery-ui-1.9.2.custom.css** - CSS for dialog boxes and other UI elements
 
-CSS files specific to the theme should be in a subfolder like this: /Design/Themes/*Theme_Name*/css. These files can then be referenced by <link> elements in the Sit
-
-All themes should be responsive, and responsive design should be handled by the latest Bootstrap.css files. 
-
-
-Menu Design should be handled by the main theme CSS file or files. 
+CSS files specific to the theme should be in a subfolder like this: /Design/Themes/*Theme_Name*/css. These files can then be referenced by <link> elements in the Site.
 
 Other folders can be set up in the /Design/DesktopLayouts/*Theme_Name*/ such as:
 	/js - to hold javascript files used by the theme. jQuery and jQueryUI are alread set up in Appleseed, so they should not be referenced here. 
 	/images/ - to hold images used by the theme.Images that are not specific to the theme can be placed in the /Portals/_Appleseed/images/*Theme_Name*/ folder.
 
+**All themes should be responsive**, and responsive design should be handled by the latest **Bootstrap.css** files. 
+Make sure that the latest Bootstrap js file are in the /js folder and referenced in the 
+
+**Menu Design** should be handled by the main theme CSS file or files. 
+
+Deploying the Layout and Theme
+-----------------------
+Once the Layout and Theme have been set up, they can be deployed to an Applseed site on the web, by FTP or CICD. 
 
 Setting/Switching Global Themes / Layouts
 -----------------------
-Global Layouts and Themes for the whole site can be set or switched on the Site Settings page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting**” tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available.
+To apply your theme to the Appleseed site, you will then need to switch to your theme in the **Theme and layout settings**.
+Global Layouts and Themes for the whole site can be set or switched on the **Site Settings** page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting** tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available. Once your new theme and layout have been deployed to the site, you should be able to see them on this list,  choose them, click Apply Changes, and check out how the theme looks. 
 
 .. image:: ../images/site-settings-screenshot.png
 
@@ -77,6 +93,8 @@ Individual pages can also be set to a layout or theme different from those of th
 For example one or more pages may wish to have a different panes layout from that of the Home page. Setting up such a child layout has been described above. The layout or theme for a page can be changed by clicking on the **Edit This Page** button in the top Admin Menu, then selecting the **Page Settings** tab. Similar to above, under the **Theme and layout setting**” tab, there are fields for **Custom Layout** and ** Custom Theme** with dropdown menu arrows on the right, so you can choose from those available. 
 
 .. image:: ../images/edit-page-screenshot.png
+
+
 
 
 
