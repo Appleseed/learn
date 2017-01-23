@@ -91,6 +91,6 @@ Global Layouts and Themes for the whole site can be set or switched on the **Sit
 Page Themes / Layouts
 ---------------------
 Individual pages can also be set to a layout or theme different from those of the Site default. 
-For example, one or more pages may wish to have a different panes layout from that of the Home page. Setting up such a child layout has been described above. The layout or theme for a page can be changed by clicking on the **Edit This Page** button in the top Admin Menu, then selecting the **Page Settings** tab. Similar to above, under the **Theme and layout setting**” tab, there are fields for **Custom Layout** and ** Custom Theme** with dropdown menu arrows on the right, so you can choose from those available. 
+For example, one or more pages may wish to have a different panes layout from that of the Home page. Setting up such a child layout has been described above. The layout or theme for a page can be changed by clicking on the **Edit This Page** button in the top Admin Menu, then selecting the **Page Settings** tab. Similar to above, under the **Theme and layout settings** tab, there are fields for **Custom Layout** and **Custom Theme** with dropdown menu arrows on the right, so you can choose from those available. 
 
 .. image:: ../images/edit-page-screenshot.png
