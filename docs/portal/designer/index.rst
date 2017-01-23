@@ -1,4 +1,3 @@
-
 =============================
 Theme / Layout Designer Guide
 =============================
@@ -42,14 +41,15 @@ A basic layout should have the following files:
       <!-- End Portal Title -->
     </a>
     
-There should also be similar code for the Portal Menu which should remain, which will look something like this::
+- There should also be similar code for the Portal Menu which should remain, which will look something like this::
 
     <!-- Begin Portal Menu -->
       <asp:Menu … >
       </asp:Menu>
     <!-- End Portal Menu -->
     
-Other elements can be added around these as necessary for the new theme. 
+Other elements can be added around these as necessary for the new theme:
+
 - **DesktopFooter.ascx** - Optionally sets up the layout of the Footer section. Fat Footer Layout that may be edited by the admin user should be put in an HTML module in the Bottom Pane of the site.
 - **PanesMaster.master** - Sets up the layout of the default Panes section of the site. Bootstrap classes should be added the <div> elements as necessary.
 - **SiteMaster.master** - Sets up the Head section of the HTML document, and the general layout, including the <body> element and the wrapping <form> element, if Web Forms is being used. Javascript files can be registered at the top of the file. Bootstrap classes should be added to the <div> elements as necessary.
@@ -58,9 +58,10 @@ An alternate or child layout can be set up with just one file:
 
 - **PanesMaster.ascx** 
 
-The C# code at the top of this file should point back to the parent theme.
-<%@ Master Language="C#" MasterPageFile="~/Design/DesktopLayouts/*Parent_Theme_Name*/SiteMaster.master" 
-AutoEventWireup="true" %>
+The C# code at the top of this file should point back to the parent theme::
+
+    <%@ Master Language="C#" MasterPageFile="~/Design/DesktopLayouts/*Parent_Theme_Name*/SiteMaster.master" 
+    AutoEventWireup="true" %>
 
 
 Theme Files Setup
