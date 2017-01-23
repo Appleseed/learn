@@ -76,8 +76,9 @@ The files for editing or creating a theme are located in the /Design/Themes/*The
 CSS files specific to the theme should be in a subfolder like this: /Design/Themes/*Theme_Name*/css. These files can then be referenced by <link> elements in the Site.
 
 Other folders can be set up in the /Design/DesktopLayouts/*Theme_Name*/ such as:
-    /js - to hold javascript files used by the theme. jQuery and jQueryUI are already set up in Appleseed, so they should not be referenced here. 
-    /images/ - to hold images used by the theme.Images that are not specific to the theme can be placed in the /Portals/_Appleseed/images/*Theme_Name*/ folder.
+    
+    - /js - to hold javascript files used by the theme. jQuery and jQueryUI are already set up in Appleseed, so they should not be referenced here. 
+    - /images/ - to hold images used by the theme.Images that are not specific to the theme can be placed in the /Portals/_Appleseed/images/*Theme_Name*/ folder.
 
 **All themes should be responsive**, and responsive design should be handled by the latest **Bootstrap.css** files. 
 Make sure that the latest Bootstrap js file are in the /js folder and referenced in the 
