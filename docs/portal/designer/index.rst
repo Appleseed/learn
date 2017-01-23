@@ -5,13 +5,13 @@ Theme / Layout Designer Guide
 
 Overview 
 --------
-To setup a Theme/Layout on an Appleseed site requires the follow steps:
+To setup a Theme & Layout on an Appleseed site requires the follow steps:
 
 - **Environment Setup**
-- **Making a Layout**
-- **Making a Theme**
-- **Deploying the Layout and Theme**
-- **Setting/Switching Global Themes / Layouts**
+- **Make a Layout**
+- **Theme Files Setup**
+- **Deploy Layout and Theme Changes**
+- **Set your Theme And Layout**
 
 Environment Setup
 ---------------
@@ -56,7 +56,7 @@ The C# code at the top of this file should point back to the parent theme.
 AutoEventWireup="true" %>
 
 
-Making a Theme
+Theme Files Setup
 --------------
 The files for editing or creating a theme are located in the /Design/Themes/*Theme_Name*/ folder:
 
@@ -76,11 +76,12 @@ Make sure that the latest Bootstrap js file are in the /js folder and referenced
 
 **Menu Design** should be handled by the main theme CSS file or files. 
 
-Deploying the Layout and Theme
+Deploy Layout and Theme Changes  
 -----------------------
-Once the Layout and Theme have been set up, they can be deployed to an Applseed site on the web, by FTP or CICD. 
+Once the Layout and Theme have been set up, changes can be deployed to an Applseed site on the web, by FTP or CICD. 
+Simply map your Layout to /Design/Layout/<your_folder>  and map your Theme Files to /Design/Themes/<your_folder>
 
-Setting/Switching Global Themes / Layouts
+Set your Theme And Layout
 -----------------------
 To apply your theme to the Appleseed site, you will then need to switch to your theme in the **Theme and layout settings**.
 Global Layouts and Themes for the whole site can be set or switched on the **Site Settings** page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting** tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available. Once your new theme and layout have been deployed to the site, you should be able to see them on this list,  choose them, click Apply Changes, and check out how the theme looks. 
