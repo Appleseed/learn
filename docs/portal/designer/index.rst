@@ -3,6 +3,7 @@
 Theme / Layout Designer Guide
 =============================
 
+
 Overview 
 --------
 To setup a Theme & Layout on an Appleseed site requires the follow steps:
@@ -13,11 +14,13 @@ To setup a Theme & Layout on an Appleseed site requires the follow steps:
 - **Deploy Layout and Theme Changes**
 - **Set your Theme And Layout**
 
+
 Environment Setup
 ---------------
 To work on the design of an Appleseed site you need to have an Appleseed site installed, either set up on your local machine or set up on the web with a way to push files to it, generally either by FTP or CICD. 
 
 The files for updating the design of an Appleseed site are located in the **/Design** folder of the site, which is in the Appleseed folder located in the root folder of the site. 
+
 
 Making a Layout
 ---------------
@@ -80,10 +83,12 @@ Make sure that the latest Bootstrap js file are in the /js folder and referenced
 
 **Menu Design** should be handled by the main theme CSS file or files. 
 
+
 Deploy Layout and Theme Changes  
 -----------------------
 Once the Layout and Theme have been set up, changes can be deployed to an Applseed site on the web, by FTP or CICD. 
 Simply map your Layout to /Design/Layout/<your_folder>  and map your Theme Files to /Design/Themes/<your_folder>
+
 
 Set your Theme And Layout
 -----------------------
@@ -91,6 +96,7 @@ To apply your theme to the Appleseed site, you will then need to switch to your 
 Global Layouts and Themes for the whole site can be set or switched on the **Site Settings** page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout settings** tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available. Once your new theme and layout have been deployed to the site, you should be able to see them on this list,  choose them, click Apply Changes, and check out how the theme looks. 
 
 .. image:: ../images/site-settings-screenshot.png
+
 
 Page Themes / Layouts
 ---------------------
