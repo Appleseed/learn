@@ -28,20 +28,24 @@ This folder will include **.ascx** (ASP.NET control) and **.master** (ASP.NET ma
 A basic layout should have the following files:
 
 - **DesktopAdmin.ascx** - Sets up the layout of the Admin Bar that appears when an Admin user is logged in. This file should generally remain as it is when pulled from an existing theme as the Appleseed Admin Bar should remain constant.
-- **DesktopPortalBanner.ascx** - Sets up the layout of the Header section of the site including the logo and top menu. The existing theme should have elements and code for the site logo and title, which should remain, so the user can add their own logo and/or title through the Appleseed Portal interface which will look something like this: 
-    ``<a class="navbar-brand" href="/1">``
-      ``<!-- Portal Logo Image Uploaded-->``
-        ``<rbfwebui:headerimage id="PortalImage" … />``
-      ``<!-- End Portal Logo-->``
-      ``<!-- Portal Title -->``
-        ``<rbfwebui:headertitle id="PortalTitle" … ></rbfwebui:headertitle>``
-      ``<!-- End Portal Title -->``
-    ``</a>``
-There should also be similar code for the Portal Menu which should remain, which will look something like this:
-    ``<!-- Begin Portal Menu -->``
-      ``<asp:Menu … >``
-      ``</asp:Menu>``
-    ``<!-- End Portal Menu -->``
+- **DesktopPortalBanner.ascx** - Sets up the layout of the Header section of the site including the logo and top menu. The existing theme should have elements and code for the site logo and title, which should remain, so the user can add their own logo and/or title through the Appleseed Portal interface which will look something like this::
+
+    <a class="navbar-brand" href="/1">
+      <!-- Portal Logo Image Uploaded-->
+        <rbfwebui:headerimage id="PortalImage" … />
+      <!-- End Portal Logo-->
+      <!-- Portal Title -->
+        <rbfwebui:headertitle id="PortalTitle" … ></rbfwebui:headertitle>
+      <!-- End Portal Title -->
+    </a>
+    
+There should also be similar code for the Portal Menu which should remain, which will look something like this::
+
+    <!-- Begin Portal Menu -->
+      <asp:Menu … >
+      </asp:Menu>
+    <!-- End Portal Menu -->
+    
 Other elements can be added around these as necessary for the new theme. 
 - **DesktopFooter.ascx** - Optionally sets up the layout of the Footer section. Fat Footer Layout that may be edited by the admin user should be put in an HTML module in the Bottom Pane of the site.
 - **PanesMaster.master** - Sets up the layout of the default Panes section of the site. Bootstrap classes should be added the <div> elements as necessary.
@@ -84,7 +88,7 @@ Simply map your Layout to /Design/Layout/<your_folder>  and map your Theme Files
 Set your Theme And Layout
 -----------------------
 To apply your theme to the Appleseed site, you will then need to switch to your theme in the **Theme and layout settings**.
-Global Layouts and Themes for the whole site can be set or switched on the **Site Settings** page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout setting** tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available. Once your new theme and layout have been deployed to the site, you should be able to see them on this list,  choose them, click Apply Changes, and check out how the theme looks. 
+Global Layouts and Themes for the whole site can be set or switched on the **Site Settings** page from the **Site Manager** dropdown in the top Admin Menu. Under the **Theme and layout settings** tab, there are fields for **Page Layout** and **Theme** with dropdown menu arrows on the right, so you can choose from those available. Once your new theme and layout have been deployed to the site, you should be able to see them on this list,  choose them, click Apply Changes, and check out how the theme looks. 
 
 .. image:: ../images/site-settings-screenshot.png
 
