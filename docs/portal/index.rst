@@ -12,7 +12,7 @@ Learn Appleseed Portal
 This documentation is for Users, Builders, Designers, Developers,
 and Administrators of applications that are built on Appleseed Portal.
 
-|stub-icon| `Introduction`_
+`Introduction`_ |stub-icon| 
 
 
 A brief introuction to the Appleseed Portal Project.
@@ -22,7 +22,7 @@ A brief introuction to the Appleseed Portal Project.
 
 For Getting Started with Appleseed and installation into different environments.
 
-|stub-icon| `User Guide`_
+`User Guide`_ |stub-icon| 
 
 
 For site users that want to know how to find, add and manage content for
@@ -46,7 +46,7 @@ backup content, and manage multiple sites.
 For site developers that want to extend the basic functionality of the
 Appleseed software with different types of modules and connectors.
 
-|stub-icon| `Designer Guide`_
+`Designer Guide`_ |stub-icon| 
 
 
 For site designers that want to change the look and feel of the portal,
