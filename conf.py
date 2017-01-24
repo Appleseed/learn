@@ -6,7 +6,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 project = u'Learn Appleseed'
-copyright = u'2008-2016, ANANT Corporation'
+copyright = u'2008-2017, Anant Corporation'
 
 version = '1.0.7.0'
 
