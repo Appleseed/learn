@@ -39,6 +39,8 @@ Database
  * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
  * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
+ * Master Datastax Installation & Concepts https://www.datastax.com/
+ * Master MongoDB Concepts https://docs.mongodb.com/
 
 Systems
 -------------
@@ -53,7 +55,6 @@ Systems
  * Master IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
  * Master Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
  * Master Apache Solr http://lucene.apache.org/solr/nod
- * Master Datastax Installation & Concepts https://www.datastax.com/
  * Master Docker	https://docs.docker.com/
  * Master Docker Compose	https://docs.docker.com/compose/overview/
  * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
