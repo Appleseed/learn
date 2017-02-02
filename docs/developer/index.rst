@@ -45,6 +45,7 @@ Database
  * Master Datastax Installation & Concepts https://www.datastax.com/
  * Master MongoDB Concepts https://docs.mongodb.com/
  * Master MySQL https://www.tutorialspoint.com/mysql/
+ * Master Redis https://redis.io/
 
 Systems
 -------------
