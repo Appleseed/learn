@@ -14,10 +14,13 @@ Interface
    * Master JavaScript	http://www.w3schools.com/js/default.asp
    * Master JQuery	http://www.w3schools.com/jquery/default.asp
    * Master Angular Interfaces 	https://angular.io/
+   * Master React https://facebook.github.io/react/
 
 Software
 -------------
  
+   * Master Java https://www.learnjavaonline.org/
+   * Master Scala http://www.scala-lang.org/documentation/
    * Read over the C# Specification	http://msdn.microsoft.com/en-us/library/ms228593.aspx
    * Master C# Fundamentals	https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
    * Master ASP.NET 4.6 State Management 	https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
@@ -41,6 +44,7 @@ Database
  * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
  * Master Datastax Installation & Concepts https://www.datastax.com/
  * Master MongoDB Concepts https://docs.mongodb.com/
+ * Master MySQL https://www.tutorialspoint.com/mysql/
 
 Systems
 -------------
@@ -58,27 +62,10 @@ Systems
  * Master Docker	https://docs.docker.com/
  * Master Docker Compose	https://docs.docker.com/compose/overview/
  * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ * Master Redash https://redash.io/
+ * Master Nuget https://docs.microsoft.com/en-us/nuget/
+ * Master NPM https://www.npmjs.com/
+ * Master Bower https://bower.io/
 
 
 
