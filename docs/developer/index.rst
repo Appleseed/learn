@@ -45,7 +45,7 @@ Database
  * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
  * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
- * Master Datastax Installation & Concepts https://www.datastax.com/
+ * Master Datastax Installation & Concepts https://academy.datastax.com/courses
  * Master MongoDB Concepts https://docs.mongodb.com/
  * Master MySQL https://www.tutorialspoint.com/mysql/
  * Master Redis https://redis.io/
