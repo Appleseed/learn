@@ -17,6 +17,7 @@ Interface
    * Master JQuery	http://www.w3schools.com/jquery/default.asp
    * Master Angular Interfaces 	https://angular.io/
    * Master React https://facebook.github.io/react/
+   * Master TypeScript https://www.typescriptlang.org/docs/tutorial.html
 
 Software
 -------------
