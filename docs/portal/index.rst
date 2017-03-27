@@ -22,6 +22,10 @@ A brief introuction to the Appleseed Portal Project.
 
 For Getting Started with Appleseed and installation into different environments.
 
+`Upgrade`_
+
+For Upgrading Current Installations of Appleseed Portal.
+
 `User Guide`_ |stub-icon| 
 
 
@@ -59,5 +63,6 @@ pages, and modules using themes, layouts, and local theme overrides.
 .. _Designer Guide: designer/
 .. _Introduction : intro/
 .. _Installation : install/
+.. _Upgrade : install/upgrade.rst
 
 .. include:: /common.txt
