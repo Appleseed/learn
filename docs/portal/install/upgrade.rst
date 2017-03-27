@@ -7,12 +7,12 @@ Upgrade Instructions
 Manual Upgrade 
 --------------
 
-* Backup your website files
-* Backup your database
-* Make sure you completed steps 2 and 3
+* Backup your website / portal directory as a zip.
+* Backup your portal SQL database using SQL Server Management Studio.
+* Make sure you have completed the above two steps BEFORE proceeding.
 * Download the latest stable release of Appleseed Portal.
 * Restore the backed up website to a new folder path on your web server.
-* Configure IIS for a new website on a different port ( 81)
+* Configure IIS for a new website on a different port ( 81 )
 * Setup Permissions on the file system
 * Restore the database to a NEW database name.
 * Modify the web.config of the new website to point to the new database
