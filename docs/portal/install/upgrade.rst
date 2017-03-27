@@ -1,8 +1,7 @@
 Upgrade Instructions
 =======================================================
 
-.. note ::
-  This site is a work in progress. Topics marked with a  |stub-icon|  are placeholders that are currently being written. You can track the status of these topics through our public documentation `issue tracker <https://github.com/appleseed/learn/issues>`_.
+ 
 
 Manual Upgrade 
 --------------
@@ -11,7 +10,7 @@ Manual Upgrade
 * Backup your custom application database if your instance has custom modules.
 * Backup your portal SQL database using SQL Server Management Studio.
 * Make sure you have completed the above two steps BEFORE proceeding.
-* Download the latest stable release of Appleseed Portal.
+* Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
 * Restore the backed up website to a new folder path on your web server.
 * Configure IIS for a new website on a different port ( 81 )
 * Setup Permissions on the file system
