@@ -63,6 +63,6 @@ pages, and modules using themes, layouts, and local theme overrides.
 .. _Designer Guide: designer/
 .. _Introduction : intro/
 .. _Installation : install/
-.. _Upgrade : install/upgrade.rst
+.. _Upgrade : install/upgrade
 
 .. include:: /common.txt
