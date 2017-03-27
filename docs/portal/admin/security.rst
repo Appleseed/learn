@@ -10,6 +10,7 @@ HTTPS Security
 * Add the below rule to your web.config <system.webserver> node
 
 .. code-block:: guess
+
     <rule name="Redirect to HTTPS">
         <match url="(.*)" />
         <conditions>
