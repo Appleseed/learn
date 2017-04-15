@@ -22,7 +22,7 @@ A brief introuction to the Appleseed Portal Project.
 
 For Getting Started with Appleseed and installation into different environments.
 
-`Upgrade`_
+`Upgrade`_ |stub-icon| 
 
 For Upgrading Current Installations of Appleseed Portal.
 
