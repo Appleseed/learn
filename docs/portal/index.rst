@@ -6,6 +6,7 @@ Learn Appleseed Portal
 
 .. toctree::
    :titlesonly:
+     maxdepth: 3
 
 
 
