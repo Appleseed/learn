@@ -1,6 +1,7 @@
 Appleseed Portal Installation
 =============================
 
+.. contents::
 
 Quick Install
 -------------
