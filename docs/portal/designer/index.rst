@@ -1,6 +1,6 @@
-=============================
-Theme / Layout Designer Guide
-=============================
+================
+Designer Guide
+================
 
 .. contents:: Table of Contents
 
