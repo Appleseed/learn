@@ -2,6 +2,7 @@
 Theme / Layout Designer Guide
 =============================
 
+.. contents:: Table of Contents
 
 Overview 
 --------
