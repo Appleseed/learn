@@ -1,6 +1,10 @@
 Appleseed Portal Installation
 =============================
 
+.. toctree::
+   :titlesonly:
+   maxdepth: 2
+
 .. contents:: Table of Contents
 
 Manual Installation
