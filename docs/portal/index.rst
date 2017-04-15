@@ -32,19 +32,19 @@ For Upgrading Current Installations of Appleseed Portal.
 For site users that want to know how to find, add and manage content for
 general use.
 
-`Builder Guide`_
+`Builder Guide`_ |stub-icon| 
 
 
 For site builders that want to know how to add and manage pages, modules
 as a power user.
 
-`Administrator Guide`_
+`Administrator Guide`_ |stub-icon| 
 
 
 For site administrators that want to know how to administer portals,
 backup content, and manage multiple sites.
 
-`Developer Guide`_
+`Developer Guide`_ |stub-icon| 
 
 
 For site developers that want to extend the basic functionality of the
