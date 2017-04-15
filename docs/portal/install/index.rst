@@ -1,10 +1,10 @@
 Appleseed Portal Installation
 =============================
 
-.. contents::
+.. contents:: Table of Contents
 
-Quick Install
--------------
+Manual Installation
+-------------------
 * Requirements
 
  *  .NET Framework 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
