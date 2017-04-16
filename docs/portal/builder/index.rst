@@ -115,4 +115,4 @@ Module Security
 
 .. _Developer Guide: developer/
 
-.. include:: common.txt
+.. include:: /./common.txt
