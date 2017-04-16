@@ -1,3 +1,4 @@
+=============================
 Appleseed Search Installation
 =============================
 
@@ -347,7 +348,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 Update styling as necessary in the as-search.css file added to the ``\Design\Themes\[Theme used]\css`` folder.
 
 
-
+.. include:: /././common.txt
 
 
 
