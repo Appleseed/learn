@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+   
 =========================
 Secure Appleseed Portal
 =========================
