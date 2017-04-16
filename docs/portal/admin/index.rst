@@ -146,3 +146,5 @@ Admin - Web Services (in development)
 
 The Administrative Web Services can be used to gain access to Portal ,
 Page, and Module Settings and Data.
+
+.. include:: /./common.txt
