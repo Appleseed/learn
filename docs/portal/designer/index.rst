@@ -115,3 +115,4 @@ For example, one or more pages may wish to have a different panes layout from th
 
 .. image:: ../images/edit-page-screenshot.png
 
+.. include:: /common.txt
