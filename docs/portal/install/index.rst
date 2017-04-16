@@ -152,3 +152,5 @@ Quick Install
 
   * Use the default login admin@appleseedportal.net \| admin
   * Use Edit Profile to change your password
+
+  .. include:: /common.txt
