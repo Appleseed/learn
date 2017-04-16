@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+   
 ==========
 User Guide
 ==========
