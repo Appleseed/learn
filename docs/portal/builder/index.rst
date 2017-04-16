@@ -1,5 +1,5 @@
 =========================
-Site / Page Builder Guide
+Site Builder Guide
 =========================
 
 Portal - The Main Site
