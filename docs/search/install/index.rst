@@ -2,7 +2,7 @@
 Appleseed Search Installation
 =============================
 
-
+.. contents:: Table of Contents
 
 Appleseed Search Server for Solr Endpoint Alias 
 -------------
