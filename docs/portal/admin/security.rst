@@ -28,3 +28,5 @@ HTTPS Security
 
 .. toctree::
     :titlesonly:
+
+.. include:: /./common.txt
