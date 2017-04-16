@@ -1,3 +1,4 @@
+================
 Introduction
 ================
 
@@ -19,4 +20,4 @@ Appleseed takes a giant step towards solving this problem by giving businesses a
 Appleseed has been built to function well with in a variety of legal frameworks and takes into account both international and national trade law.
 
 
-.. include:: common.txt
+.. include:: /common.txt
