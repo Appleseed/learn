@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+
 ======================
 Module Developer Guide
 ======================
