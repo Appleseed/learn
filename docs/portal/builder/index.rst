@@ -1,4 +1,4 @@
-.. include:: common.txt
+
 
 Site / Page Builder Guide
 =========================
@@ -114,3 +114,5 @@ Module Security
 
 
 .. _Developer Guide: developer/
+
+.. include:: common.txt
