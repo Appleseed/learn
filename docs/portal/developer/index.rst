@@ -68,3 +68,5 @@ Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** dir
  * If you have installed your module correctly, you should see your module on the page
 
   .. image:: ../images/Module_to_appleseed_final.jpg
+
+  .. include:: /common.txt
