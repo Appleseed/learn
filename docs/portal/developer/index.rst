@@ -2,6 +2,8 @@
 Module Developer Guide
 ======================
 
+.. contents:: Table of Contents
+
 Overview
 --------
 
