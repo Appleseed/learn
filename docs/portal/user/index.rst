@@ -2,6 +2,8 @@
 User Guide
 ==========
 
+.. contents:: Table of Contents
+
 This documentation is meant to be a starting point for folks that want
 to know how to use the basic features of the software as a logged in end
 user.
