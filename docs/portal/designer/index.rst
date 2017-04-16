@@ -1,11 +1,13 @@
+.. toctree::
+   :titlesonly:
+
 ================
 Designer Guide
 ================
 
 .. contents:: Table of Contents
-.. toctree::
-   :titlesonly:
-     maxdepth: 3
+
+    
 
 Overview 
 --------
