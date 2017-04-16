@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+
 =========================
 Site Builder Guide
 =========================
