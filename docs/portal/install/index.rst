@@ -1,14 +1,10 @@
+=============================
 Appleseed Portal Installation
 =============================
 
-.. toctree::
-   :titlesonly:
-   maxdepth: 2
 
-.. contents:: Table of Contents
-
-Manual Installation
--------------------
+Quick Install
+-------------
 * Requirements
 
  *  .NET Framework 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
@@ -20,7 +16,8 @@ Manual Installation
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
    * Scroll to the bottom and download the zip file.
-   * Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
+
+   Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
 
@@ -30,19 +27,18 @@ Manual Installation
 
     .. image:: ../images/Server-Error.png
 
-
-  * Create an empty SQL Server Database in a SQL Server Instance.
+  * Create an Empty SQL Server Database in a SQL Server Instance
    * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
    * Enter a name in the Database Name: field.
 
     .. image:: ../images/Database-Setup.jpg
 
 
- * Set up NT AUTHORITY/NETWORK SERVICE as a login if it doesn't exist.
+ * Set up NT AUTHORITY/NETWORK SERVICE as a Login if it doesn't exist
 
     .. image:: ../images/Login-User.png
 
-   * Right Click on the Logins folder in the main Security folder.
+   * Right Click on the Logins folder in the main Security folder
    * Select "New Login.."
    * Click on the Search button next to the Login Name field.
    * Click on the "Advanced..." button.
@@ -55,19 +51,19 @@ Manual Installation
     .. image:: ../images/User-Access1.jpg
 
 
-  * Give this user db_owner in the user mapping section to your database.
+  * Give this user db_owner in the user mapping section to your Database
 
    .. image:: ../images/User-Access2.jpg
 
 
-  * Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
 
-* Set up the Appleseed Site.
-  * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ].
+* Set up the Appleseed Site
+  * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
     .. image:: ../images/Unzip.jpg
 
- * Change permissions on the Appleseed directories.
+ * Change permissions on the Appleseed directories
   * Right click on the Website Folder (e.g. / Appleseed Website).
   * Click on the *Properties* button at the bottom.
   * Click on the "Security* tab at the top (third from the left).
@@ -77,15 +73,15 @@ Manual Installation
 
   * In the next window click on the find now button in the middle.
   * Find "NETWORK SERVICE" in the list, highlight it, and click "OK".
-  * Click "OK" in the next window.
+  * Click "OK" in the next window
   * In the next window, highlight "NETWORK SERVICE", click on the Full Control checkbox in the Permissions box, then click "Apply".
   * Click on the "Edit", "Add", "Advanced..." and "Find Now" buttons again.
   * Find "IUSR" in the list, highlight it, and Click on "OK".
-  * Click "OK" in the next window.
+  * Click "Ok" in the next window.
   * In the next window, highlight "IUSR", uncheck all except the "Read" checkbox in the Permissions box, then click "Apply".
   * Click "OK" in the remaining windows.
 
-  * Or watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
+  Or watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
 
 
@@ -96,9 +92,9 @@ Manual Installation
     .. image:: ../images/IIS-Manager.png
 
 
-  * Create a site in IIS with a .NET 4.0 Application Pool.
+  * Create a Site in IIS with a .NET 4.0 Application Pool.
    * Right click on the Sites folder and click on "Add Website".
-   * Enter the site name (e.g. Appleseed.Website).
+   * Enter the Site name (e.g. Appleseed.Website).
 
     .. image:: ../images/IIS1.jpg
 
@@ -112,7 +108,7 @@ Manual Installation
 
     .. image:: ../images/IIS3.jpg
 
-  * If you have never used your computer for Web Hosting before, you may get the following error.
+  If you have never used your computer for Web Hosting before, you may get the following error.
 
     .. image:: ../images/Web-Hosting-Error.png
   To fix this, type "Windows Features" in the Control Panel
@@ -124,14 +120,14 @@ Manual Installation
     .. image:: ../images/Windows-Features-Instructions.png
 
 
-  * Or watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=G9nhra9q1-U>`_.
 
   * Browse your Site which will cause a redirect to the Web Installer
 
     .. image:: ../images/Web-Installer.jpg
 
 
-  * Or watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
+   Or watch the video `here <https://www.youtube.com/watch?v=pz0REALGX74>`_.
 
 * Web Installer
 
@@ -141,16 +137,18 @@ Manual Installation
               .. image:: ../images/Directories-Access.jpg
 
 
-       * The Web Installer will do an environment check to ensure the proper permissions.
-       * Web.config – Needs write if you want the web installer to set your web.config up for you [ recommended ].
-       * This should be removed after install.
-       * \\rb_logs – Needs write to provide error / info logs.
-       * \\Portals – Needs write to allow writing site files.
-  
-  * Choose a default admin user email and password.  
+       * The Web Installer will do an environment check to ensure the proper permissions
+       * Web.config – Needs write if you want the web installer to set your web.config up for you [ recommended ]
+       * This should be removed after install
+       * \\rb_logs – Needs write to provide error / info logs
+       * \\Portals – Needs write to allow writing site files
 
-* Post-installation
+* Post Installation
 
-  * On successful installation you should see a bootstrap theme and a login.
+  * On successful installation you should see a bootstrap theme and a login
 
     .. image:: ../images/Portal.jpg
+
+
+  * Use the default login admin@appleseedportal.net \| admin
+  * Use Edit Profile to change your password
