@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+
 ===================================== 
 Appleseed Search Server Installation
 ===================================== 
