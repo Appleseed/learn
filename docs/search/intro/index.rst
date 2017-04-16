@@ -1,4 +1,5 @@
-Introduction to the Appleseed Search Project
+Introduction to Appleseed Search  
+================================ 
 
 
 .. include:: /././common.txt
