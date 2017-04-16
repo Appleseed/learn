@@ -26,4 +26,4 @@ Manual Upgrade
 .. toctree::
     :titlesonly:
   
-.. include:: common.txt
+.. include:: /./common.txt
