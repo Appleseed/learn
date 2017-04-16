@@ -1,3 +1,6 @@
+.. toctree::
+   :titlesonly:
+   
 ================================
 Introduction to Appleseed Search  
 ================================ 
