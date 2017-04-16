@@ -40,4 +40,4 @@ The default account and password for admin is admin@appleseedportal.net | admin.
 Additional Information
 ----------------------
 
-.. include:: common.txt
+.. include:: /common.txt
