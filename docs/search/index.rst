@@ -10,8 +10,7 @@ Learn Appleseed Search
 
 
 
-This documentation is for Users, Builders, Designers, Developers,
-and Administrators of applications that are built on Appleseed Search.
+This documentation is for Users, Builders, Designers, Developers, and Administrators of applications that are built on Appleseed Search.  Appleseed Search helps companies find their information burried deep in different silos.
 
 `Installation`_
 
