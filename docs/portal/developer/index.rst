@@ -65,7 +65,7 @@ Development
 
  * Usual Scenarios for your module to Fail to load. 
  
-    - All dependent dlls are not added to your bin directory
+    - All dependent dlls are not added to your bin directory.
     - The location of your ascx file in your install script was incorrect. 
     - Web.config changes are not transferred from your project web.config to your appleseed portal web.config
  
