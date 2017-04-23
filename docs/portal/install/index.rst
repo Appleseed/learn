@@ -60,6 +60,7 @@ Quick Install
    Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
 
 * Set up the Appleseed Site
+  
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
     .. image:: ../images/Unzip.jpg
