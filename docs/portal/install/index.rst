@@ -86,8 +86,7 @@ Quick Install
 
   Or watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
-
-
+  
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
   * In the Connections section, click the grey triangle next to the Computer's name to access the Sites folder.
