@@ -76,7 +76,7 @@ Quick Install
 
   * In the next window click on the find now button in the middle.
   * Find "NETWORK SERVICE" in the list, highlight it, and click "OK".
-  * Click "OK" in the next window
+  * Click "OK" in the next window.
   * In the next window, highlight "NETWORK SERVICE", click on the Full Control checkbox in the Permissions box, then click "Apply".
   * Click on the "Edit", "Add", "Advanced..." and "Find Now" buttons again.
   * Find "IUSR" in the list, highlight it, and Click on "OK".
