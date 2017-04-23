@@ -12,7 +12,7 @@ Quick Install
  *  SQL Server All Editions (Express tested) 2005 - 2016
  *  Visual Studio 2015 All Editions (Community Tested) for development
 
-* Release
+* Grab the Latest Release
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
   * Scroll to the bottom and download the zip file.
