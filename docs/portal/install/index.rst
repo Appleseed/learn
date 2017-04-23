@@ -39,7 +39,7 @@ Quick Install
 
     .. image:: ../images/Login-User.png
 
-   * Right Click on the Logins folder in the main Security folder
+   * Right Click on the Logins folder in the main Security folder located at the bottom left
    * Select "New Login.."
    * Click on the Search button next to the Login Name field.
    * Click on the "Advanced..." button.
