@@ -45,7 +45,7 @@ Development
 
 * Deploy your ASCX User controls to your Appleseed Portal **DesktopModules\\CustomModules\\<Module>** directory (create CustomModules folder if doesn't exist yet).
   
- * Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** directory (.cs files are not required).
+* Deploy your main and dependent assemblies to your Appleseed Portal **\\bin** directory (.cs files are not required).
 
 * Run the Install SQL Script on your Appleseed Portal installation Database. The script is located here in a standard Appleseed Portal install **root\\DesktopModules\\CommunityModules\\OneFileModule\\CSharp Examples\\Simple\\DBPatch.sql**
     * Simply change the following script values
