@@ -116,7 +116,7 @@ Quick Install
     To fix this, type "Windows Features" in the Control Panel.
     Expand the "Internet Information Services" folder.
     Expand the "World Wide Web Services" folder.
-   Expand the "Application Development Features" folder.
+    Expand the "Application Development Features" folder.
     In this folder make sure to check the following boxes.
 
     .. image:: ../images/Windows-Features-Instructions.png
