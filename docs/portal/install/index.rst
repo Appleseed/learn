@@ -29,7 +29,7 @@ Quick Install
 
    * Create an Empty SQL Server Database in a SQL Server Instance.
    * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
-   * Enter a name in the Database Name field IE Appleseed .
+   * Enter a name in the Database Name field IE Appleseed.
 
     .. image:: ../images/Database-Setup.jpg
 
