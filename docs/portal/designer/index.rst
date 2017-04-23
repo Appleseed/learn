@@ -17,7 +17,7 @@ To setup a Theme & Layout on an Appleseed site requires the follow steps:
 - **Make a Layout
 - **Theme Files Setup
 - **Deploy Layout and Theme Changes
-- **Set your Theme And Layout**
+- **Set your Theme And Layout
 
 
 Environment Setup
