@@ -22,7 +22,7 @@ Quick Install
 * Database
 
   * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
-  * Launch SQL Server Management Studio and connect to the server.
+  * Launch SQL Server Management Studio and connect to the server instance you have installed.
   * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers
 
     .. image:: ../images/Server-Error.png
