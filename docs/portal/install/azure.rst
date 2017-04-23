@@ -1,9 +1,8 @@
-
-Installing Appleseed on Azure
+=============================
+Installing Appleseed Portal on Azure
 =============================
 
-Web Platform Installer
-----------------------
+
 
 Manual Installation
 -------------------
