@@ -10,3 +10,5 @@ Manual Installation
 
 Docker Composure 
 -------------------
+
+.. include:: /common.txt
