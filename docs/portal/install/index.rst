@@ -27,7 +27,7 @@ Quick Install
 
     .. image:: ../images/Server-Error.png
 
-  * Create an Empty SQL Server Database in a SQL Server Instance
+   * Create an Empty SQL Server Database in a SQL Server Instance
    * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
    * Enter a name in the Database Name: field.
 
