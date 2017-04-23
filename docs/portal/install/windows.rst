@@ -2,35 +2,39 @@
 Installing Appleseed on Windows
 ===============================
 
+=============================
+Appleseed Portal Installation
+=============================
 
 
 Quick Install
 -------------
 * Requirements
 
- *  .NET Framework 4.6 : `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
+ *  .NET Framework 4.6.1 :  `<https://www.microsoft.com/en-us/download/details.aspx?id=49981>`_
  *  Windows 7 | 8 | 10+ Physical or Cloud Instance
  *  SQL Server All Editions (Express tested) 2005 - 2016
  *  Visual Studio 2015 All Editions (Community Tested) for development
 
-* Release
+* Grab the Latest Release
 
   * Grab the latest release : `<https://github.com/Appleseed/portal/releases>`_
-   * Scroll to the bottom and download the zip file.
+  * Scroll to the bottom and download the zip file.
 
    Or watch the video `here <https://www.youtube.com/watch?v=iR0dKKRGlW8>`_.
 
 * Database
 
   * Download Microsoft SQL Server Express if you do not already have it : `<https://msdn.microsoft.com/en-us/sqlserver2014express.aspx?f=255&MSPPError=-2147217396>`_
-  * Launch SQL Server Management Studio and connect to the server.
-  * If there is an issue connecting to the server, launch SQL Server Configuration Manager and reconnect the stopped servers
+  * Launch SQL Server Management Studio and connect to the server instance you have installed.
+  * If there is an issue connecting to the server, launch SQL Server Configuration Manager or service and start the MSQQL services.
 
     .. image:: ../images/Server-Error.png
 
-  * Create an Empty SQL Server Database in a SQL Server Instance
+   * Create an Empty SQL Server Database in a SQL Server Instance.
    * Right click on the Databases folder in the Object Explorer on the left and click on "New Database".
-   * Enter a name in the Database Name: field.
+   * Enter a name in the Database Name field IE Appleseed.
+   * Click ok to create your new database.
 
     .. image:: ../images/Database-Setup.jpg
 
@@ -39,8 +43,8 @@ Quick Install
 
     .. image:: ../images/Login-User.png
 
-   * Right Click on the Logins folder in the main Security folder
-   * Select "New Login.."
+   * Right Click on the Logins folder in the main Security folder located at the bottom left.
+   * Select "New Login..".
    * Click on the Search button next to the Login Name field.
    * Click on the "Advanced..." button.
    * In this next window, click on the "Find Now" button on the middle right side.
@@ -60,11 +64,13 @@ Quick Install
    Or watch the video `here <https://www.youtube.com/watch?v=msYQfoScTJs>`_.
 
 * Set up the Appleseed Site
+  
   * Unzip the archive to a non-windows controled folder such as C:\\Appleseed [ ie : Not the Windows folder or folders locked ]
 
     .. image:: ../images/Unzip.jpg
 
- * Change permissions on the Appleseed directories
+* Change permissions on the Appleseed directories
+  
   * Right click on the Website Folder (e.g. / Appleseed Website).
   * Click on the *Properties* button at the bottom.
   * Click on the "Security* tab at the top (third from the left).
@@ -74,7 +80,7 @@ Quick Install
 
   * In the next window click on the find now button in the middle.
   * Find "NETWORK SERVICE" in the list, highlight it, and click "OK".
-  * Click "OK" in the next window
+  * Click "OK" in the next window.
   * In the next window, highlight "NETWORK SERVICE", click on the Full Control checkbox in the Permissions box, then click "Apply".
   * Click on the "Edit", "Add", "Advanced..." and "Find Now" buttons again.
   * Find "IUSR" in the list, highlight it, and Click on "OK".
@@ -84,8 +90,7 @@ Quick Install
 
   Or watch the video `here <https://www.youtube.com/watch?v=TRdng9tX91M>`_.
 
-
-
+  
  * IIS Hosting
   * Open Internet Information Services (IIS) Manager.
   * In the Connections section, click the grey triangle next to the Computer's name to access the Sites folder.
@@ -112,10 +117,10 @@ Quick Install
   If you have never used your computer for Web Hosting before, you may get the following error.
 
     .. image:: ../images/Web-Hosting-Error.png
-  To fix this, type "Windows Features" in the Control Panel
-   Expand the "Internet Information Services" folder.
-   Expand the "World Wide Web Services" folder.
-   Expand the "Application Development Features" folder.
+    To fix this, type "Windows Features" in the Control Panel.
+    Expand the "Internet Information Services" folder.
+    Expand the "World Wide Web Services" folder.
+    Expand the "Application Development Features" folder.
     In this folder make sure to check the following boxes.
 
     .. image:: ../images/Windows-Features-Instructions.png
