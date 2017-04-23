@@ -113,7 +113,7 @@ Quick Install
   If you have never used your computer for Web Hosting before, you may get the following error.
 
     .. image:: ../images/Web-Hosting-Error.png
-  To fix this, type "Windows Features" in the Control Panel
+   To fix this, type "Windows Features" in the Control Panel
    Expand the "Internet Information Services" folder.
    Expand the "World Wide Web Services" folder.
    Expand the "Application Development Features" folder.
