@@ -34,6 +34,7 @@ Software
       * C# Specification Review	http://msdn.microsoft.com/en-us/library/ms228593.aspx
       * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
    * ASP.NET
+      * ASP.NET Docs https://www.asp.net/learn
       * Master ASP.NET 4.6 State Management 	https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
       * Master ASP.NET User & Sever Controls	https://msdn.microsoft.com/en-us/library/fb3w5b53.aspx
       * Master ASP.NET Web Forms	http://www.asp.net/web-forms
@@ -58,7 +59,9 @@ Database
       * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
       * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
- * Master Datastax Installation & Concepts https://academy.datastax.com/courses
+ * Datastax
+      * Datastx Documentation http://docs.datastax.com
+      * Datastax Installation & Concepts https://academy.datastax.com/courses
  * Master MongoDB Concepts https://docs.mongodb.com/
  * Master Redis https://redis.io/
 
