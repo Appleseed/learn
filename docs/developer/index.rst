@@ -8,9 +8,9 @@ Appleseed Framework Developer Requirements
 Prerequisites 
 -------------
 
-   * Sign up for a Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
-   * Master Design Patterns	http://www.dofactory.com/net/design-patterns
-   * Master reStructured Text http://www.sphinx-doc.org/en/1.4.9/rest.html
+   * Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
+   * Design Patterns	http://www.dofactory.com/net/design-patterns
+   * reStructured Text http://www.sphinx-doc.org/en/1.4.9/rest.html
 
 Interface
 -------------
@@ -28,6 +28,7 @@ Software
  
    * Master Java https://www.learnjavaonline.org/
    * Master Scala http://www.scala-lang.org/documentation/
+   * Apache Spark http://spark.apache.org/docs/latest/
    * C#
       * C# Specification Review	http://msdn.microsoft.com/en-us/library/ms228593.aspx
       * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
