@@ -9,6 +9,7 @@ Prerequisites
 -------------
 
    * Microsoft Academy Account 	http://www.microsoftvirtualacademy.com/
+   * Datastax Academy Account https://academy.datastax.com/
    * Design Patterns	http://www.dofactory.com/net/design-patterns
    * reStructured Text http://www.sphinx-doc.org/en/1.4.9/rest.html
 
