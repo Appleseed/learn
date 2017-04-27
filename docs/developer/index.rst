@@ -67,7 +67,11 @@ Systems
  
  * Appleseed
       * Portal	http://learn.appleseedapp.net/en/latest/docs/portal/
-      * Search  http://learn.appleseedapp.net/en/latest/docs/search/
+      * Search  http://learn.appleseedapp.net/en/latest/docs/search/    
+ * Docker
+       * Master Docker	https://docs.docker.com/
+       * Master Docker Compose	https://docs.docker.com/compose/overview/
+       * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
  * Master Chocolatey https://chocolatey.org/docs/why
  * Master Elastic Search http://elastic.co/start
  * Master Traefik https://traefik.io/
@@ -76,9 +80,6 @@ Systems
  * Master IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
  * Master Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
  * Master Apache Solr http://lucene.apache.org/solr
- * Master Docker	https://docs.docker.com/
- * Master Docker Compose	https://docs.docker.com/compose/overview/
- * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
  * Master Redash https://redash.io/
  * Master Nuget https://docs.microsoft.com/en-us/nuget/
  * Master NPM https://www.npmjs.com/
