@@ -21,7 +21,7 @@ Tools
    * Visual Studio Code https://code.visualstudio.com/
    * Microsoft SQL Server Management Studio Express https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
    * DBeaver http://dbeaver.jkiss.org/
-   * Notepad++
+   * Notepad++ https://notepad-plus-plus.org/
       
 
 Interface
