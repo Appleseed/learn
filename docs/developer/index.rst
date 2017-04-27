@@ -30,6 +30,10 @@ Software
    * Master Java https://www.learnjavaonline.org/
    * Master Scala http://www.scala-lang.org/documentation/
    * Apache Spark http://spark.apache.org/docs/latest/
+   * Master Node https://nodejs.org/en/
+   * CQL http://cassandra.apache.org/doc/latest/cql/
+   * SQL	http://www.w3schools.com/sql/default.asp
+      * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
    * C#
       * C# Specification Review	http://msdn.microsoft.com/en-us/library/ms228593.aspx
       * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
@@ -44,10 +48,9 @@ Software
       * Master ASP.NET Web API	http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
       * Master ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
       * Master Linq	http://msdn.microsoft.com/en-us/library/bb386940(v=vs.110).aspx
-   * Master Node https://nodejs.org/en/
-   * SQL	http://www.w3schools.com/sql/default.asp
-      * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
-   * CQL http://cassandra.apache.org/doc/latest/cql/
+  
+
+   
   
 
 Database
@@ -59,11 +62,12 @@ Database
       * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
       * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
+ * Master MongoDB Concepts https://docs.mongodb.com/
+ * Master Redis https://redis.io/
  * Datastax
       * Datastx Documentation http://docs.datastax.com
       * Datastax Installation & Concepts https://academy.datastax.com/courses
- * Master MongoDB Concepts https://docs.mongodb.com/
- * Master Redis https://redis.io/
+
 
 Systems
 -------------
