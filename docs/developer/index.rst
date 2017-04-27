@@ -28,8 +28,9 @@ Software
  
    * Master Java https://www.learnjavaonline.org/
    * Master Scala http://www.scala-lang.org/documentation/
-   * Read over the C# Specification	http://msdn.microsoft.com/en-us/library/ms228593.aspx
-   * Master C# Fundamentals	https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
+   * C#
+      * C# Specification Review	http://msdn.microsoft.com/en-us/library/ms228593.aspx
+      * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
    * ASP.NET
       * Master ASP.NET 4.6 State Management 	https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
       * Master ASP.NET User & Sever Controls	https://msdn.microsoft.com/en-us/library/fb3w5b53.aspx
