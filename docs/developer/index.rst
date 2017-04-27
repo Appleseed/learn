@@ -46,6 +46,7 @@ Software
    * Master Node https://nodejs.org/en/
    * SQL	http://www.w3schools.com/sql/default.asp
       * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
+   * CQL http://cassandra.apache.org/doc/latest/cql/
   
 
 Database
