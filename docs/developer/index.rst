@@ -13,6 +13,17 @@ Prerequisites
    * Design Patterns	http://www.dofactory.com/net/design-patterns
    * reStructured Text http://www.sphinx-doc.org/en/1.4.9/rest.html
 
+
+Tools
+-----
+
+   * Visual Studio 2015 Community 
+   * Visual Studio Code
+   * Microsoft SQL Server Management Studio
+   * DBeaver http://dbeaver.jkiss.org/
+   * Notepad++
+      
+
 Interface
 -------------
   
