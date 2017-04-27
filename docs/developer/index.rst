@@ -44,15 +44,18 @@ Software
       * Master ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
       * Master Linq	http://msdn.microsoft.com/en-us/library/bb386940(v=vs.110).aspx
    * Master Node https://nodejs.org/en/
+   * SQL	http://www.w3schools.com/sql/default.asp
+      * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
+  
 
 Database
 -------------
  
- * Master SQL	http://www.w3schools.com/sql/default.asp
- * Master SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
- * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
- * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
- * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
+ * SQL Server
+      * Master SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
+      * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
+      * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
+   
  * Master Datastax Installation & Concepts https://academy.datastax.com/courses
  * Master MongoDB Concepts https://docs.mongodb.com/
  * Master MySQL https://www.tutorialspoint.com/mysql/
