@@ -65,8 +65,9 @@ Database
 Systems
 -------------
  
- * Master Appleseed Portal	http://learn.appleseedapp.net/en/latest/docs/portal/
- * Master Appleseed Search  http://learn.appleseedapp.net/en/latest/docs/search/
+ * Appleseed
+      * Portal	http://learn.appleseedapp.net/en/latest/docs/portal/
+      * Search  http://learn.appleseedapp.net/en/latest/docs/search/
  * Master Chocolatey https://chocolatey.org/docs/why
  * Master Elastic Search http://elastic.co/start
  * Master Traefik https://traefik.io/
@@ -82,7 +83,6 @@ Systems
  * Master Nuget https://docs.microsoft.com/en-us/nuget/
  * Master NPM https://www.npmjs.com/
  * Master Bower https://bower.io/
-
 
 
 .. include:: /././common.txt
