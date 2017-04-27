@@ -17,9 +17,9 @@ Prerequisites
 Tools
 -----
 
-   * Visual Studio 2015 Community 
-   * Visual Studio Code
-   * Microsoft SQL Server Management Studio
+   * Visual Studio Community https://www.visualstudio.com/vs/community/
+   * Visual Studio Code https://code.visualstudio.com/
+   * Microsoft SQL Server Management Studio Express https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
    * DBeaver http://dbeaver.jkiss.org/
    * Notepad++
       
