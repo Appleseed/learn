@@ -45,7 +45,7 @@ Interface
 Software
 -------------
  
-   * Master Java https://www.learnjavaonline.org/
+   * Java https://www.learnjavaonline.org/
    * Master Scala http://www.scala-lang.org/documentation/
    * Apache Spark http://spark.apache.org/docs/latest/
    * Master Node https://nodejs.org/en/
