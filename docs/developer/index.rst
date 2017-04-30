@@ -48,7 +48,7 @@ Software
    * Java https://www.learnjavaonline.org/
    * Scala http://www.scala-lang.org/documentation/
    * Apache Spark http://spark.apache.org/docs/latest/
-   * Master Node https://nodejs.org/en/
+   * Node https://nodejs.org/en/
    * CQL http://cassandra.apache.org/doc/latest/cql/
    * SQL	http://www.w3schools.com/sql/default.asp
       * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
