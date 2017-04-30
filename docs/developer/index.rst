@@ -80,7 +80,7 @@ Database
       * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
       * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
- * Master MongoDB Concepts https://docs.mongodb.com/
+ * MongoDB Concepts https://docs.mongodb.com/
  * Master Redis https://redis.io/
  * Datastax
       * Datastx Documentation http://docs.datastax.com
