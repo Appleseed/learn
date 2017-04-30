@@ -37,10 +37,10 @@ Interface
    * HTML http://www.w3schools.com/html/default.asp
    * CSS http://www.w3schools.com/css/default.asp
    * JavaScript	http://www.w3schools.com/js/default.asp
-   * Master JQuery	http://www.w3schools.com/jquery/default.asp
-   * Master Angular Interfaces 	https://angular.io/
-   * Master React https://facebook.github.io/react/
-   * Master TypeScript https://www.typescriptlang.org/docs/tutorial.html
+   * JQuery	http://www.w3schools.com/jquery/default.asp
+   * Angular Interfaces 	https://angular.io/
+   * React https://facebook.github.io/react/
+   * TypeScript https://www.typescriptlang.org/docs/tutorial.html
 
 Software
 -------------
