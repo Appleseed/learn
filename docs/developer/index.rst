@@ -98,7 +98,7 @@ Systems
        * Master Docker Compose	https://docs.docker.com/compose/overview/
        * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
  * Chocolatey https://chocolatey.org/docs/why
- * Master Elastic Search http://elastic.co/start
+ * Elastic Search http://elastic.co/start
  * Master Traefik https://traefik.io/
  * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
  * Master Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
