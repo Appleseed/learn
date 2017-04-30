@@ -61,7 +61,7 @@ Software
       * ASP.NET User & Sever Controls	https://msdn.microsoft.com/en-us/library/fb3w5b53.aspx
       * ASP.NET Web Forms	http://www.asp.net/web-forms
       * ASP.NET MVC	http://www.asp.net/mvc/tutorials
-      * Master ASP.NET Security	https://www.asp.net/mvc/overview/security
+      * ASP.NET Security	https://www.asp.net/mvc/overview/security
       * Master Angular w/ ASP.NET Core	http://www.mithunvp.com/angular-2-in-asp-net-5-typescript-visual-studio-2015/
       * Master ASP.NET Web API	http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
       * Master ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
