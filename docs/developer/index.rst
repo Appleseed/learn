@@ -29,7 +29,7 @@ Interface
   
    * HTML http://www.w3schools.com/html/default.asp
    * CSS http://www.w3schools.com/css/default.asp
-   * Master JavaScript	http://www.w3schools.com/js/default.asp
+   * JavaScript	http://www.w3schools.com/js/default.asp
    * Master JQuery	http://www.w3schools.com/jquery/default.asp
    * Master Angular Interfaces 	https://angular.io/
    * Master React https://facebook.github.io/react/
