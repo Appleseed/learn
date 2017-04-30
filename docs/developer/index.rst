@@ -105,7 +105,7 @@ Systems
  * IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
  * Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
  * Apache Solr http://lucene.apache.org/solr
- * Master Redash https://redash.io/
+ * Redash https://redash.io/
  * Master Nuget https://docs.microsoft.com/en-us/nuget/
  * Master NPM https://www.npmjs.com/
  * Master Bower https://bower.io/
