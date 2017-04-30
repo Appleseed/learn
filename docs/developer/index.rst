@@ -108,7 +108,7 @@ Systems
  * Redash https://redash.io/
  * Nuget https://docs.microsoft.com/en-us/nuget/
  * NPM https://www.npmjs.com/
- * Master Bower https://bower.io/
+ * Bower https://bower.io/
 
 
 .. include:: /././common.txt
