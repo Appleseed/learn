@@ -106,7 +106,7 @@ Systems
  * Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
  * Apache Solr http://lucene.apache.org/solr
  * Redash https://redash.io/
- * Master Nuget https://docs.microsoft.com/en-us/nuget/
+ * Nuget https://docs.microsoft.com/en-us/nuget/
  * Master NPM https://www.npmjs.com/
  * Master Bower https://bower.io/
 
