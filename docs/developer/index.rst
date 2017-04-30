@@ -57,7 +57,7 @@ Software
       * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
    * ASP.NET
       * ASP.NET Docs https://www.asp.net/learn
-      * Master ASP.NET 4.6 State Management 	https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
+      * ASP.NET 4.6 State Management 	https://msdn.microsoft.com/en-us/library/z1hkazw7.aspx
       * Master ASP.NET User & Sever Controls	https://msdn.microsoft.com/en-us/library/fb3w5b53.aspx
       * Master ASP.NET Web Forms	http://www.asp.net/web-forms
       * Master ASP.NET MVC	http://www.asp.net/mvc/tutorials
