@@ -63,7 +63,7 @@ Software
       * ASP.NET MVC	http://www.asp.net/mvc/tutorials
       * ASP.NET Security	https://www.asp.net/mvc/overview/security
       * Angular w/ ASP.NET Core	http://www.mithunvp.com/angular-2-in-asp-net-5-typescript-visual-studio-2015/
-      * Master ASP.NET Web API	http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
+      * ASP.NET Web API	http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
       * Master ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
       * Master Linq	http://msdn.microsoft.com/en-us/library/bb386940(v=vs.110).aspx
   
