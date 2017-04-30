@@ -27,7 +27,7 @@ Tools
 Interface
 -------------
   
-   * Master HTML http://www.w3schools.com/html/default.asp
+   * HTML http://www.w3schools.com/html/default.asp
    * Master CSS http://www.w3schools.com/css/default.asp
    * Master JavaScript	http://www.w3schools.com/js/default.asp
    * Master JQuery	http://www.w3schools.com/jquery/default.asp
