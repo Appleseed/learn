@@ -100,7 +100,7 @@ Systems
  * Chocolatey https://chocolatey.org/docs/why
  * Elastic Search http://elastic.co/start
  * Traefik https://traefik.io/
- * Master Deployment	http://www.asp.net/mvc/tutorials/deployment
+ * Deployment	http://www.asp.net/mvc/tutorials/deployment
  * Master Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
  * Master IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
  * Master Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
