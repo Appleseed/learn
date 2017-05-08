@@ -18,6 +18,7 @@ Manual Upgrade
 		* Extract the contents of the UPGRADE package into a folder on your computer
 		* It is NOT recommended that you extract directly over your old website.
 		* Copy the following from your OLD site folder to your new Upgraded site folder: 
+			* \Portals Directory -  
 * Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
 * Create a new Integrated application pool if using IIS Web Server
