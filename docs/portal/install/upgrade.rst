@@ -40,8 +40,8 @@ Manual Upgrade
 		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
 * Upgrade Check List
-* Check to see if the upgraded instance custom modules are still working as they did before the upgrade.
-* Check to see if the upgraded instance is using any modules that were removed from the upgrade.
+	* Check to see if the upgraded instance custom modules are still working as they did before the upgrade.
+	* Check to see if the upgraded instance is using any modules that were removed from the upgrade.
 
 .. toctree::
     :titlesonly:
