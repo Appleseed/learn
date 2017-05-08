@@ -41,6 +41,7 @@ Manual Upgrade
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
 * Upgrade Check List
 	* Check to see if login works as expected
+	* Check to see if the admin can be accessed as expected
 	* Check to see if the upgraded instance custom modules are still working as they did before the upgrade.
 	* Check to see if the upgraded instance is using any modules that were removed from the upgrade.
 
