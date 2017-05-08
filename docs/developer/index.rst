@@ -45,6 +45,7 @@ Interface
 Software
 -------------
  
+   * Python 
    * Java https://www.learnjavaonline.org/
    * Scala http://www.scala-lang.org/documentation/
    * Apache Spark http://spark.apache.org/docs/latest/
