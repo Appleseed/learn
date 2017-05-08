@@ -21,7 +21,7 @@ Manual Upgrade
 * Create a new Integrated application pool if using IIS Web Server
 * Setup Permissions on the file system in your newly created dirctory
 	* Make sure your Application Pool user has read / write permission to :
-		* \Portals Directory 
+		* \Portals Directory - To allow for file storage per portal 
 		* \rb_logs Directory 
 		* Web.config - Only during upgrade to have settings written 
 * Restore the database to a NEW database name.
