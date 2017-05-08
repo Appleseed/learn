@@ -8,7 +8,7 @@ Manual Upgrade
 --------------
 
 * Create a Backup Directory for all your Site and SQL backups.
-* Backup your Site directory as a compressed (zip) archive.
+* Backup your Site Directory as a compressed (zip) archive.
 * Backup your site SQL database using SQL Server Management Studio.
 * Backup your custom application database if your instance has custom modules.
 * Make sure you have completed the above two steps BEFORE proceeding.
