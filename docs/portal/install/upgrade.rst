@@ -20,7 +20,7 @@ Manual Upgrade
 		* Copy the following from your OLD site folder to your new Upgraded site folder: 
 			* \Portals Directory - To ensure your sites files are carried over
 			* \Design Directory - To ensure that all design and theme files are carried over
-			* Custom Folders - 
+			* Custom Folders - Any custom folders that have been created
 * Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
 * Create a new Integrated application pool if using IIS Web Server
