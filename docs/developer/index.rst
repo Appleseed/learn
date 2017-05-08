@@ -104,7 +104,7 @@ Systems
  * Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
  * IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
  * Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
- * Apache Lucene 
+ * Apache Lucene https://lucene.apache.org/
  * Apache Solr http://lucene.apache.org/solr
  * Redash https://redash.io/
  * Nuget https://docs.microsoft.com/en-us/nuget/
