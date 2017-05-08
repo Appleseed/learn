@@ -22,6 +22,7 @@ Manual Upgrade
 * Setup Permissions on the file system in your newly created dirctory
 	* Make sure your Application Pool user has read / write permission to :
 		* \Portals Directory 
+		* \rb_logs Directory 
 * Restore the database to a NEW database name.
 * Modify the web.config of the new website to point to the new database
 * Extract the contents of the UPGRADE package into a folder on your computer, it is not recommended that you extract directly over your website.
