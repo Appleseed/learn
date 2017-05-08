@@ -7,7 +7,7 @@ Upgrade Instructions
 Manual Upgrade 
 --------------
 
-* Backup your website / portal directory as a zip.
+* Backup your site directory as a zip.
 * Backup your custom application database if your instance has custom modules.
 * Backup your portal SQL database using SQL Server Management Studio.
 * Make sure you have completed the above two steps BEFORE proceeding.
