@@ -14,9 +14,9 @@ Manual Upgrade
 * Backup your custom application database if your instance has custom modules.
 * Make sure you have completed the above steps BEFORE proceeding.
 * Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
-* Create a New Folder in your Web Server Directory for the new upgraded site
-	* Extract the contents of the UPGRADE package into a folder on your computer, it is not recommended that you extract directly over your website.
-	* Restore the backed up website to this new folder  
+	* Create a New Folder in your Web Server Directory for the new upgraded site
+		* Extract the contents of the UPGRADE package into a folder on your computer, it is not recommended that you extract directly over your website.
+		* Restore the backed up website to this new folder  
 * Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
 * Create a new Integrated application pool if using IIS Web Server
