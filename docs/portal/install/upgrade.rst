@@ -18,6 +18,7 @@ Manual Upgrade
 	* Restore the backed up website to this new folder  
 * Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
+* Create a new Integrated application pool if using IIS Web Server
 * Setup Permissions on the file system in your newly created dirctory
 	* Make sure your Application Pool user has read / write permission to :
 		* \Portals Directory 
