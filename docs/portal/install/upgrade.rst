@@ -16,7 +16,7 @@ Manual Upgrade
 * Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
 * Create a new Folder in your Web Server Directory for the new upgraded site
 	* Restore the backed up website to a new folder path on your web server.
-* Configure IIS for a new website on a different port ( 81 )
+* Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
 * Setup Permissions on the file system
 * Restore the database to a NEW database name.
