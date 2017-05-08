@@ -10,9 +10,9 @@ Manual Upgrade
 * Create a Backup Directory for all your Site and SQL backups.
 * Backup your Site Directory as a compressed (zip) archive.
 	* Store this archive in your Backup Directory.
-* Backup your site SQL database using SQL Server Management Studio.
+* Backup your Appleseed portal SQL database using SQL Server Management Studio.
 * Backup your custom application database if your instance has custom modules.
-* Make sure you have completed the above two steps BEFORE proceeding.
+* Make sure you have completed the above steps BEFORE proceeding.
 * Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
 * Restore the backed up website to a new folder path on your web server.
 * Configure IIS for a new website on a different port ( 81 )
