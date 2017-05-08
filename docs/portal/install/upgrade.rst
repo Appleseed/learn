@@ -25,7 +25,7 @@ Manual Upgrade
 		* \rb_logs Directory - To allow logs to be rewritten
 		* Web.config - Only during upgrade to have settings written 
 * Restore your portal database backup to a NEW database name.
-* Modify the Web.config of the new website to point to the new database
+
 * Extract the contents of the UPGRADE package into a folder on your computer, it is not recommended that you extract directly over your website.
 * Copy the files from the extracted UPGRADE package over the contents of your website's folder.
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
