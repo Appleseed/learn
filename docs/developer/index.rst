@@ -60,8 +60,10 @@ Software
       * Angular w/ ASP.NET Core	http://www.mithunvp.com/angular-2-in-asp-net-5-typescript-visual-studio-2015/
       * ASP.NET Core	https://docs.microsoft.com/en-us/aspnet/core/
       * Linq	http://msdn.microsoft.com/en-us/library/bb386940(v=vs.110).aspx
-	  * ASP.NET Web API
-		* http://www.mithunvp.com/create-aspnet-mvc-6-web-api-visual-studio-2015/
+	  * Web API
+		* ASP.NET https://www.asp.net/web-api
+		* ASP.NET Core https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
+		 
 	  
   
 
