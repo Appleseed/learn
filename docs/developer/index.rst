@@ -66,10 +66,6 @@ Software
 		* ASP.NET Core https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
 		 
 	  
-  
-
-   
-  
 
 Database
 -------------
