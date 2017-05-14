@@ -7,7 +7,7 @@ Upgrade Instructions
 Manual Upgrade 
 --------------
 
-* Create a Backup Directory for all your Site and SQL backups.
+* Create a Backup Directory for your Site and SQL backups.
 * Backup your Site Directory as a compressed (zip) archive.
 	* Store this archive in your Backup Directory.
 * Backup your Appleseed portal SQL database using SQL Server Management Studio.
