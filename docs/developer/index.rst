@@ -90,7 +90,7 @@ Systems
       * Search  http://learn.appleseedapp.net/en/latest/docs/search/    
  * Docker
        * Docker	https://docs.docker.com/
-       * Master Docker Compose	https://docs.docker.com/compose/overview/
+       * Docker Compose	https://docs.docker.com/compose/overview/
        * Master Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
  * Chocolatey https://chocolatey.org/docs/why
  * Elastic Search http://elastic.co/start
