@@ -73,7 +73,7 @@ Database
  * SQL Server
       * SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
       * SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
-      * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
+      * SQL Server Express Management Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
  * MongoDB Concepts https://docs.mongodb.com/
  * Redis https://redis.io/
