@@ -5,12 +5,6 @@
 Appleseed Framework Developer Requirements
 =========================================== 
 
-Experience Key
---------------
-   
-   * Novice
-   * Intermediate
-   * Expert 
 
 Prerequisites 
 -------------
