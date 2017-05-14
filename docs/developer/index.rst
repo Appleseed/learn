@@ -46,7 +46,7 @@ Software
    * Node https://nodejs.org/en/
    * CQL http://cassandra.apache.org/doc/latest/cql/
    * SQL	http://www.w3schools.com/sql/default.asp
-      * Master T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
+      * T-SQL	http://msdn.microsoft.com/en-us/library/ms365303.aspx
    * C#
       * C# Specification Review	http://msdn.microsoft.com/en-us/library/ms228593.aspx
       * Master C# Fundamentals https://mva.microsoft.com/en-US/training-courses/c-fundamentals-for-absolute-beginners-16169?l=Lvld4EQIC_2706218949
