@@ -77,7 +77,7 @@ Database
       * SQL Server Express Management Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
  * MongoDB Concepts https://docs.mongodb.com/
- * Redis https://redis.io/
+ * Redis https://redis.io/documentation
  * Datastax
       * Datastx Documentation http://docs.datastax.com
       * Datastax Installation & Concepts https://academy.datastax.com/courses
