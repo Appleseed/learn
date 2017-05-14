@@ -72,7 +72,7 @@ Database
  * MySQL https://www.tutorialspoint.com/mysql/
  * SQL Server
       * SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
-      * Master SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
+      * SQL Server Express 2016	https://msdn.microsoft.com/en-us/library/ms143219.aspx
       * Master SQL Server Express Mgmt Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
  * Cassandra http://cassandra.apache.org/doc/latest/
  * MongoDB Concepts https://docs.mongodb.com/
