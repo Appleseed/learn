@@ -47,6 +47,7 @@ Manual Upgrade
 	* Check to see if the upgraded instance custom modules are still working as they did before the upgrade.
 	* Check to see if the upgraded instance is using any modules that were removed from the upgrade.
 	* Make a new backup of the updated database.
+	* Make a new backup of the site directory.
 
 .. toctree::
     :titlesonly:
