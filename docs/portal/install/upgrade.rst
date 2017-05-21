@@ -35,7 +35,7 @@ Manual Upgrade
 * Restore your portal database backup to a NEW database name.
 * Open up your new Website on a different port ( IE 81 ).
 	* Run through the web installer as normal.
-		* Make sure the checks are all green
+		* Make sure the checks are all green.
 	* Point to your newly restored SQL Database 
 		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
