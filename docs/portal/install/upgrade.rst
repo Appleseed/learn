@@ -10,7 +10,7 @@ Manual Upgrade
 * Create a Backup Directory for your Site and SQL backups.
 * Backup your Site Directory as a compressed (zip) archive.
 	* Store this archive in your Backup Directory.
-* Backup your Appleseed portal SQL database using SQL Server Management Studio.
+* Backup your Appleseed Portal SQL database using SQL Server Management Studio.
 * Backup your custom application database if your instance has custom modules.
 * Make sure you have completed the above steps BEFORE proceeding.
 * Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
