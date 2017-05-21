@@ -20,7 +20,7 @@ Manual Upgrade
 		* Copy the following from your OLD site folder to your new Upgraded site folder: 
 			* \Portals Directory - To ensure your sites files are transferred over.
 			* \Design Directory - To ensure that all design and theme files are transferred over.
-			* \Bin Custom DLLs - Any custom application or third-party dlls that have been created.
+			* \Bin Custom DLLs - Any custom application or third-party dlls that are required.
 			* \DesktopModules\CustomModules - Any Custom Module Folders that have been created
 			* Custom Folders - Any custom folders that have been created
 * Configure IIS for a new website on a different port ( IE 81 )
