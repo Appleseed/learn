@@ -21,7 +21,7 @@ Manual Upgrade
 			* \Portals Directory - To ensure your sites files are transferred over.
 			* \Design Directory - To ensure that all design and theme files are transferred over.
 			* \Bin Custom DLLs - Any custom application or third-party dlls that are required.
-			* \DesktopModules\CustomModules - Any Custom Module(s) that have been installed
+			* \DesktopModules\CustomModules - Any Custom Module(s) that have been installed.
 			* Custom Folders - Any custom folders that have been created
 * Configure IIS for a new website on a different port ( IE 81 )
 	* Make sure you have the proper .NET Framework for the build as it may have changed
