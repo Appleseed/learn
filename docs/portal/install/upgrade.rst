@@ -18,7 +18,7 @@ Manual Upgrade
 		* Extract the contents of the UPGRADE package into a folder on your computer.
 		* It is NOT recommended that you extract directly over your old website.
 		* Copy the following from your OLD site folder to your new Upgraded site folder: 
-			* \Portals Directory - To ensure your sites files are carried over
+			* \Portals Directory - To ensure your sites files are transferred over.
 			* \Design Directory - To ensure that all design and theme files are carried over
 			* \Bin Custom DLLs - Any custom dlls that have been created
 			* \DesktopModules\CustomModules - Any Custom Module Folders that have been created
