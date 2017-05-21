@@ -2,7 +2,6 @@
 Upgrade Instructions
 ======================= 
 
-
 Manual Upgrade 
 --------------
 
