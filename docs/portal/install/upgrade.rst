@@ -37,7 +37,7 @@ Manual Upgrade
 	* Run through the web installer as normal.
 		* Make sure the checks are all green.
 	* Point to your newly restored SQL Database.
-		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs
+		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs.
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
 * Upgrade Check List
 	* Check to see if login works as expected for all user role types
