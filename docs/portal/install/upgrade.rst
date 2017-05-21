@@ -27,7 +27,7 @@ Manual Upgrade
 	* Make sure you have the proper .NET Framework for the build as it may have changed.
 		* This allows you to leave your old site in place should an issue occur with the upgrade.
 * Create a new Integrated application pool if using IIS Web Server.
-* Setup Permissions on the file system in your newly created dirctory
+* Setup Permissions on the file system in your newly created dirctory.
 	* Make sure your Application Pool user has read / write permission to :
 		* \Portals Directory - To allow for file storage per portal 
 		* \rb_logs Directory - To allow logs to be rewritten
