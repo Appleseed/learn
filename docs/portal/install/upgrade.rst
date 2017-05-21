@@ -14,7 +14,7 @@ Manual Upgrade
 * Backup your Custom Application Database if your instance has custom modules.
 * Make sure you have completed the above steps BEFORE proceeding.
 * Download the latest stable release of `Appleseed Portal <https://github.com/appleseed/portal>`_.
-	* Create a New Folder in your Web Server Directory for the new upgraded site
+	* Create a New Folder in your Web Server Directory for the new upgraded site.
 		* Extract the contents of the UPGRADE package into a folder on your computer
 		* It is NOT recommended that you extract directly over your old website.
 		* Copy the following from your OLD site folder to your new Upgraded site folder: 
