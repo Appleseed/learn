@@ -40,7 +40,7 @@ Manual Upgrade
 		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs.
 * Once you have the upgraded website running you can modify your website settings in IIS to utilize the new website, rather than the non-* upgraded website.
 * Upgrade Check List
-	* Check to see if login works as expected for all user role types.
+	* Check to see if login works as expected for all User Role types.
 	* Check to see if the a user in the admin can be accessed as expected.
 	* Check to see if the new upgraded features are working as expected.
 	* Check the rb_logs folder for any errors.
