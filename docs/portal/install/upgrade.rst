@@ -34,7 +34,7 @@ Manual Upgrade
 		* Web.config - Only make writable during upgrade to have settings written.
 * Restore your portal database backup to a NEW database name.
 * Open up your new Website on a different port ( IE 81 ).
-	* Run through the web installer as normal
+	* Run through the web installer as normal.
 		* Make sure the checks are all green
 	* Point to your newly restored SQL Database 
 		* This way you only upgrade a restored backup of your database and can restore back if an issue occurs
