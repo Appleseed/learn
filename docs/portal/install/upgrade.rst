@@ -42,7 +42,7 @@ Manual Upgrade
 * Upgrade Check List
 	* Check to see if login works as expected for all user role types.
 	* Check to see if the admin can be accessed as expected.
-	* Check to see if the new upgraded features are working as expected 
+	* Check to see if the new upgraded features are working as expected.
 	* Check the rb_logs folder for any errors
 	* Check to see if the upgraded instance custom modules are still working as they did before the upgrade.
 	* Check to see if the upgraded instance is using any modules that were removed from the upgrade.
