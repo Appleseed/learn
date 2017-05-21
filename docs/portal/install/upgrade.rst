@@ -3,7 +3,6 @@ Upgrade Instructions
 ======================= 
 
 
-
 Manual Upgrade 
 --------------
 
