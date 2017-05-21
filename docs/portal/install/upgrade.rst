@@ -23,7 +23,7 @@ Manual Upgrade
 			* \Bin Custom DLLs - Any custom application or third-party dlls that are required.
 			* \DesktopModules\CustomModules - Any Custom Module(s) that have been installed.
 			* Custom Folders - Any custom folders that have been created.
-* Configure IIS for a new website on a different port ( IE 81 )
+* Configure IIS for a new website on a different port ( IE 81 ).
 	* Make sure you have the proper .NET Framework for the build as it may have changed
 		* This allows you to leave your old site in place should an issue occur with the upgrade
 * Create a new Integrated application pool if using IIS Web Server
