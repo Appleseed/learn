@@ -31,7 +31,7 @@ Manual Upgrade
 	* Make sure your Application Pool user has read / write permission to :
 		* \Portals Directory - To allow for file storage per portal.
 		* \rb_logs Directory - To allow logs to be rewritten.
-		* Web.config - Only make writable during upgrade to have settings written 
+		* Web.config - Only make writable during upgrade to have settings written.
 * Restore your portal database backup to a NEW database name.
 * Open up your new Website on a different port ( IE 81 )
 	* Run through the web installer as normal
