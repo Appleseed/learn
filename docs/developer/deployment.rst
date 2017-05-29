@@ -16,6 +16,9 @@ generally deployed on a physical Server or on the Cloud.
 Directory Structure
 ------------------
 
+Below is an overview of the directory structure for deploying a single Anant Application.
+Please note for some old clients this is list as C:\Services or C:\Accounts or C:\Sites
+
 
 
 
