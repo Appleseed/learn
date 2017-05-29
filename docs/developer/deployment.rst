@@ -52,6 +52,7 @@ Stage
 Deployment Steps
 ----------------
 
+# Alert Services in the Client Slack Room to inform the client of the deployment ( especially if it takes down the site longer than an hour
 
 
 .. include:: /././common.txt
