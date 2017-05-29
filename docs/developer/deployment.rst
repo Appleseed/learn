@@ -11,7 +11,7 @@ Client
 
 This document provides the basic and detailed setup instructions for new 
 Windows environments, specifically for Appleseed development under source control for client projects,
-generally deployed on either Web Development Server or on Amazon Web Services.
+generally deployed on a physical Server or on Amazon Web Services.
 
 
 
