@@ -47,5 +47,6 @@ Production
 - client_app_prod
 
 Stage
+- client_app_stage
 
 .. include:: /././common.txt
