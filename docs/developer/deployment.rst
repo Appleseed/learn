@@ -57,5 +57,5 @@ Deployment Steps
 # Pause the site in IIS
 # Backup the Current www directory and store in the \backup folder with the date in the folder name
  - You may only need to backup exactly what you replace
- - 
+ - For major changes, backup the whole folder
 .. include:: /././common.txt
