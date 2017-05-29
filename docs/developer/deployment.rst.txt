@@ -9,6 +9,8 @@ Deployment
 Client
 ------
 
+This document provides the basic and detailed setup instructions for new 
+
 
 
 
