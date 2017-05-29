@@ -45,4 +45,6 @@ Application Database Naming
 
 Production
 
+Stage
+
 .. include:: /././common.txt
