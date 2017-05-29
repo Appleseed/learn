@@ -38,7 +38,7 @@ Production
 - clientname_as_prod
 
 Stage
-- 
+- client_as_stage
 
 
 .. include:: /././common.txt
