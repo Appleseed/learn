@@ -23,7 +23,7 @@ Please note for some old clients this is list as C:\Services or C:\Accounts or C
 - C:\Accounts\ClientName - Create a unique client name for an individual site
 - C:\Accounts\ClientName\prod - The production directory for the site that will be seen in the public  This should be on the client’s environment or AWS.
 - C:\Accounts\ClientName\stage - The staging or verification site directory.  This site may or may not be public.  This site is used by the client to review the latest stable development fixes.  This should be on the client’s environment or AWS.
-
+-
 
 
 
