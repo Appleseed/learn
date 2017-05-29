@@ -28,7 +28,7 @@ Please note for some old clients this is list as C:\Services or C:\Accounts or C
 - C:\Accounts\ClientName\SiteName - Create a unique site directory for each site and follow the above directory recommendations.
 
 
-
+Database 
 
 
 
