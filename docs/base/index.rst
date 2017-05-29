@@ -1,5 +1,5 @@
 ======================
-Learn Appleseed Search
+Learn Appleseed Base
 ======================
 
 .. note ::
@@ -10,7 +10,7 @@ Learn Appleseed Search
 
 
 
-This documentation is for Users, Builders, Designers, Developers, and Administrators of applications that are built on Appleseed Search.  Appleseed Search helps companies find their information burried deep in different silos.
+This documentation is for Builders, Developers, and Administrators of applications that are built on Appleseed Base.  Appleseed Base is the commjnication engine that runs Appleseed Search by connecting receivers of information to processes which enhance information before transmitting to different indices. 
 
 `Installation`_
 
