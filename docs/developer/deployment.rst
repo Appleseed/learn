@@ -60,3 +60,4 @@ Deployment Steps
  - For major changes, backup the whole folder
 .. include:: /././common.txt
 # Apply the update to the www directory
+#
