@@ -14,7 +14,7 @@ Windows environments, specifically for Appleseed development under source contro
 generally deployed on a physical Server or on the Cloud.
 
 Directory Structure
-
+------------------
 
 
 
