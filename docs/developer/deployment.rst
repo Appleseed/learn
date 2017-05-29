@@ -44,6 +44,7 @@ Application Database Naming
 [client_app_environment]
 
 Production
+- client_app_prod
 
 Stage
 
