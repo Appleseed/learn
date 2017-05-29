@@ -37,6 +37,7 @@ Appleseed Portal Database Naming
 Production
 - clientname_as_prod
 
+Stage
 
 
 
