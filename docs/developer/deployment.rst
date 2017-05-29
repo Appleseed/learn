@@ -25,6 +25,7 @@ Please note for some old clients this is list as C:\Services or C:\Accounts or C
 - C:\Accounts\ClientName\stage - The staging or verification site directory.  This site may or may not be public.  This site is used by the client to review the latest stable development fixes.  This should be on the client’s environment or AWS.
 - C:\Accounts\ClientName\[environment]\www - Store the actual site/application/appleseed install in this directory
 - C:\Accounts\ClientName\[environment]\backup - Store site & SQL Data backups in this directory 
+- 
 
 
 
