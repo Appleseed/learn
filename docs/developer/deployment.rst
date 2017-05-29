@@ -21,7 +21,7 @@ Please note for some old clients this is list as C:\Services or C:\Accounts or C
 
 - C:\Accounts - Create an accounts directory on the root of the primary drive.  It would be nice if you can store this on a drive other than C:\ as only the OS should reside there. 
 - C:\Accounts\ClientName - Create a unique client name for an individual site
--
+- C:\Accounts\ClientName\prod - The production directory for the site that will be seen in the public  This should be on the client’s environment or AWS.
 
 
 
