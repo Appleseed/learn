@@ -20,6 +20,7 @@ Below is an overview of the directory structure for deploying a single Anant App
 Please note for some old clients this is list as C:\Services or C:\Accounts or C:\Sites
 
 - C:\Accounts - Create an accounts directory on the root of the primary drive.  It would be nice if you can store this on a drive other than C:\ as only the OS should reside there. 
+- C:\Accounts\ClientName - Create a unique client name for an individual site
 
 
 
