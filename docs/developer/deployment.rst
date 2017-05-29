@@ -38,7 +38,7 @@ Production
 - clientname_ap_prod
 
 Stage
-- client_as_stage
+- client_ap_stage
 
 Application Database Naming 
 
