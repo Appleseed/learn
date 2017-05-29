@@ -32,7 +32,7 @@ Database
 --------
 
 Appleseed Portal Database Naming 
-[client_as_environment]
+[client_ap_environment]
 
 Production
 - clientname_as_prod
