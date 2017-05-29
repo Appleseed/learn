@@ -60,4 +60,4 @@ Deployment Steps
  - For major changes, backup the whole folder
 .. include:: /././common.txt
 # Apply the update to the www directory
-#
+# If there were any DB changes, Backup the Current SQL Database and store the backup file in the backup folder
