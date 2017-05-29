@@ -35,7 +35,7 @@ Appleseed Portal Database Naming
 [client_as_environment]
 
 Production
-
+- clientname_as_prod
 
 
 
