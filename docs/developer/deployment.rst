@@ -56,6 +56,6 @@ Deployment Steps
 # Get approval from the PM
 # Pause the site in IIS
 # Backup the Current www directory and store in the \backup folder with the date in the folder name
-
+ - You may only need to backup exactly what you replace
 
 .. include:: /././common.txt
