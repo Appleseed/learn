@@ -54,7 +54,7 @@ Deployment Steps
 
 # Alert Services in the Client Slack Room to inform the client of the deployment ( especially if it takes down the site longer than an hour
 # Get approval from the PM
-#
+# Pause the site in IIS
 
 
 .. include:: /././common.txt
