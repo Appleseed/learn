@@ -35,7 +35,7 @@ Appleseed Portal Database Naming
 [client_ap_environment]
 
 Production
-- clientname_as_prod
+- clientname_ap_prod
 
 Stage
 - client_as_stage
