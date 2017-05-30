@@ -1,2 +1,2 @@
 # learn
-Repository for Read the Docs for Appleseed documentation.
+Read the Docs (RTD) repository for Appleseed Framework documentation.
