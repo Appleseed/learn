@@ -4,11 +4,7 @@ Introduction
 
 .. toctree::
     :titlesonly:
-
-Discuss History of the project
-------------------------------
-
-
+    
 
 Understanding Appleseed 
 -----------------------
