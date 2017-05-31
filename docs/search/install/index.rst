@@ -174,7 +174,7 @@ This section explains how to combine the Appleseed Portal and Search products.  
 
 
 
-If you have not already installed Appleseed Portal, refer to the instructions here  `<http://learn.appleseedapp.net/en/latest/docs/Portal/install/#quick-install>`_
+If you have not already installed Appleseed Portal, refer to the instructions here  `<http://learn.appleseedapp.net/en/latest/docs/portal/install/#quick-install>`_
 
 * Steps to set up Angular Search Interface on an Appleseed Site.
 
