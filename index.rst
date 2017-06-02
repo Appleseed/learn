@@ -7,6 +7,8 @@ Welcome to the Appleseed Framework Documentation Site
 `Appleseed <https://www.github.com/Appleseed/>`_ is an open source Framework focused on providing an easy to use, high-performance, and reusable platform to build powerful web applications. The software gives designers, developers, and entrepreneurs a singular system to run the modern enterprise on Microsoft ASP.NET and Windows platforms.
 
 
+.. image:: assets/SM.RD.Appleseed.Framework.Diagram.2017.png
+
 This documentation is for Users, Builders, Designers, Developers, and Administrators of Appleseed.  The Project Owner,  `Anant Corporation <https://www.anant.us>`_ , also offers portal cloud services and subscriptions.
 
 
