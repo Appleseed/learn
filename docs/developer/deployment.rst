@@ -37,7 +37,7 @@ Database
 *Production
 - clientname_ap_prod
 
-Stage
+* Stage
 - client_ap_stage
 
 Application Database Naming 
