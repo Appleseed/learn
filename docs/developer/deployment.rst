@@ -31,10 +31,10 @@ Please note for some old clients this is list as C:\Services or C:\Accounts or C
 Database 
 --------
 
-*Appleseed Portal Database Naming 
-**[client_ap_environment]
+* Appleseed Portal Database Naming 
+** [client_ap_environment]
 
-Production
+*Production
 - clientname_ap_prod
 
 Stage
