@@ -53,7 +53,7 @@ Deployment Steps
 ----------------
 
 * Alert Services in the Client Slack Room to inform the client of the deployment ( especially if it takes down the site longer than an hour
-# Get approval from the PM
+* Get approval from the PM
 # Pause the site in IIS
 # Backup the Current www directory and store in the \backup folder with the date in the folder name
  - You may only need to backup exactly what you replace
