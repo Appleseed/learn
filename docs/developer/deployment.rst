@@ -16,7 +16,7 @@ generally deployed on a physical Server or on the Cloud.
 Directory Structure
 ------------------
 
-Below is an overview of the directory structure for deploying a single Anant Application.
+Below is an overview of the directory structure for deploying a single Application.
 Please note for some old clients this is list as C:\Services or C:\Accounts or C:\Sites
 
 - C:\Accounts - Create an accounts directory on the root of the primary drive.  It would be nice if you can store this on a drive other than C:\ as only the OS should reside there. 
@@ -62,3 +62,4 @@ Deployment Steps
 # Apply the update to the www directory
 # If there were any DB changes, Backup the Current SQL Database and store the backup file in the backup folder
 # Apply the SQL database update (May need to restart SQL Server)
+#
