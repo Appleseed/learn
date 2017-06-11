@@ -58,7 +58,7 @@ Deployment Steps
 * Backup the Current www directory and store in the \backup folder with the date in the folder name
  ** You may only need to backup exactly what you replace
  ** For major changes, backup the whole folder
-# Apply the update to the www directory
+* Apply the update to the www directory
 # If there were any DB changes, Backup the Current SQL Database and store the backup file in the backup folder
 # Apply the SQL database update (May need to restart SQL Server)
 
