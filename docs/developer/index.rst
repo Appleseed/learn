@@ -33,7 +33,9 @@ Interface
    * JavaScript	http://www.w3schools.com/js/default.asp
    * JQuery	http://www.w3schools.com/jquery/default.asp
    * Angular Interfaces 	https://angular.io/
-   * React https://reactjs.net/getting-started/download.html
+   * React 
+   	* https://reactjs.net/getting-started/download.html
+	* https://robinwieruch.de/the-road-to-learn-react/
    * TypeScript https://www.typescriptlang.org/docs/tutorial.html
 
 Software
