@@ -33,7 +33,9 @@ Interface
    * JavaScript	http://www.w3schools.com/js/default.asp
    * JQuery	http://www.w3schools.com/jquery/default.asp
    * Angular Interfaces 	https://angular.io/
-   * React https://reactjs.net/getting-started/download.html
+   * React 
+   	* https://reactjs.net/getting-started/download.html
+	* https://robinwieruch.de/the-road-to-learn-react/
    * TypeScript https://www.typescriptlang.org/docs/tutorial.html
 
 Software
@@ -69,19 +71,19 @@ Software
 
 Database
 -------------
-
- * MySQL https://www.tutorialspoint.com/mysql/
- * SQL Server
+ * Relational / SQL 
+    * MySQL https://www.tutorialspoint.com/mysql/
+    * SQL Server
       * SQL Server Express 2008 R2 /2012	http://www.mssqltips.com/sqlservertip/2694/getting-started-with-sql-server-2012-express-localdb/
       * SQL Server Express 2016	SP1  https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
       * SQL Server Express Management Studio 2016	https://msdn.microsoft.com/en-us/library/mt238290.aspx
- * Cassandra http://cassandra.apache.org/doc/latest/
- * MongoDB Concepts https://docs.mongodb.com/
- * Redis https://redis.io/documentation
- * Datastax
-      * Datastx Documentation http://docs.datastax.com
-      * Datastax Installation & Concepts https://academy.datastax.com/courses
-
+ * Non Relational / NoSQL 
+     * Cassandra http://cassandra.apache.org/doc/latest/
+         * Datastax
+             * Datastx Documentation http://docs.datastax.com
+             * Datastax Installation & Concepts https://academy.datastax.com/courses
+     * MongoDB Concepts https://docs.mongodb.com/
+     * Redis https://redis.io/documentation
 
 Systems
 -------------
@@ -93,20 +95,37 @@ Systems
        * Docker	https://docs.docker.com/
        * Docker Compose	https://docs.docker.com/compose/overview/
        * Docker Best Practices https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/
- * Chocolatey https://chocolatey.org/docs/why
- * Elastic Search http://elastic.co/start
- * Traefik  https://docs.traefik.io/
- * Deployment	http://www.asp.net/mvc/tutorials/deployment
- * Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
- * IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
- * Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
- * Apache Lucene https://lucene.apache.org/
- * Apache Solr http://lucene.apache.org/solr
- * Redash https://redash.io/
- * Nuget https://docs.microsoft.com/en-us/nuget/
- * NPM https://www.npmjs.com/
- * Bower https://bower.io/
- * Salesforce https://developer.salesforce.com/docs/
+ * Web Servers / Proxys
+      * IIS Basic Concepts 	http://en.wikipedia.org/wiki/Internet_Information_Services
+      * Traefik  https://docs.traefik.io/
+ * Software as a Service Platforms
+      * Salesforce https://developer.salesforce.com/docs/
+      * Zoho App Creator      
+ * Visualization / Reporting Tools
+      * Redash https://redash.io/
+ * DevOps
+      * Package Management
+	  * Nuget https://docs.microsoft.com/en-us/nuget/
+	  * NPM https://www.npmjs.com/
+	  * Bower https://bower.io/    
+          * Chocolatey https://chocolatey.org/docs/why
+          * Apt 
+	  * RPM 
+	  
+      * Unit Testing	http://en.wikipedia.org/wiki/Unit_testing
+      * Deployment	http://www.asp.net/mvc/tutorials/deployment
+      * Scripting
+          * Powershell https://github.com/PowerShell/PowerShell/tree/master/docs/learning-powershell
+	  * Bash 
+ * Search 
+      * Apache Solr http://lucene.apache.org/solr
+          * Apache Solr http://github.com/xingh/awesome-solr
+      * Apache Lucene https://lucene.apache.org/
+	  * Aweseom Lucene http://github.com/xingh/awesome-lucene
+      * Elastic Search http://elastic.co/start
+ * Queues 
+      * RabbitMQ 
+      * CassieQ (based on Cassandra)
 
 
 .. include:: /././common.txt
