@@ -34,11 +34,11 @@ Database
 * Appleseed Portal Database Naming 
 ** [client_ap_environment]
 
-*Production
-- clientname_ap_prod
+* Production
+** clientname_ap_prod
 
 * Stage
-- client_ap_stage
+** client_ap_stage
 
 Application Database Naming 
 [client_app_environment]
