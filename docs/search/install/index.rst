@@ -220,11 +220,11 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
 		::	 
 	 
-			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.min.css;
 
 			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap-responsive.min.css);
 
-			@import url(bootstrap.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/bootstrap/bootstrap.css);
 
 			@import url(as-admin-bar.css);
 
@@ -232,7 +232,13 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
 			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/facp.css);
 
-			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/css/datepicker.css);
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/solr-ajax/hints.css);
+
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/datepicker/datepicker.css);
+
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/chosen/chosen.css);
+
+			@import url(/Portals/_Appleseed/Search.Web.User.Ng/app/css/chosen/chosen-spinner.css);
 
 			@import url(css/as-search.css);
 
@@ -244,12 +250,6 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 	 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/d3js/d3.v3.min.js"></script>
 
-			<!-- scripts - chosen -->
-
-			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/chosen/chosen.jquery.js"></script>
-
-			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/chosen/angular-chosen.js"></script>
-
 			<!-- angular scripts -->
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular.min.js"></script>
@@ -257,6 +257,14 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-route.js"></script>
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/lib/angular/angular-sanitize.min.js"></script>
+
+			<!-- scripts - chosen -->
+
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/chosen/chosen.jquery.js"></script>
+
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/chosen/angular-chosen.js"></script>
+
+			<!-- controllers and directives -->
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DateFacetController.js"></script>
 
@@ -266,15 +274,17 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DatePickerFacetController.js"></script>
 
-			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>-->
-
-			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchFeaturedResultController.js"></script>
 
-			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
+
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>-->
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FacetSelectionController.js"></script>
+
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FacetClearSelectionController.js"></script>
 
 			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/solr-ajax/controllers/FieldChosenFacetController.js"></script>
 
@@ -302,8 +312,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 
 			<!-- /angular scripts -->
 
-			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/datepicker/js/bootstrap-datepicker.js"></script>
-
+			<script type="text/javascript" src="/Portals/_Appleseed/Search.Web.User.Ng/app/js/datepicker/bootstrap-datepicker.js"></script>
 			<script>
 
 				$(function() {
