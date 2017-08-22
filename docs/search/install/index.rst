@@ -7,16 +7,36 @@ Appleseed Search Installation
 
 .. contents:: Table of Contents
 
+Appleseed Search Web User Installation and Customization outside of Appleseed Portal.
+-------------
+
+This section explains how to use the Appleseed Search frontend without embedding it into an Appleseed Search module.
+
+You may download the necessary files from `<https://github.com/Appleseed/search-web-user>`_
+
+* Steps to set up a standalone Angular Search Interface.
+
+	* Download the project from Github and navigate to the folder ``Appleseed.Search.Web.User.Ng.Solr/app``.
+	* Each of the sample HTML search pages (documents.html, images.html, location.html) runs a single-page Javascript application that is responsible for executing search actions and displaying results. The application will use configuration values specified in the HTML to determine where to send its queries.  Typically the application configuration files are located in ``app/js/solr-ajax/app/`` and named after the respective sample page.
+	* In particular, the "data-source" attribute tells the application what the URL is to your Solr core. Set the "data-source" attribute to the URL to your Solr core.
+
+		* ex. data-source="http://localhost:8983/solr/core"
+		* The URL to your Solr core must be resolveable and accessible by the browser. If you are running the application as a public service, then the URL to your Solr core must be publicly accessible.
+
+	* documents.html contains most of the sample front-end elements with the latest Angular controllers.
+	* Load the HTML search page in your browser and attempt to execute searches against your Solr index. If you experience any problems, open your browser console. You should see log entries for each search query that is executed, and information about any errors that may have occurred.
+	* You should also customize the HTML search page to use the appropriate controllers and to populate them with the appropriate Solr field.
+
 Appleseed Search Web User Installation and Customization on Appleseed Portal.
 -------------
 
 This section explains how to combine the Appleseed Portal and Search products.  Appleseed Portal is used as a Front End to the Appleseed Search product.
 
-
+You may download the necessary files from `<https://github.com/Appleseed/search-web-user>`_
 
 If you have not already installed Appleseed Portal, refer to the instructions here  `<http://learn.appleseedapp.net/en/latest/docs/portal/install/#quick-install>`_
 
-* Steps to set up Angular Search Interface on an Appleseed Site.
+* Steps to set up an Angular Search Interface on an Appleseed Site.
 
    * Open a code editor (such as Visual Studio 2015, or another compatible version).
    * Go to the folder in which you installed Appleseed 
@@ -202,12 +222,13 @@ If you have not already installed Appleseed Portal, refer to the instructions he
    
        * Click the Edit this Page link in the Admin Bar.
        * Click the Page Modules tab. 
-       * Set up an HTML Module or Modules for the Angular search section or sections.to be used on this page.
+       * Set up an HTML Module or Modules for the Angular search section or sections to be used on this page.
 
      * Add the Module code. 
     
        * Click on Edit icon for the Module created
-       * Switch to Source if the editor is in visual mode, and paste in the contents of the search-module.html file in the /Portals/_Appleseed/Search.Web.User.Ng/app/ folder. 
+       * Switch to Source if the editor is in visual mode, and paste in the contents of the search-module.html file in the /Portals/_Appleseed/Search.Web.User.Ng/app/ folder.
+	   * Customize the module code as necessary for the various controllers and fields you wish to use.
 
 Update styling as necessary in the as-search.css file added to the ``\Design\Themes\[Theme used]\css`` folder.
 
