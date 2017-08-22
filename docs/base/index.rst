@@ -10,7 +10,7 @@ Learn Appleseed Base
 
 
 
-This documentation is for Builders, Developers, and Administrators of applications that are built on Appleseed Base.  Appleseed Base is the commjnication engine that runs Appleseed Search by connecting receivers of information to processes which enhance information before transmitting to different indices. 
+This documentation is for Builders, Developers, and Administrators of applications that are built on Appleseed Base.  Appleseed Base is the communication engine that runs Appleseed Search by connecting receivers of information to processes which enhance information before transmitting to different indices. 
 
 `Installation`_
 
