@@ -18,6 +18,7 @@ This documentation is for Users, Builders, Designers, Developers, and Administra
    
   docs/portal/index.rst
   docs/search/index.rst
+  docs/base/index.rst
   docs/developer/index.rst
 
 .. include:: common.txt
