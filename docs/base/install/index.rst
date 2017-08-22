@@ -2,15 +2,78 @@
    :titlesonly:
 
 =============================
-Appleseed Search Installation
+Appleseed Base Installation
 =============================
 
 .. contents:: Table of Contents
 
-Appleseed Search Server for Solr Endpoint Alias 
+You can download the Appleseed Base application files from `<https://github.com/Appleseed/base>`_
+
+Appleseed Base Engine Configuration
 -------------
 
-This section explains how to configure Appleseed Search for a Solr 4 or Solr 5 Endpoint
+This section explains how to configure Appleseed Base Engine Console to provide it with a list of sources or connectors and search endpoints.
+
+* Basic configuration is in the `app.config` file.
+
+	* Most user-defined configuration options will be under the appSettings section.
+	
+		* Key ExitAfterRun value can be "true" or "false".
+			
+			* Setting to "true" will close the Console after the run has completed.
+
+		* Key ReadConfigFrom value can be either "config", "cassandra", or "datastax".
+
+			* Setting to "config" will read the list of sources to be indexed by the Base Engine from `/config/engine.map.xml` and `/config/engine.process.xml`
+			* Setting to "cassandra" or "datastax" will read the list of sources to be indexed by the Base Engine from a Cassandra database.  See related configuration keys below.
+
+		* Key CassandraUrl value is used when ReadConfigFrom is "cassandra", or "datastax". 
+
+			* CassandraUrl is the URL or IP of the Cassandra server.
+
+		* Key CassandraPort value is the open port to the Cassandra server.  
+
+			* Default is "9042".
+
+		* Key OpenCalaisApiKey value is the API key for Open Calais.
+
+			* Value should be your Open Calais API key.
+			* This key allows Open Calais to add keyword tags to items processed by the Base Engine.
+
+		* Key AlchemyApiKey value is the API key for Alchemy.
+
+			* Value should be your Alchemy API key.
+			* This key allows Alchemy to add keyword tags to items processed by the Base Engine.
+
+* The list of Base Engine processes that get run is configured in `/config/engine.process.xml`.
+
+	* The Indexes process allows content collected by the Base Engine to be pushed to the configured endpoints.
+
+	* SortOder and Enabled are the only properties of a process that should be edited.
+
+		* The template engine.process.xml file has a list of processes that run in accordance to the value of SortOrder.
+		* Enabled value should be set to "true" if you wish to allow the Base Engine to run that particular process.
+
+* The list of sources to be indexed by the Base Engine is configured in either `/config/engine.process.xml` or inside a Cassandra database.
+
+	* Setting app.config key ReadConfigFrom to be "config" will read the configuration from `/config/engine.process.xml`.
+
+		* The IndexesSectionCfg contains a list of index endpoints to which data collected by the Base Engine will be stored.  Potential endpoints are Lucene, Solr, and ElasticSearch.
+
+	* Setting app.config key ReadConfigFrom to be "cassandra" or "datastax" will read the configuration from a Cassandra database, appleseed_search_engines.
+
+		* The database can be set up by executing the contents of `/config/appleseed_schema.cql` inside a Cassandra cluster via CQLSH.
+
+		* The database can be populated with some default configuration options and sources by executing the contents of `/config/base.engine.data.cql` inside a Cassandra cluster via CQLSH.
+
+		* The table appleseed_search_engines.config, where config_type is "index" (config_name Search.Index), contains a list of index endpoints to which data collected by the Base Engine will be stored.  Potential endpoints are Lucene, Solr, and ElasticSearch.	
+
+
+
+Appleseed Base Engine for Solr Endpoint Alias 
+-------------
+
+This section explains how to configure Appleseed Base Engine for a Solr 4 or Solr 5 Endpoint
 
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
@@ -19,7 +82,7 @@ This section explains how to configure Appleseed Search for a Solr 4 or Solr 5 E
 
 .. image:: ../images/First-Step.PNG
 
-* Export and Extract the latest IndexService.zip file from the ``Binaries/Appleseed.Serach`` folder from an internal source into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
+* Export and Extract the latest IndexService.zip file from the ``Binaries/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
 
 .. image:: ../images/Second-Step.PNG
 
