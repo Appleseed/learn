@@ -77,7 +77,7 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
-* Solr4 & Solr5 are supported.  The below example uses Solr4.  Solr6 support is in development.
+* Solr 4 & Solr 5 are supported.  The below example uses Solr 4.  Solr 6 support is in development.
 * Export the ``Services/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search`` directory of the site.
 
 .. image:: ../images/First-Step.PNG
@@ -181,13 +181,15 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 	
 .. image:: ../images/Eleventh-Step.PNG
 
-* Set up windows task scheduler to Run Index
+* Set up Windows Task Scheduler to run the Base Engine.
 
     * Open Server Manager > Configuration > Task Scheduler >  Create Basic Task…
 
-.. image:: ../images/Twelfth-Step.PNG
-
     * Fill it with neccesary info as follows.
+
+	* In addition, make sure to set the "Start in (optional)" field to the directory the .exe is located.
+
+.. image:: ../images/Twelfth-Step.PNG
     
 .. image:: ../images/Thirteenth-Step.PNG
 
