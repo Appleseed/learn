@@ -173,7 +173,7 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 				“http://localhost:8983/solr/appleseed-public/update?stream.body=<commit/>”.
 
 	
-	5. Click on the Query tab and run a “*:*” query to check that the numfound is 0. 
+	5. Click on the Query tab and run a `*:*` query to check that the numfound is 0. 
 	6. Run the Index Service again by double-clicking/clicking on it **as an admin** or you might get file permission issues.  This file should be ran in Powershell if available rather than simply double clicked on. ``(C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe)``.
 
 	* Alternative to step 6, you may use Luke instead of Solr.
