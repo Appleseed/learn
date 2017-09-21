@@ -219,13 +219,6 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 	  </system.webServer>
 	</configuration>
 
-* Install latest Angular.js interface (Search.Web.User.Ng/app) on the Indexing Server (http:/api.domain-name.com/app). 
-* Start Solr proxy on IIS. 
-* Test API with Angular.js interface. 
-* Clean up old data from Solr.
-* Configure the ``Search.Web.User.Ng\app\js\solr-ajax\app\documents.js`` file to point to the Reverse Proxy (http://api.domain-name.com/solr/).
-* Verify data on Solr. 
-* Verify data on Angular.js interface.
 
 
 .. include:: /././common.txt
