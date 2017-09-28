@@ -150,7 +150,7 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 .. image:: ../images/Tenth-Step.PNG
 
 * To reindex the data to point to a different set: 
-	1. Update the ``C:\Services\Appleseed.Search\Index.Service\Appleseed.Services.Search.Console.exe.config`` (XML FILE) as necessary.
+	1. Update the ``C:\Services\Appleseed.Search\Index.Service\config\engine.map.xml`` as necessary.
 	
 		* Add or update index aliases between the <indexes> tags
 		
