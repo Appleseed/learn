@@ -14,7 +14,7 @@ Appleseed Base Engine Configuration
 
 This section explains how to configure Appleseed Base Engine Console to provide it with a list of sources or connectors and search endpoints.
 
-* Basic configuration is in the `app.config` file.
+* Basic configuration is in the `Appleseed.Services.Search.Console.exe.config` file.
 
 	* Most user-defined configuration options will be under the appSettings section.
 	
