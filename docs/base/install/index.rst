@@ -78,13 +78,7 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 * Use Remote Desktop Connection to connect to the client's Search Server.
 * Install Java JRE (newest) on this server if it's not already there.
 * Solr 4 & Solr 5 are supported.  The below example uses Solr 4.  Solr 6 support is in development.
-* Export the ``Services/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search`` directory of the site.
-
-.. image:: ../images/First-Step.PNG
-
-* Export and Extract the latest IndexService.zip file from the ``Binaries/Appleseed.Search`` folder from an internal source into the ``C:\Services\Appleseed.Search\Index.Service`` directory created earlier.
-
-.. image:: ../images/Second-Step.PNG
+* Download the ``Appleseed.Search.Web.User.Ng.Solr/appleseed-search`` folder from ``https://github.com/Appleseed/search-web-user`` and place the folder into the ``C:\Services\Appleseed.Search`` directory.
 
 * Export and Extract your chosen Solr Verson ( 4 or 5 ) file from the Apache Mirror http://lucene.apache.org/solr/mirrors-solr-latest-redir.html into the ``C:\Services\Appleseed.Search\solr\<solr_install_directory>`` directory created earlier.
 
@@ -92,16 +86,14 @@ This section explains how to configure Appleseed Base Engine for a Solr 4 or Sol
 
 * Copy the Appleseed Search Solr Configuration directory
 
-   * Copy.the ``\solr\solr-4.10.4\anant\appleseed-search`` directory into the ``.\solr\solr_install_directory\example`` directory of the Solr installation.
+   * Copy the ``\appleseed-search\solr_4.x_5.x`` directory into the ``.\solr\<solr_install_directory>\example\appleseed-search`` directory of the Solr installation.
 
 .. image:: ../images/Fourth-Step.PNG
 
 * Start the Solr Service. 
 
-    * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: ``bin\solr start -f -p 8983 -s example\appleseed-search\solr -V``. 
+    * Open Windows PowerShell and run as administrator. Start Solr by inputting this script: ``bin\solr start -f -p 8983 -s example\appleseed-search -V``. 
     * Make sure you are in the ``C:\Services\Appleseed.Search\solr\<solr_install_directory>`` directory when you run it.
-
-.. image:: ../images/Fifth-Step.PNG
 
 * (Windows Only) Install Solr as a service on the Server using PowerShell run as Administrator.
 	
