@@ -32,13 +32,13 @@ Database
 --------
 
 * Appleseed Portal Database Naming 
-** [client_ap_environment]
+	* [client_ap_environment]
 
 * Production
-** clientname_ap_prod
+	* clientname_ap_prod
 
 * Stage
-** client_ap_stage
+	* client_ap_stage
 
 Application Database Naming 
 [client_app_environment]
@@ -56,8 +56,8 @@ Deployment Steps
 * Get approval from the PM
 * Pause the site in IIS
 * Backup the Current www directory and store in the \backup folder with the date in the folder name
- ** You may only need to backup exactly what you replace
- ** For major changes, backup the whole folder
+	* You may only need to backup exactly what you replace
+	* For major changes, backup the whole folder
 * Apply the update to the www directory
 * If there were any DB changes, Backup the Current SQL Database and store the backup file in the backup folder
 * Apply the SQL database update (May need to restart SQL Server)
