@@ -49,7 +49,7 @@ This section explains how to configure Appleseed Base Engine Console to provide 
 
 	* The Indexes process allows content collected by the Base Engine to be pushed to the configured endpoints.
 
-	* SortOder and Enabled are the only properties of a process that should be edited.
+	* SortOrder and Enabled are the only properties of a process that should be edited.
 
 		* The template engine.process.xml file has a list of processes that run in accordance to the value of SortOrder.
 		* Enabled value should be set to "true" if you wish to allow the Base Engine to run that particular process.
