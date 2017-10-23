@@ -84,7 +84,7 @@ Module is piece(s) of page on Appleseed. it's just like section(s) on HTML page.
 Adding Modules
 --------------
 
-* Add a module you created (as the sample shows in `Developer Guide <http://learn.appleseedapp.net/en/latest/docs/Portal/developer/>`_ . )
+* Add a module you created (as the sample shows in the `Module Developer Guide <http://learn.appleseedapp.net/en/latest/docs/portal/developer/>`_).
 
     .. image:: ../images/Builder-Edit-Page2.jpg
 
