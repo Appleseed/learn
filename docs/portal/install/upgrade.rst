@@ -50,8 +50,8 @@ Manual Upgrade
 	* Make a new backup of the site directory.
 	* Review css styling on existing pages
 
- Webconfig Keys
- --------------
+Webconfig Keys
+--------------
 
 * The following keys can be added/modified in the Portal's web.config file:
 	* <add key="CSSLoadTop" value="true" />
