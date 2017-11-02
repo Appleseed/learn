@@ -49,11 +49,14 @@ Manual Upgrade
 	* Make a new backup of the updated database.
 	* Make a new backup of the site directory.
 	* Review css styling on existing pages
-* Webconfig keys
-	* The following keys can be added/modified in the Portal's web.config file:
-		* <add key="CSSLoadTop" value="true" />
-			* When upgrading Appleseed Portal from early versions (pre 1.0.3.0), page styling may appear different.  This is because the default.css for the Portal is now loaded first, where previously it was being added in between other stylesheets.
-			* To use the old css loading behavior, set CSSLoadTop to "false".
+
+ Webconfig Keys
+ --------------
+
+* The following keys can be added/modified in the Portal's web.config file:
+	* <add key="CSSLoadTop" value="true" />
+		* When upgrading Appleseed Portal from early versions (pre 1.0.3.0), page styling may appear different.  This is because the default.css for the Portal is now loaded first, where previously it was being added in between other stylesheets.
+		* To use the old css loading behavior, set CSSLoadTop to "false".
 
 .. toctree::
     :titlesonly:
