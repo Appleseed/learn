@@ -182,7 +182,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
 		<!-- /angular scripts -->
 
 		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/datepicker/bootstrap-datepicker.js"></script>
-
+		
 			<script>
 
 				$(function() {
