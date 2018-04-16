@@ -107,6 +107,7 @@ If you have not already installed Appleseed Portal, refer to the instructions he
      * Copy the Angular and other script references listed below to the location beneath the </footer> element in the SiteMaster.master in the ``\Design\DesktopLayouts\[Theme_used]`` folder 
 	 
 		::	 
+	 
 			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/d3js/d3.v3.min.js"></script>
 
 			<!-- angular scripts -->
