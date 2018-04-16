@@ -107,81 +107,81 @@ If you have not already installed Appleseed Portal, refer to the instructions he
      * Copy the Angular and other script references listed below to the location beneath the </footer> element in the SiteMaster.master in the ``\Design\DesktopLayouts\[Theme_used]`` folder 
 	 
 		::	 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/d3js/d3.v3.min.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/d3js/d3.v3.min.js"></script>
 
-		<!-- angular scripts -->
+			<!-- angular scripts -->
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular.js"></script>
 
-		<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/bower_components/angular/angular.min.js"></script>-->
-		
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-route.js"></script>
-		
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-cookies.js"></script>
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/bower_components/angular/angular.min.js"></script>-->
+			
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-route.js"></script>
+			
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-cookies.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-sanitize.min.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/lib/angular/angular-sanitize.min.js"></script>
 
-		<!-- scripts - chosen -->
+			<!-- scripts - chosen -->
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/chosen/chosen.jquery.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/chosen/chosen.jquery.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/chosen/angular-chosen.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/chosen/angular-chosen.js"></script>
 
-		<!-- controllers and directives -->
+			<!-- controllers and directives -->
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateFacetController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateFacetController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateFacetHistogramController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateFacetHistogramController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateRangeFacetController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DateRangeFacetController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DatePickerFacetController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DatePickerFacetController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchResultsController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchFeaturedResultController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchFeaturedResultController.js"></script>
 
-		<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchHighlightResultsController.js"></script>-->
 
-		<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>-->
+			<!--<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/DocumentSearchHighlightMLTResultsController.js"></script>-->
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FacetSelectionController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FacetSelectionController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FacetClearSelectionController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FacetClearSelectionController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FieldChosenFacetController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FieldChosenFacetController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FieldFacetController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/FieldFacetController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchBoxController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchBoxController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchBoxHistoryController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchBoxHistoryController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchHistoryController.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/controllers/SearchHistoryController.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/autocomplete.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/autocomplete.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/filters/textfilters.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/filters/textfilters.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/filters/usfitextfilters.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/filters/usfitextfilters.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/selection.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/selection.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/solr.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/solr.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/utils.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/services/utils.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/app/document.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/app/document.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/searchbox.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/searchbox.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/searchboxHistory.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/searchboxHistory.js"></script>
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/count-to.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/solr-ajax/directives/count-to.js"></script>
 
-		<!-- /angular scripts -->
+			<!-- /angular scripts -->
 
-		<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/datepicker/bootstrap-datepicker.js"></script>
+			<script type="text/javascript" src="/Portals/_Appleseed/Appleseed.Search.Web.User.Ng.Solr/app/js/datepicker/bootstrap-datepicker.js"></script>
 		
 			<script>
 
