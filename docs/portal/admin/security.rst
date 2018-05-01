@@ -33,6 +33,7 @@ To- Do :
 
 Add information on common problems with SSL Especially Lets Encrypt
 Add information by Verfying in IIS SSL Common issues
+    Add scenario where certification expires and then lest encrypt cannot reach out to the certification server.  Therefore portal will appear down if https is being forced.
 
 .. toctree::
     :titlesonly:
